@@ -10,8 +10,8 @@ title: Cha-IM LEARN
 Velkommen til **Cha-IM LEARN**. Her finner du læringsressurser for **Informasjonsteknologi og medieproduksjon** og **IT-1**.
 
 # Informasjonsteknologi og medieproduksjon vg1
-- [Teknologiforståelse](note/Teknologiforståelse.md)
+- [Teknologiforståelse](note/Teknologiforståelse)
 
 # Informasjonsteknologi vg2
-- [Utvikling](note/Utvikling.md)
+- [Utvikling](note/Utvikling)
     Ressursene i utvikling er også aktuelle for IT-1
