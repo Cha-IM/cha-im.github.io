@@ -2,7 +2,7 @@
 title: Få tilgang til Azure studentkonto
 feed: show
 date: 19-03-2024
-tags:
+tags: []
 ---
 ## Steg 1: Chamedia e-postadresse
 Du vil motta en Chamedia e-postadresse fra skolen. Denne e-posten består av ditt elevnummer + @chamedia.no (eksempel: elevXXXXXX@chamedia.no).
@@ -59,5 +59,3 @@ Spørsmål? [Følg denne guiden fra Microsoft (microsoft.com)](https://support.m
 
 
 Guiden er laget av Scott Bloomberg.
-
-[[Nettverkslab|<--Tilbake til Nettverkslab]]

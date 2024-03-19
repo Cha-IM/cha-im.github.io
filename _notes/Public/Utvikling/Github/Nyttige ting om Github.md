@@ -1,6 +1,6 @@
 ---
 title: Nyttige ting om Github
-feed: hide
+feed: show
 date: 19-03-2024
 tags:
 ---
