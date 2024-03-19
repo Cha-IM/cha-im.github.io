@@ -261,6 +261,4 @@ Da blir utskriften slik:
 4King er en brun dvergpuddel eid av Gabrielle Martin. 
 5Yndlingsmaten hans er pasta og loff.
 6
-7Bella er en blond boxer eid av Jakob Nilsen. 
-8Yndlingsmaten hennes er biff og hundemat.
-```
+7Bella er en blond boxer
