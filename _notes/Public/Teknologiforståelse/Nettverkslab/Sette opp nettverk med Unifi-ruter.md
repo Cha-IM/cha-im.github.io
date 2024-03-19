@@ -104,4 +104,8 @@ Vi kan ikke bruke nyeste versjon av Unifi Controller, men vi bruker version 7.0.
 	* _WiFi Name_: F.eks. dittNavnWiFi. **Skriv ned dette i dokumentasjonen din.**
 	* _WiFi Password_: Et enkelt passord med minst 8 tegn. **Skriv ned passordet i dokumentasjonen din**
 14. **Review Configuration**: Her får du en oppsummering av innstillingene dine, og skal velge land og tidssone
-	* _Country or Territory_: Norway (tips: trykk på O, så 
+	* _Country or Territory_: Norway (tips: trykk på O, så er Norge rett over Oman)
+	* _Timezone_: (UTC+1) Europe/Oslo
+15. Trykk på **Finish**
+
+[[Nettverkslab|<--Tilbake til Nettverkslab]]

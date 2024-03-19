@@ -126,4 +126,4 @@ Sette opp webserver på node h1:
 
 `python -m SimpleHTTPServer 80 &`
 
-�
+Åpne nettleser og skriv IP-adressen til h1 i adressefeltet
