@@ -1,3 +1,10 @@
+---
+title: Gruppearbeid i Github
+feed: show
+date: 19-03-2024
+tags:
+---
+
 Når flere jobber sammen i et repo i Github er det flere ting man må tenke på.
 
 ## 1. Github synkroniserer ikke automatisk

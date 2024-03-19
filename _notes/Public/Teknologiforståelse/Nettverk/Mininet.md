@@ -1,3 +1,10 @@
+---
+title: Mininet
+feed: show
+date: 19-03-2024
+tags:
+---
+
 Mininet er et verktøy for å simulere nettverk, som kan brukes til testing og opplæring nettverk. I denne guiden skal du lære hvordan du setter opp en virtuell maskin som kjører Mininet i Ubuntu Linux.
 
 ## 1. Laste ned Mininet Image
