@@ -3,14 +3,6 @@ title: JSON - artikkel fra NDLA
 feed: show
 date: 19-03-2024
 ---
-
-[JSON - Utvikling - NDLA](https://ndla.no/subject:5e53694a-c8eb-4871-8558-71523941c28e/topic:7342e935-c243-4277-8d07-d21ffa21b539/resource:607d58ed-da2a-4484-9a78-236fac734e55)
-### Innhold
-- [[#Lagre ett objekt som JSON]]
-- [[#Lagre flere objekter som JSON]]
-- [[#Konvertere JSON-data]]
-- [[#Importere JSON-data]]
----
 # JSON
 
 Vi ønsker ofte å utveksle data som variabler, lister og objekter mellom programmer og over nett. JSON er en standard for å gjøre om JavaScript-objekter til ren tekst, som lett kan overføres på mange forskjellige måter.

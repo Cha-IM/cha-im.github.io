@@ -4,20 +4,6 @@ feed: show
 date: 19-03-2024
 tags:
 ---
-
-### Innhold
-- [[#1. Komponenter og kabling]]
-- [[#2. Resett ruter]]
-- [[#3. Gå inn i ruterens innstillinger]]
-- [[#4. IP-adresser]]
-	- [[#WAN Settings]]
-	- [[#LAN settings]]
-- [[#5. Har du nett?]]
-	- [[#Har du ikke nett?]]
-- [[#6. Last ned Java]]
-- [[#7. Last ned Unifi Controller]]
-- [[#8. Sett opp Unifi Controller]]
----
 ## 1. Komponenter og kabling
 Du trenger:
 * 1 klient-PC eller server-PC

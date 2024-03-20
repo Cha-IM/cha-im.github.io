@@ -4,12 +4,6 @@ feed: show
 date: 19-03-2024
 tags: []
 ---
-
-### Innhold
-
-| [[#Steg 1 Chamedia e-postadresse]]<br>[[#Steg 2 Legg til adressen til en (privat) Microsoftkonto]]<br>[[#Steg 3 Logg på Azure for students]]<br>[[#Steg 4 Hent ut Lisensnøkler]]<br>[[#Steg 5 Aktiver maskinen din]] |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
 ## Steg 1: Chamedia e-postadresse
 Du vil motta en Chamedia e-postadresse fra skolen. Denne e-posten består av ditt elevnummer + @chamedia.no (eksempel: elevXXXXXX@chamedia.no).
 
