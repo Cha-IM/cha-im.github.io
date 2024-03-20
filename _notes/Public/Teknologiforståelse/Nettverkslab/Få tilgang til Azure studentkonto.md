@@ -6,15 +6,15 @@ tags: []
 ---
 
 ### Innhold
-[[#Steg 1 Chamedia e-postadresse]]
-[[#Steg 2 Legg til adressen til en (privat) Microsoftkonto]]
-	[[#Legg til i personlig konto]]
-	[[#Lag ny konto]]
-[[#Steg 3 Logg på Azure for students]]
-[[#Steg 4 Hent ut Lisensnøkler]]
-[[#Steg 5 Aktiver maskinen din]]
-	[[#For Klient-PC]]
-	[[#For Server-PC]]
+- [[#Steg 1 Chamedia e-postadresse]]
+- [[#Steg 2 Legg til adressen til en (privat) Microsoftkonto]]
+	- [[#Legg til i personlig konto]]
+	- [[#Lag ny konto]]
+- [[#Steg 3 Logg på Azure for students]]
+- [[#Steg 4 Hent ut Lisensnøkler]]
+- [[#Steg 5 Aktiver maskinen din]]
+	- [[#For Klient-PC]]
+	- [[#For Server-PC]]
 ---
 ## Steg 1: Chamedia e-postadresse
 Du vil motta en Chamedia e-postadresse fra skolen. Denne e-posten består av ditt elevnummer + @chamedia.no (eksempel: elevXXXXXX@chamedia.no).

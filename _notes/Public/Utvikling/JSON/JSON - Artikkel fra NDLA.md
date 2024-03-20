@@ -6,10 +6,10 @@ date: 19-03-2024
 
 [JSON - Utvikling - NDLA](https://ndla.no/subject:5e53694a-c8eb-4871-8558-71523941c28e/topic:7342e935-c243-4277-8d07-d21ffa21b539/resource:607d58ed-da2a-4484-9a78-236fac734e55)
 ### Innhold
-1. [[#Lagre ett objekt som JSON]]
-2. [[#Lagre flere objekter som JSON]]
-3. [[#Konvertere JSON-data]]
-4. [[#Importere JSON-data]]
+- [[#Lagre ett objekt som JSON]]
+- [[#Lagre flere objekter som JSON]]
+- [[#Konvertere JSON-data]]
+- [[#Importere JSON-data]]
 ---
 # JSON
 
