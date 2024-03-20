@@ -50,7 +50,7 @@ Fyll ut skjemaet med info fra [IM CHA Oversikt over labmaskiner og IP-adresser 2
 Trykk så på **Apply changes** og vent et par minutter.
 
 ## 5. Har du nett?
-Nå må du sjekke om du har nett. Åpne en ny fane i nettleseren og prøv å åpne en nettside, f.eks. trondelagfylke.no.
+Nå må du sjekke om du har nett. Åpne en ny fane i nettleseren og prøv å åpne en nettside, f.eks. [trondelagfylke.no](https://www.trondelagfylke.no/)
 
 Hvis nettsiden åpner seg har du nett, hurra!
 
@@ -70,6 +70,11 @@ Hvis nettsiden åpner seg har du nett, hurra!
 Klikk på **OK**, og **Close**
 
 Du vil nå (mest sannsynlig) ha kontakt med internett.
+
+#### Har du fortsatt ikke nett?
+- Sjekk om kabelen fra ruteren til veggen virker
+- Sjekk at du er koblet inn i riktig punkt i veggen (at punktet er koblet opp i patch-skapet)
+
 
 
 ## 6. Last ned Java
@@ -105,5 +110,3 @@ Vi kan ikke bruke nyeste versjon av Unifi Controller, men vi bruker version 7.0.
 	* _Country or Territory_: Norway (tips: trykk på O, så er Norge rett over Oman)
 	* _Timezone_: (UTC+1) Europe/Oslo
 15. Trykk på **Finish**
-
-[[Nettverkslab|<--Tilbake til Nettverkslab]]
