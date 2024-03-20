@@ -105,10 +105,4 @@ Vi kan ikke bruke nyeste versjon av Unifi Controller, men vi bruker version 7.0.
 12. Klikk på _Next_
 13. **Unifi Network Setup** Klikk bryteren _Enable auto backup_ **av**.
 14. **Devices setup**: Huk av boksen ved __USG-3P__. Dette er ruteren din, som skal meldes inn i nettverket.
-15. **WiFi Setup**: (Vi skal egentlig ikke bruke WiFi, men vi må sette det opp likevel)
-	* _WiFi Name_: F.eks. dittNavnWiFi. **Skriv ned dette i dokumentasjonen din.**
-	* _WiFi Password_: Et enkelt passord med minst 8 tegn. **Skriv ned passordet i dokumentasjonen din**
-16. **Review Configuration**: Her får du en oppsummering av innstillingene dine, og skal velge land og tidssone
-	* _Country or Territory_: Norway (tips: trykk på O, så er Norge rett over Oman)
-	* _Timezone_: (UTC+1) Europe/Oslo
-17. Trykk på **Finish**
+15. **WiFi Setup**: (Vi skal egentlig ikke bruke WiFi, men vi 

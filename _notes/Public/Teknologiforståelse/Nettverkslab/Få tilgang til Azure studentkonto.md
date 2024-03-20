@@ -7,7 +7,7 @@ tags: []
 ## Steg 1: Chamedia e-postadresse
 Du vil motta en Chamedia e-postadresse fra skolen. Denne e-posten består av ditt elevnummer + @chamedia.no (eksempel: elevXXXXXX@chamedia.no).
 
-## Steg 2: Legg til adressen til en (privat) Microsoftkonto
+## Steg 2: Legg til adressen til en (personlig) Microsoftkonto
 Denne e-postadressen må du legge til i en Microsoft-konto. Her kan du velge å legge til e-posten i din personlige Microsoft-konto (ikke trøndelag-kontoen), eller så kan du opprette en ny Microsoft konto med den e-postadressen.
 
 ### Legg til i personlig konto: 
@@ -20,11 +20,11 @@ Spørsmål? [Følg denne guiden fra Microsoft (microsoft.com)](https://support.m
 
 ### Lag ny konto:
 1. Gå til https://signup.live.com
-
-2. Skriv inn chamedia e-postadressen din, og fortsett videre med å opprette kontoen. Bruk gjerne samme passord på denne kontoen som du har på elev-kontoen din. Spørsmål? Følg denne guiden fra Microsoft: https://support.microsoft.com/nb-no/account-billing/slik-oppretter-du-en-ny-microsoft-konto-a84675c3-3e9e-17cf-2911-3d56b15c0aaf
+2. Skriv inn chamedia e-postadressen din, og fortsett videre med å opprette kontoen. Bruk gjerne samme passord på denne kontoen som du har på elev-kontoen din. 
+4. Spørsmål? Følg denne guiden fra Microsoft: https://support.microsoft.com/nb-no/account-billing/slik-oppretter-du-en-ny-microsoft-konto-a84675c3-3e9e-17cf-2911-3d56b15c0aaf
 
 ## Steg 3: Logg på Azure for students
-Logg inn på Microsoft Azure gjennom student-innloggingen. Uansett om du har laget en ny konto med chamedia e-postadressen eller om du har lagt til e-postadressen i en eksisterende personlig konto, skal du logge inn i Azure ved å skrive inn chamedia e-postadressen din i innloggingsfeltet i [Azure login (Microsoft.com)](https://azure.microsoft.com/nb-no/free/students)
+Logg inn på Microsoft Azure gjennom student-innloggingen. Uansett om du har laget en ny konto med chamedia e-postadressen eller om du har lagt til e-postadressen i en eksisterende personlig konto, skal du logge inn i Azure ved å skrive inn chamedia e-postadressen din i innloggingsfeltet i [Azure login (Microsoft.com)](https://azure.microsoft.com/nb-no/free/students) (Klikk på den grønne knappen "Start gratis")
 
 Skriv inn passordet ditt, og så må du bekrefte identiteten din med en sikkerhetskode som blir sendt til @chamedia-adressen din. Mail til denne adressen vil du motta på skole-eposten din (elevXXXXXX@skole.trondelagfylke.no).
 
