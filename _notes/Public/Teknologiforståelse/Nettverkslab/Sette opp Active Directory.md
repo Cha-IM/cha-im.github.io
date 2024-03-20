@@ -1,3 +1,9 @@
+---
+title: Sette opp Active Directory
+feed: show
+date: 20-03-2024
+---
+
 Når du har aktivert Windows Server skal vi skal nå sette opp Active Directory. Active Directory er enn tjeneste innebygd i Windows Server for å administrere brukere og datamaskiner i et lokalt nettverk.
 
 For å sette opp og bruke Active Directory skal vi følge guiden fra NDLA:
