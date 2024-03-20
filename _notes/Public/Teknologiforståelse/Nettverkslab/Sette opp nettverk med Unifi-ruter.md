@@ -90,23 +90,25 @@ Vi kan ikke bruke nyeste versjon av Unifi Controller, men vi bruker version 7.0.
 ## 8. Sett opp Unifi Controller
 1. Åpne Unifi Controller fra skrivebordet
 2. Det tar litt tid for kontrolleren å koble seg til ruteren, så vent litt.
-3. Klikk på launch Unifi controller
-4. **Name your controller**: Gi kontrolleren din et navn, f.eks. _dittNavncontroller_. **Skriv ned dette i dokumentasjonen din.**
-5. Huk av _By selecting this you are agreeing to end user license agreement and the terms of service_
-6. Trykk **Next**
-7. Kontrolleren spør nå om brukernavn og passord. Vi skal ikke gjøre det, velg istedenfor **Advanced setup**.
-8. **Advanced remote and local access**: Klikk de to bryterne _Enable remote access_ og _Use your Ubiquiti account for local access_ **av**.
-9. Fyll inn skjemaet: 
+3. Du kan få spørsmål om du vil tillate Unifi å sende og motta trafikk gjennom brannmuren. Trykk på **Allow**
+4. Klikk på **Launch a web browser to access Unifi controller**
+5. Nettleseren vil nå åpnes, og du skal nå konfigurere ruteren.
+6. **Name your controller**: Gi kontrolleren din et navn, f.eks. _dittNavncontroller_. **Skriv ned dette i dokumentasjonen din.**
+7. Huk av _By selecting this you are agreeing to end user license agreement and the terms of service_
+8. Trykk **Next** (helt nederst i høyre hjørne)
+9. Kontrolleren spør nå om brukernavn og passord. Vi skal ikke gjøre det, velg istedenfor **Switch to advanced setup**.
+10. **Advanced remote and local access**: Klikk de to bryterne _Enable remote access_ og _Use your Ubiquiti account for local access_ **av**.
+11. Fyll inn skjemaet: 
 	* _Local administrator username_: admin. **Skriv ned dette i dokumentasjonen din.**
-	* _Local administrator password_: et enkelt passord som du husker - **Skriv ned passordet i dokumentasjonen din**
+	* _Local administrator password_: et enkelt passord som du husker - **Skriv ned passordet i dokumentasjonen din** (ikke bruk et passord du bruker andre steder)
 	* _Confirm password_: Skriv passordet en gang til
-10. Klikk på _Next_
-11. **Unifi Network Setup** Klikk bryteren _Enable auto backup_ **av**.
-12. **Devices setup**: Huk av boksen ved __USG-3P__. Dette er ruteren din, som skal meldes inn i nettverket.
-13. **WiFi Setup**: (Vi skal egentlig ikke bruke WiFi, men vi må sette det opp likevel)
+12. Klikk på _Next_
+13. **Unifi Network Setup** Klikk bryteren _Enable auto backup_ **av**.
+14. **Devices setup**: Huk av boksen ved __USG-3P__. Dette er ruteren din, som skal meldes inn i nettverket.
+15. **WiFi Setup**: (Vi skal egentlig ikke bruke WiFi, men vi må sette det opp likevel)
 	* _WiFi Name_: F.eks. dittNavnWiFi. **Skriv ned dette i dokumentasjonen din.**
 	* _WiFi Password_: Et enkelt passord med minst 8 tegn. **Skriv ned passordet i dokumentasjonen din**
-14. **Review Configuration**: Her får du en oppsummering av innstillingene dine, og skal velge land og tidssone
+16. **Review Configuration**: Her får du en oppsummering av innstillingene dine, og skal velge land og tidssone
 	* _Country or Territory_: Norway (tips: trykk på O, så er Norge rett over Oman)
 	* _Timezone_: (UTC+1) Europe/Oslo
-15. Trykk på **Finish**
+17. Trykk på **Finish**
