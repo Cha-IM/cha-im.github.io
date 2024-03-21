@@ -6,6 +6,9 @@ date: 20-03-2024
 
 Når du har aktivert Windows Server skal vi skal nå sette opp Active Directory. Active Directory er enn tjeneste innebygd i Windows Server for å administrere brukere og datamaskiner i et lokalt nettverk.
 
+Hvis du ikke allerede har koblet opp serveren i nettverket må du gjøre dette:
+- Koble LAN-porten på Unifi-ruteren til
+
 For å sette opp og bruke Active Directory skal vi følge guiden fra NDLA:
 
 1. [Installasjon av serverrolle for Active Directory - NDLA](https://ndla.no/nb/subject:26f1cd12-4242-486d-be22-75c3750a52a2/topic:7536e62a-255c-4f00-97d0-efc0afbe66d9/topic:6f7ab395-cd98-496e-b689-75b9d2bcdd5c/resource:c24b098e-ddab-47de-99bb-2c963a30e12a/15076)
