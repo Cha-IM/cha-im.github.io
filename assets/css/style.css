@@ -149,7 +149,7 @@ p a,
 ul a,
 li a,
 td a,
-th a,
+ a,
 h1 a,
 h2 a,
 h3 a,
@@ -429,7 +429,7 @@ td {
     color: var(--color-text-main);
     padding: 8px;
     text-align: left;
-    font-size: 12px;
+    font-size: var(--text-m);
 }
 
 td {
