@@ -433,7 +433,7 @@ td {
 }
 
 td {
-    font-size: 14px;
+    font-size: var(--text-m);
 }
 
 td a {
