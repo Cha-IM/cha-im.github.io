@@ -118,7 +118,7 @@ snapshot.forEach((doc) => {
 }); 
 ```
 
-`snapshot.forEach()` er ei løkke som kjører en gang for hvert dokument (`docSnap`) i samlinga. I eksempelet skriver denne løkka ut fornavn og etternavn til alle elevene til konsollen:
+`snapshot.forEach()` er ei løkke som kjører en gang for hvert dokument (`doc`) i samlinga. I eksempelet skriver denne løkka ut fornavn og etternavn til alle elevene til konsollen:
 
 ![Konsollen i nettleseren med utskrift fra Firestore. Foto.](https://api.ndla.no/image-api/raw/fwUaBajb.png?width=1024)
 
