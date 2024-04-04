@@ -21,8 +21,10 @@ import { db } from "./firebaseconfig.js"
 
 Du skal nå skrive kode for å opprette et nytt dokument i databasen. Den enkleste måten å gjøre dette på er å bruke Firestore-funksjonene `addDoc()` og `collection()`. Dokumenter som opprettes med `addDoc()` får automatisk en unik ID, så du trenger ikke tenke på at dokumentet må ha en primærnøkkel.
 
+### async/await
 En viktig ting med funksjonene som er knyttet til Firestore, er at de er _asynkrone_. Det vil si at når en databaseoperasjon skal kjøre, vil programmet fortsette å kjøre neste kodelinje uten å vente på at kommunikasjonen med databasen er fullført. Derfor skriver vi ordet `await` foran disse funksjonene, slik at programmet venter til kommunikasjonen med databasen er fullført før neste kodelinje kjøres.
 
+### addDoc()
 `addDoc()` er en funksjon for å skrive data til databasen. Denne funksjonen tar inn to parametere: hvilken samling (collection) dataene skal skrives til, og hvilken data som skal skrives, slik:
 
 ```js
@@ -45,18 +47,18 @@ collection(_DATABASE_, "_NAVN_PÅ_COLLECTION_");
 ```
 
 
-## Husk å importere** **Firebase****-funksjonene
+## Husk å importere **Firebase****-funksjonene
 
-Alle funksjonene du bruker som er spesielle for Firebase, og ikke generelle JavaScript-funksjoner, må importeres. Vi har allerede importert `initializeApp` fra _(...)/__firebase__-app.js_ og `getFirestore` fra _(...)/__firebase__-__firestore__.js_ i koden over. Når vi skal skrive kode videre, må vi huske å importere alle funksjoner vi ikke har brukt før fra _(...)/__firebase__-__firestore__.js_. For å bruke `addDoc()` og `collection()` må vi derfor legge dem inn i import-setningen over, rett etter `import` `{ getFirestore`, slik:
+Alle funksjonene du bruker som er spesielle for Firebase, og ikke generelle JavaScript-funksjoner, må importeres. Vi har allerede importert `initializeApp` fra _(...)/__firebase__-app.js_ og `getFirestore` fra _(...)/__firebase__-__firestore__.js_ i koden over. Når vi skal skrive kode videre, må vi huske å importere alle funksjoner vi ikke har brukt før fra _(...)/__firebase__-__firestore__.js_. For å bruke `addDoc()` og `collection()` må vi derfor importere dem øverst i js-filen, slik
 
 ```js
-import { getFirestore, addDoc, collection} from "https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore.js"
+import { addDoc, collection} from "https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore.js"
+//Husk å endre versjonsnummer til den versjonen av Firebase du har angitt i firebaseconfig.js
 ```
 
 Foran hvert kodeeksempel videre i teksten er det lagt inn en kommentar med hvilke funksjoner som må importeres for at koden skal fungere.
 
-
-### Legge inn en elev i databasen
+### Legge inn en elev med addDoc()
 
 Nå er du klar til å legge inn den første eleven i databasen. Skriv koden under nederst i scriptet ditt. Husk å skrive `await` foran funksjonen som starter kommunikasjon med databasen.
 
@@ -83,6 +85,7 @@ Lagre HTML-dokumentet og åpne det i en nettleser. Åpne inspiser-verktøyet for
 
 `setDoc()` er en annen måte å opprette nye dokumenter i databasen på. `setDoc()` gir deg muligheten til å definere en egen primærnøkkel for hvert dokument i databasen, slik at du kan bruke for eksempel brukernavn, e-post eller en egendefinert ID (elev-ID, kundenummer) som primærnøkkel. `setDoc()` brukes i kombinasjon med `doc()` for å angi hvor dokumentet skal lagres i databasen, og hva som skal være primærnøkkelen.
 
+### setDoc()
 `setDoc()` er en funksjon for å skrive data til en spesifikk ID i databasen. Denne funksjonen tar inn to parametere: hvilket _dokument_ dataene skal skrives til (angitt med ID), og hvilken data som skal skrives, slik:
 
 ```js
@@ -106,7 +109,7 @@ doc(_DATABASE_, "_NAVN_PÅ_COLLECTION_", "_ID_");
 
 Merk at ID-en alltid må være definert som tekst, med anførselstegn. Hvis du ønsker å bruke nummer som ID, må du derfor også skrive tallet i anførselstegn, slik: `"3"`.
 
-### Legge inn en elev i databasen
+### Legge inn en elev med setDoc()
 
 Nå er du klar til å legge inn en ny elev med egendefinert ID i databasen. Som ID velger vi å lage et brukernavn med de første bokstavene i etternavnet og de to første bokstavene i fornavnet. Importer funksjonene `setDoc` og `doc` fra _(...)/__firebase__-__firestore__.js_, og skriv koden under nederst i scriptet ditt. Husk å skrive `await` foran funksjonen som starter kommunikasjon med databasen.
 
@@ -120,6 +123,15 @@ await setDoc(
     etternavn: "Nilsen",
     epost: "jakob@nilsen.net"
   });
+```
+
+### Sende data til Firebase-databasen
+For å sende dataen du har lagt inn i .js-fila til Firebase-databasen din, må koden kjøres i nettleseren. For å gjøre dette må du opprette en .html-fil. Opprett en ny fil i samme mappe som .js-filene dine som du kaller index.html. Legg inn nødvendig kode for å lage en webside (`<html>`, `<head>`, `<body>`). Du kan taste inn **!** (utropstegn) og trykke på enter for å få de nødvendige taggene automatisk i VS Code.
+
+Inne i `<body>`-taggen legger du inn *legginndata.js* i en `<script>`-tag med `type=module`, slik:
+
+```html
+<script type="module" src="legglegginndata.js"></script>
 ```
 
 Lagre HTML-dokumentet og åpne det i en nettleser. Åpne inspiser-verktøyet for å sjekke at du ikke har noen feilmeldinger i konsollen, og se på Firestore-databasen din. Nå skal du finne et nytt dokument med dataene du la inn. Legg merke til at ID-en til dokumentet er det samme som vi anga i koden ("nilja").
