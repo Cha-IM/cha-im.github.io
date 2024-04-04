@@ -9,7 +9,7 @@ Når du har aktivert Windows Server skal vi skal nå sette opp Active Directory.
 Hvis du ikke allerede har koblet opp serveren i nettverket må du gjøre dette:
 - Koble WAN-porten på Unifi-ruteren til veggen (dette har du sikkert gjort allerede)
 - Koble LAN-porten på Unifi-ruteren til svitsjen (hvilken som helst port)
-- Koble klient-PC til svitsjen
+- Koble klient-PC til svitsje
 - Koble Server-PC til svitsjen
 
 For å sette opp og bruke Active Directory skal vi følge guiden fra NDLA:

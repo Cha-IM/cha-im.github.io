@@ -4,8 +4,7 @@ feed: show
 date: 02-04-2024
 ---
 **Firebase er et produkt fra Google som gjør det enkelt å koble en database til en nettside eller app, slik at man kan lagre info og innstillinger over lengre tid. I denne guiden vil du lære et basisoppsett av Firebase-databasen Cloud Firestore. Det skal du bruke videre i denne modulen.**
-![[lcSpztiZ.jpg]]
-	**Bilde:** Google
+
 ## Kom i gang med Firebase
 For å bruke Firebase må du ha en Google-konto. Gå til [firebase.google.com](https://firebase.google.com/) og logg på med brukernavn og passord ved å trykke på "Logg på" øverst i høyre hjørne, hvis du ikke allerede er innlogget. Når du har logget inn, trykker du på "Get started" eller "Go to console" for å komme i gang med Firebase.
 
