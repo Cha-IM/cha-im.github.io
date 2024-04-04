@@ -47,7 +47,7 @@ collection(_DATABASE_, "_NAVN_PÅ_COLLECTION_");
 ```
 
 
-## Husk å importere **Firebase****-funksjonene
+## Husk å importere Firebase-funksjonene
 
 Alle funksjonene du bruker som er spesielle for Firebase, og ikke generelle JavaScript-funksjoner, må importeres. Vi har allerede importert `initializeApp` fra _(...)/__firebase__-app.js_ og `getFirestore` fra _(...)/__firebase__-__firestore__.js_ i koden over. Når vi skal skrive kode videre, må vi huske å importere alle funksjoner vi ikke har brukt før fra _(...)/__firebase__-__firestore__.js_. For å bruke `addDoc()` og `collection()` må vi derfor importere dem øverst i js-filen, slik
 
