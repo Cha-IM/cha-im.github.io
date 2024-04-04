@@ -8,3 +8,4 @@ date: 02-04-2024
 3. [[Forskjellen på relasjonsdatabaser og dokumentbaserte databaser]]
 4. [[Legge inn data i en Firebase-database]]
 5. [[Endre og slette dokumenter i databasen]]
+6. [[Lese data fra Firestore-database]]

@@ -67,3 +67,7 @@ await deleteDoc(
 ```
 
 Dokumentet er nå slettet fra databasen.
+
+
+# NESTE LEKSJON
+➡️ [[Lese data fra Firestore-database]]
