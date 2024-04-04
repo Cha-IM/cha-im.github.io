@@ -26,3 +26,6 @@ På bildet under ser du oppbyggingen av en Firestore-database med elevdata:
 **Bilde:** Karl Arne Dalsaune
 
 Som du kan se på bildene, har noen av elevene ulik info. Noen har telefon, andre har e-post, og noen har begge deler. Dette ville ikke ha vært mulig i en SQL-database, der alle feltene må være opprettet på forhånd. Dette viser noe av fleksibiliteten i en NoSQL-database.
+
+# NESTE LEKSJON 
+➡️ [[Legge inn data i en Firebase-database]]

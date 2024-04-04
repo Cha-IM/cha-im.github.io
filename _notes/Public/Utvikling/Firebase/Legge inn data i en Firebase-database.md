@@ -141,3 +141,6 @@ Lagre HTML-dokumentet og åpne det i en nettleser. Åpne inspiser-verktøyet for
 *Dokumentet for eleven Jakob Nilsen har egendefinert ID.*
 **Bilde:** Google
 
+
+# NESTE LEKSJON 
+➡️ [[Endre og slette dokumenter i databasen]]

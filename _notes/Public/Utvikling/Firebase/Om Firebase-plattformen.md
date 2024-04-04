@@ -8,3 +8,7 @@ date: 02-04-2024
 I tillegg til database tilbyr også Firebase flere andre funksjoner, som autentisering av brukere, lagring av filer med mer. Firebase kan brukes gratis, men det er begrensninger på hvor mye data som kan lagres, og hvor mye trafikk som går til og fra databasen. For skoleprosjekter holder gratisversjonen fint, men for kommersielle prosjekter vil man sannsynligvis trenge mer. Man betaler da ut fra hvor mye data som er brukt. Om du vil vite mer om kostnadene for Firebase, kan du lese på nettsidene til Firebase: [Firebase pricing (firebase.google.com)](https://firebase.google.com/pricing)
 
 En fordel med Firebase er at du ikke trenger en egen databaseserver for å lagre data, og da trenger du heller ikke bruke noe serversidespråk for å kommunisere med databasen, slik du trenger i for eksempel MySQL eller MongoDB. Firebase støtter mange programmeringsspråk, som JavaScript, Python, Java, C++, C#, Go, Swift og Objective-C og flere. I denne guiden bruker vi JavaScript.
+
+
+# NESTE LEKSJON
+➡️ [[Oppsett av Firebase og Cloud Firestore]]

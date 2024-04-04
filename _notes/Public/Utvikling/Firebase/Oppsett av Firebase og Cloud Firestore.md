@@ -125,3 +125,7 @@ For å bruke databasen din, og hente og legge inn data, oppretter du et nytt scr
 import { db } from "./firebaseconfig.js"
 // "./firebaseconfig.js" angir at firebaseconfig.js ligger i samme mappe som denne scriptfilen.
 ```
+
+
+# NESTE LEKSJON
+➡️ [[Forskjellen på relasjonsdatabaser og dokumentbaserte databaser]]
