@@ -74,12 +74,14 @@ Nå som du har opprettet databasen, må du legge inn databasen i scriptet du lag
 Du skal legge til to kodelinjer:
 
 1. Under `//` `TODO: Add SDKs for Firebase products that you want to use` (linje 3), legger du inn denne koden (kopier linja under og lim den inn i HTML-dokumentet ditt):
+
 ```javascript
 import { getFirestore } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"
 //NB: Pass på at versjonsnummeret i URL-en (9.6.1) er det samme som versjonsnummeret fra koden du kopierte da du satte opp webappen din (f.eks. 10.0.1).
 ```
 
 2. Nederst i scriptet legger du inn denne koden (kopier linja under og lim den inn i HTML-dokumentet ditt)
+
 ```javascript
 const db = getFirestore();
 
@@ -90,6 +92,7 @@ export { db };
 Sjekk at koden din er lik som koden under, men med dine unike verdier under `firebaseConfig`.
 
 #### firebase.js
+
 ```javascript
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
