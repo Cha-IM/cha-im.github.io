@@ -41,7 +41,7 @@ Du får nå opp koden som du skal bruke for å koble Firebase til nettsiden di
 
 Nå skal du sette denne koden inn i en JavaScript-fil som du kan bruke til å hente inn Firebase-konfigurasjonen din på alle nettsider som skal bruke denne databasen:
 1. Åpne en kodeeditor, for eksempel Visual Studio Code, og opprett ei ny mappe som du kaller _Elevliste_ (i VS Code: "Open folder" og så "Ny mappe"). 
-2. I denne mappa oppretter du ei ny fil som du kaller _firebase.js_. 
+2. I denne mappa oppretter du ei ny fil som du kaller _firebaseconfig.js_. 
 3. Lim du inn koden du fikk fra Firebase, men ta bort `<script>`-taggene på første og siste linje. 
 	Husk at denne koden er unik for deg, så deler av koden din vil være ulik skjermbildet over.
 4. Lagre fila, men la den være åpen, da vi skal legge inn mer kode i den i neste steg.
@@ -91,7 +91,7 @@ export { db };
 ### Kontroller koden din
 Sjekk at koden din er lik som koden under, men med dine unike verdier under `firebaseConfig`.
 
-#### firebase.js
+#### firebaseconfig.js
 
 ```javascript
 // Import the functions you need from the SDKs you need
@@ -122,6 +122,6 @@ export { db };
 For å bruke databasen din, og hente og legge inn data, oppretter du et nytt script og importerer databasen din slik i starten av koden:
 
 ```javascript
-import { db } from "./firebase.js"
-// "./firebase.js" angir at firebase.js ligger i samme mappe som denne scriptfilen.
+import { db } from "./firebaseconfig.js"
+// "./firebaseconfig.js" angir at firebaseconfig.js ligger i samme mappe som denne scriptfilen.
 ```
