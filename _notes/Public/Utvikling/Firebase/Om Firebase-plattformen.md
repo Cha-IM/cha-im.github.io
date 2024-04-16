@@ -10,5 +10,5 @@ I tillegg til database tilbyr også Firebase flere andre funksjoner, som auten
 En fordel med Firebase er at du ikke trenger en egen databaseserver for å lagre data, og da trenger du heller ikke bruke noe serversidespråk for å kommunisere med databasen, slik du trenger i for eksempel MySQL eller MongoDB. Firebase støtter mange programmeringsspråk, som JavaScript, Python, Java, C++, C#, Go, Swift og Objective-C og flere. I denne guiden bruker vi JavaScript.
 
 
-# NESTE LEKSJON
+## Neste
 ➡️ [[Oppsett av Firebase og Cloud Firestore]]
