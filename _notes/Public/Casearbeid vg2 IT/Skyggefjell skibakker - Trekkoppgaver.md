@@ -1,5 +1,5 @@
 ---
-title: "Skyggefjell skibakker: Trekkoppgaver"
+title: Skyggefjell skibakker - Trekkoppgaver
 feed: show
 date: 16-04-2024
 ---

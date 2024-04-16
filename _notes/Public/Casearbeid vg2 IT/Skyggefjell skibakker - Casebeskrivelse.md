@@ -1,5 +1,5 @@
 ---
-title: "Skyggefjell skibakker: Casebeskrivelse"
+title: Skyggefjell skibakker - Casebeskrivelse
 feed: show
 date: 16-04-2024
 ---
