@@ -1,6 +1,6 @@
 ---
 title: Eksamensoppgaver vg2 IT
-feed: hide
+feed: show
 date: 16-04-2024
 ---
 ## Skyggefjell skibakker
