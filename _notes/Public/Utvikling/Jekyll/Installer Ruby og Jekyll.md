@@ -13,4 +13,12 @@ Ruby og Jekyll installeres via Terminal på Mac. For å åpne terminal er den en
 Til Windows kan du laste ned Ruby som et vanlig program. Det beskrives i lenken under, i avsnittet "Installation via RubyInstaller". Last ned Ruby+DevKit og start installasjonen
 - [Jekyll on Windows (jekyllrb.com)](https://jekyllrb.com/docs/installation/windows/)
 #### Husk disse tingene:
-* På siste steg i installasjonen av Ruby+DevKit er det en avkrysningsboks der du skal 
+* På siste steg i installasjonen av Ruby+DevKit er det en avkrysningsboks der det står *Run 'ridk install' to set up MSYS2 and development toolchain*. **Denne skal du krysse av**
+![](https://github.com/Cha-IM/cha-im.github.io/blob/main/assets/img/jekyll/ruby-devkit-install-ridk-install.png?raw=true)
+* Når du har klikket på *Finish* kommer det opp et kommandovindu med tre valg. Du skal da skrive **3** (tallet som står ved *MSYS2 and MINGW development toolchain*) og trykke **Enter**. Nå vil disse tjenestene installeres i kommandovinduet. Det vil ta litt tid, bare vent til det er ferdig, og lukk vinduet når du er sikker på at det er ferdig.
+![](https://github.com/Cha-IM/cha-im.github.io/blob/main/assets/img/jekyll/ruby-devkit-install-msys2-mingw.png?raw=true)
+*  Nå skal du åpne et nytt kommandovindu. Klikk på **Startmenyen** og skriv *CMD* og trykk på **Enter**
+* Når kommandovinduet åpner seg, skriver du `gem install jekyll bundler` og trykker på **Enter**. Da vil Jekyll installeres i komandovinduet. Bare vent til det er ferdig.
+![](https://github.com/Cha-IM/cha-im.github.io/blob/main/assets/img/jekyll/ruby-devkit-install-jekyll-bundler.png?raw=true)
+* Når installasjonen er ferdig kan du skrive `jekyll -v` for å sjekke om det er installert. Denne kommandoen viser deg hvilken verson av Jekyll du har installert.
+![](https://github.com/Cha-IM/cha-im.github.io/blob/main/assets/img/jekyll/ruby-devkit-install-ruby-v.png?raw=true)
