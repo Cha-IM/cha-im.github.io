@@ -10,6 +10,7 @@ Ruby og Jekyll installeres via Terminal på Mac. For å åpne terminal er den en
 - [Jekyll on macOS (jekyllrb.com)](https://jekyllrb.com/docs/installation/macos/)
 
 ## Installer Ruby og Jekyll på Windows
-
+Til Windows kan du laste ned Ruby som et vanlig program. Det beskrives i lenken under, i avsnittet "Installation via RubyInstaller". Last ned Ruby+DevKit og start installasjonen
 - [Jekyll on Windows (jekyllrb.com)](https://jekyllrb.com/docs/installation/windows/)
-
+#### Husk disse tingene:
+* På siste steg i installasjonen av Ruby+DevKit er det en avkrysningsboks der du skal 
