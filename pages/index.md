@@ -14,4 +14,5 @@ Velkommen til **Cha-IM LEARN**. Her finner du læringsressurser for **Informasjo
 
 # Informasjonsteknologi vg2
 - [Utvikling](note/Utvikling)
-    Ressursene i utvikling er også aktuelle for IT-1
+    Ressursene i utvikling er også relevante for programfagene IT-1 og IT-2 på Studiespesialisering
+- [Tverrfaglige caseoppgaver/Eksamensoppgaver vg2 IT](note/note/Eksamensoppgaver-vg2-IT)
