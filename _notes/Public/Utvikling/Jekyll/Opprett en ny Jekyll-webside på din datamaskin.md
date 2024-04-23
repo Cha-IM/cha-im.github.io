@@ -1,5 +1,5 @@
 ---
-title: Opprett en ny Jekyll-webside på Github Pages
+title: Opprett en ny Jekyll-webside på din datamaskin
 feed: show
 date: 22-04-2024
 ---

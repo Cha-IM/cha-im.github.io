@@ -61,4 +61,4 @@ querySet.forEach((docu) => {
 
 ![Konsollen i nettleseren med utskrift fra Firestore. Foto.](https://api.ndla.no/image-api/raw/DK3dncOM.png?width=1024)
 
-*Utskrift av navn og e-post til alle elever som har registrert e-post* [Beg
+*Utskrift av navn og e-post til alle elever som har registrert e-post* [Begrenset bruk](https://ndla.no/nb/article/opphavsrett) **Bilde:** Google
