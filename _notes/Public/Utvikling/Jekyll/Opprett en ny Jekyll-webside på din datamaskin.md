@@ -3,14 +3,15 @@ title: Opprett en ny Jekyll-webside på din datamaskin
 feed: show
 date: 22-04-2024
 ---
-1. Åpne Visual Studio Code, og åpne en ny, tom mappe.
+![Jekyll-logo](https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png)
+1. Åpne Visual Studio Code, og åpne en ny, tom mappe (*Open folder* -> *New folder*).
 2. Åpne et terminalvindu ved å klikke på *Terminal* på menyen øverst på skjermen, og så *New terminal*
 3. Inne i terminalen skriver du denne koden (bytt ut `minblogg` med navnet på din blogg, uten mellomrom):
 ```shell
 jekyll new minblogg
 ```
 ![](https://github.com/Cha-IM/cha-im.github.io/blob/main/assets/img/jekyll/jekyll-vs-code-installed.png?raw=true)
-4. Du har nå opprettet en ny blogg, og du kan se at du har fått en ny mappe med bloggnavnet med filer i *Explorer*-vinduet i VS Code. Du må nå åpne mappa i terminalen med denne koden:
+4. Du har nå opprettet en ny blogg, og du kan se at du har fått en ny mappe med samme navn som du satt i koden over i *Explorer*-vinduet i VS Code. Du må nå åpne mappa i terminalen med denne koden:
 ```shell
 cd minblogg
 ```
@@ -20,7 +21,8 @@ cd minblogg
 bundle exec jekyll serve
 ```
 6. Nå kan du åpne bloggen din ved å åpne nettleseren og skrive adressen [localhost:4000](http://localhost:4000/)
-7. Hvis du ønsker å stoppe webserveren, f.eks. hvis du har gjort endringer som krever at websiden lastes inn på nytt, klikker du inne i terminalen og trykker <kbd>ctrl + c</kbd> (Merk at dette er <kbd>ctrl</kbd>-tasten både på Mac og Windows, ikke <kbd>cmd</kbd> på Mac)
+![](https://github.com/Cha-IM/cha-im.github.io/blob/main/assets/img/jekyll/jekyll-blog-template.png?raw=true)
+8. Hvis du ønsker å stoppe webserveren, f.eks. hvis du har gjort endringer som krever at websiden lastes inn på nytt, klikker du inne i terminalen og trykker <kbd>ctrl + c</kbd> (Merk at dette er <kbd>ctrl</kbd>-tasten både på Mac og Windows, ikke <kbd>cmd</kbd> på Mac)
 
 ### Noen viktige ting å huske på
 * Når vi bruker et rammeverk er de faktiske html-filene som utgjør nettsiden skjult for oss. Disse blir generert når vi bygger nettsiden ved hjelp av koden `bundle exec jekyll serve`, og eksisterer kun så lenge webserveren kjører. Derfor er den eneste måten å vise bloggen å bruke denne koden. Vi kan ikke bruke live preview-tillegget i VS-code for å vise noe av nettsiden.
