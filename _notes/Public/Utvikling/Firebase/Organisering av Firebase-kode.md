@@ -7,6 +7,4 @@ export { db }
 ```
 
 ## populateDatabase.js
-Her legger du inn koden for å legge inn data i databasen din. Siden denne koden trenger bare å kjøres en gang, er det lurt å ha det i en egen fil, slik at du slipper at data blir lagret dobbelt hver gang du skal kjøre resten av koden. Etter at du har kjørt koden, og dataenn er lagt inn i databasen, kan du enten kommentere ut koden i denne fila, eller du kan fjerne koblingen til denne fila fra nettsiden (html-fila som kjører koden)
-
-Dette kan også gjøres mer avansert, der populateDatabase.js inneholder funksjoner som tar inn dataen som tekst eller variabler, og legger dette inn i databasen. Da kan du opprette enda en .js-fil for rådataen, der du for eksempel lager en liste som eksporteres. Evt kan du legge inn rådataen som en .json-fil,
+Her legger du inn koden for å legge inn data i databasen din. Siden denne koden trenger bare å kjøres en gang, er det lurt å ha det i en egen fil, slik at du slipper at data blir lagret dobbelt hver gang du skal kjøre resten av k
