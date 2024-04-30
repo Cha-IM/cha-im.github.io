@@ -26,4 +26,4 @@ bundle exec jekyll serve
 
 ### Noen viktige ting å huske på
 * Når vi bruker et rammeverk er de faktiske html-filene som utgjør nettsiden skjult for oss. Disse blir generert når vi bygger nettsiden ved hjelp av koden `bundle exec jekyll serve`, og eksisterer kun så lenge webserveren kjører. Derfor er den eneste måten å vise bloggen å bruke denne koden. Vi kan ikke bruke live preview-tillegget i VS-code for å vise noe av nettsiden.
-* Den lokale webserveren vil kjøre helt til vi slår den av (<kbd>ctrl + x</kbd>)
+* Den lokale webserveren vil kjøre helt til vi slår den av (<kbd>ctrl + c</kbd>)
