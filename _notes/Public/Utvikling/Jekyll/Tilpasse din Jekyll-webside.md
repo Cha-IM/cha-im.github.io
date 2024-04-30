@@ -77,20 +77,5 @@ Linjene som starter med `#` er kommentarer ment for å hjelpe deg å forstå kod
 | `url:`                                                                                                                | Her trenger du ikke skrive noe. Denne brukes hvis du skal legge bloggen din ut på nett på ditt eget domene                                                                        |
 | `twitter_username:`<br>`github_username:`                                                                             | Her kan du legge inn brukernavnet ditt på Twitter eller Github. Hvis du ikke ønsker å legge det inn, kommenterer du ut denne linjen.                                              |
 | `facebook_username:`<br>`instagram_username:`<br>`linkedin_username:`<br>`youtube_username:`<br>`pinterest username`: | <br>Du kan også legge inn flere sosiale medier ved å bruke disse nøklene                                                                                                          |
-| `theme:`                                                                                                              | Det er mulig å legge inn et annet tema (annen css) på nettsiden. Dette er ganske kompisert, så bare la denne linja være                                                           |
+| `theme:`                                                                                                              | Det er mulig å legge inn et annet tema (annen css) på nettsiden. Dette er ganske komplisert, så bare la denne linja være                                                          |
 | `plugins:`                                                                                                            | Det er mulig å installere tilleggsfunksjoner til bloggen din. Dette skal vi heller ikke gjøre nå, så bare la denne være.                                                          |
-
-## Endre CSS-koden til bloggen din
-CSS-koden i Jekyll er ofte skjult, slik at man ikke skal kunne endre på temaet uten at man vet hva man holder på med. Nå skal vi finne CSS-filene og legge dem inn i bloggen vår slik at vi kan endre dem.
-
-Åpne en terminal i VS Code og skriv koden
-
-```sh
-bundle info --path minima
-```
-
-Du vil nå få opp filbanen til *minima*-temaet i Jekyll. Finn denne mappen i filutforskeren på datamaskinen din (kopier filbanen og lim det inn i et utforsker-vindu). Du vil da få opp alle filene som hører til temaet. Vi skal kopiere CSS-filene inn i bloggen vår.
-
-Dra mappen *_sass* inn i VS Code, slik at den blir kopiert inn i mappen til bloggen din.
-
-Du kan nå redigere CSS-filene, og endringene vil synes neste gang du åpner bloggen din.

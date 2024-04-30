@@ -9,6 +9,7 @@ Du kan opprette to typer innhold på bloggen din: **sider** (pages) og **poster*
 Se på filutforskeren i VS code. Her finner du noen filer, og en eller tre mapper. Det ser omtrent slik ut:
 ![](https://github.com/Cha-IM/cha-im.github.io/blob/main/assets/img/jekyll/jekyll-file-structure.png?raw=true)
 ```bash
+minblogg
 ├── _posts
 │   ├── 2024-04-29-welcome-to-jekyll.markdown
 ├── _site
