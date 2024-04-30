@@ -12,10 +12,9 @@ I artiklene nedenfor kan du lære om hvordan du installerer Jekyll på din datam
 1. [[Installer Ruby og Jekyll]]
 2. [[Opprett en ny Jekyll-webside på din datamaskin]]
 3. [[Tilpasse din Jekyll-webside]]
-4. [[Opprette nye sider og poster på bloggen din]]
-5. [[Endre CSS-koden til bloggen din]]
-	1. [[SCSS]]
-6. 
+4. [[Opprette nye sider og poster på bloggen din]] (under arbeid)
+5. [[Endre CSS-koden til bloggen din]] (under arbeid)
+6. [[SCSS]]
 
 
 
