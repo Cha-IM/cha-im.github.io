@@ -26,4 +26,17 @@ Som du kan se, ligger *index.markdown* og *about.markdown* på rotnivå (nivået
 
 Som et eksempel kan vi opprette siden *kontakt.md*. Åpne filen.
 
-Øverst i filen må vi legge inn *frontmatter*
+Øverst i filen må vi legge inn *frontmatter*. Det er bakgrunnsinformasjon Jekyll bruker for å bygge nettsiden. Det kan se sånn ut:
+
+```markdown
+---
+
+layout: page
+
+title: Kontakt
+
+permalink: /kontakt/
+
+---
+```
+
