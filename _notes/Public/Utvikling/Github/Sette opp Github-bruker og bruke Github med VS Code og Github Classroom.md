@@ -1,6 +1,6 @@
 ---
 title: Sette opp Github-bruker og bruke Github med VS Code og Github Classroom
-date: 09-08-2024
+date: 09-09-2024
 feed: show
 ---
 

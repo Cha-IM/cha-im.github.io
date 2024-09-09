@@ -1,5 +1,5 @@
 ---
-title: Gruppearbeid i Github
+title: Synkroniseringskonflikter i Github
 feed: show
 date: 19-03-2024
 tags:
