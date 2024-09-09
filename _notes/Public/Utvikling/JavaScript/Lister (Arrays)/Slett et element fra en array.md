@@ -1,3 +1,9 @@
+---
+title: Slett et element fra en array
+feed: show
+date: 21-05-2024
+---
+
 Det er to hovedmetoder for å slette et element fra en liste, avhengig av om du vil slette indexen til elementet eller ikke, *array.splice()* eller *delete*.
 
 ## array.splice()
