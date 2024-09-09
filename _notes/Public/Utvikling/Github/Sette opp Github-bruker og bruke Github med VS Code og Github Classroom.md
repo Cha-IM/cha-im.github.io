@@ -3,7 +3,6 @@ title: Sette opp Github-bruker og bruke Github med VS Code og Github Classroom
 date: 09-08-2024
 feed: show
 ---
-# Hvordan opprette konto på GitHub, installere Git på Windows, og begynne å bruke GitHub i VS Code
 
 ## 1. Opprette en GitHub-konto
 1. **Gå til GitHubs nettsted:**
