@@ -1,7 +1,7 @@
 ---
 title: Publisere nettsiden din via Github Pages
 feed: show
-date: 09-98-2024
+date: 09-09-2024
 ---
 Her er en guide for hvordan du kan publisere en nettside med GitHub Pages:
 
