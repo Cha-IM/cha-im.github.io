@@ -9,4 +9,5 @@ date: 19-03-2024
 - [[Lag din egen blogg med Jekyll]]
 - [[Design, UX og UU]]
 - [[Github]]
+- [[Tailwind CSS]]
 - [[JSON]] 
