@@ -8,3 +8,5 @@ date: 19-09-2024
 3. [[Hvordan bruke CSS til å endre utseendet på nettsiden]]
 4. [[CSS-velgere]]
 5. [[<div>-elementet]]
+6. [[Posisjonering i CSS]]
+	1. [[Eksempel på en websidelayout med posisjonerte elementer]]
