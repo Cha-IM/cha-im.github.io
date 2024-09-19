@@ -3,7 +3,7 @@ title: Oversikt over nyttige Tailwind-klasser
 feed: show
 date: 10-09-2024
 ---
-Her er en oversikt over de viktigste Tailwind CSS-klassene, delt inn i kategorier. Hver klasse har en kort forklaring som beskriver hva den gjør.
+	Her er en oversikt over de viktigste Tailwind CSS-klassene, delt inn i kategorier. Hver klasse har en kort forklaring som beskriver hva den gjør.
 
 ### 1. **Tekststørrelse og farger**
 
