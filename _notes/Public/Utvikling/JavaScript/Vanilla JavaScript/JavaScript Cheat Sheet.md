@@ -16,7 +16,7 @@ Variabler lagrer informasjon som kan brukes i koden.
 Eksempel:
 ```javascript
 const navn = "Anna";
-const alder = 18;
+let alder = 18;
 ```
 - `const`: brukes for verdier som ikke skal endres.
 - `let`: brukes for verdier som kan endres senere.
@@ -31,9 +31,9 @@ Vanlige datatyper i JavaScript:
 
 Eksempel:
 ```javascript
-const tekst = "Hei, verden!";
-const tall = 10;
-const erLærer = true;
+let tekst = "Hei, verden!";
+let tall = 10;
+let erLærer = true;
 ```
 
 ---
@@ -63,7 +63,7 @@ siHei();
 Brukes for å ta avgjørelser basert på vilkår.  
 Eksempel:
 ```javascript
-const poeng = 85;
+let poeng = 85;
 if (poeng >= 50) {
   console.log("Bestått!");
 } else {
@@ -79,7 +79,7 @@ if (poeng >= 50) {
 Går gjennom en kodeblokk et bestemt antall ganger.  
 Eksempel:
 ```javascript
-for (const i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
   console.log("Tallet er: " + i);
 }
 ```
@@ -262,7 +262,7 @@ element.remove(); // Fjerner elementet med ID 'nyId'
 ---
 
 ### **11. Event Listeners**  
-Lytt til hendelser som knappeklikk og kjør funksjoner.
+Event Listeners brukes for å reagere på ulike hendelser i brukergrensesnittet, som klikk på knapper eller tastetrykk. Ved å legge til en Event Listener kan du spesifisere hvilken funksjon som skal kjøres når en bestemt hendelse inntreffer.
 
 Eksempel:
 ```javascript
@@ -270,6 +270,49 @@ document.querySelector("#knapp").addEventListener("click", () => {
   alert("Du klikket på knappen!");
 });
 ```
+
+
+**Legge til en Event Listener med en egen funksjon**  
+Du kan definere en funksjon og deretter bruke `addEventListener` for å binde den til en hendelse. Dette gjør koden mer organisert og lett å vedlikeholde.
+
+```javascript
+function visMelding() {
+  alert("Du klikket på knappen!");
+}
+
+document.querySelector("#knapp").addEventListener("click", visMelding);
+```
+
+I dette eksemplet vil når knappen med ID "knapp" klikkes, funksjonen `visMelding` bli kalt, og en alert-boks vil vises.
+
+---
+
+**Legge til Event Listener for tastaturinput (Enter-tasten)**  
+Du kan også lytte til tastaturhendelser ved å bruke `addEventListener` på dokumentet. I dette tilfellet kan vi sjekke om brukeren har trykket på Enter-tasten.
+
+```javascript
+document.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    console.log("Enter-tasten ble trykket!");
+  }
+});
+```
+
+Her legger vi til en Event Listener for `keypress`-hendelsen på hele dokumentet. Når en tast trykkes ned, sjekker vi om den trykkede tasten er "Enter", og hvis den er det, skriver vi ut en melding i konsollen.
+
+---
+
+**Bruke `onclick`-metoden**  
+En annen måte å håndtere klikk på er ved å bruke `onclick`-metoden direkte på et DOM-element. Dette er en enklere tilnærming, men mindre fleksibel enn `addEventListener`.
+
+```javascript
+const knapp = document.querySelector("#knapp");
+knapp.onclick = () => {
+  alert("Knappen ble klikket!");
+};
+```
+
+I dette eksemplet setter vi `onclick`-egenskapen på knappen, som vil utføre den angitte funksjonen når knappen klikkes. Dette er nyttig for enkle interaksjoner, men husk at det bare lar deg legge til én funksjon per hendelse.
 
 ---
 
