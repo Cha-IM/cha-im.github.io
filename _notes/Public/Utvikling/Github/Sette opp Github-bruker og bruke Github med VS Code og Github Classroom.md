@@ -61,6 +61,8 @@ feed: show
    - Søk etter "GitHub" og installer den offisielle GitHub-utvidelsen. Dette vil gi deg ekstra funksjonalitet for å jobbe med GitHub-repositorier direkte i VS Code.
 
 ## 5. Bruke GitHub i VS Code via Version Control-menyen
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i_23KUAEtUM?si=362WP_klYbD_LAMq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 1. **Koble VS Code til GitHub:**
    - I VS Code, klikk på "View" > "Command Palette" (eller trykk `Ctrl + Shift + P`).
    - Skriv inn `GitHub: Sign in` og følg instruksjonene for å logge inn på din GitHub-konto. Dette gjør at du kan arbeide direkte med GitHub-repositorier i VS Code.

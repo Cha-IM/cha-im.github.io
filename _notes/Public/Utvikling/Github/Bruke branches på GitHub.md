@@ -10,6 +10,7 @@ Her er en guide for hvordan du kan bruke branches (grener) på GitHub.
    - **En branch er en parallell versjon av prosjektet ditt**:
      - Når du jobber med en branch, kan du gjøre endringer uten å påvirke hovedversjonen (ofte kalt `main` eller `master`).
      - Branches er nyttige når du vil prøve ut nye funksjoner, fikse feil, eller jobbe på forskjellige deler av prosjektet samtidig.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/b9LTz6joMf8?si=_m-rHd9Beb4zwg3e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 2. **Opprette en ny branch**
    - **Fra GitHub-nettstedet**:
@@ -53,6 +54,8 @@ Her er en guide for hvordan du kan bruke branches (grener) på GitHub.
      - Hvis det skjer, vil GitHub eller VS Code be deg om å løse konflikten.
      - Åpne filen med konflikten, se på endringene, og bestem hvilken versjon som skal beholdes.
      - Når konflikten er løst, commit og push endringene.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HosPml1qkrg?si=BArgDq9YKVm1Dc4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### 7. **Slette en branch**
    - **Etter at en branch er slått sammen, kan den slettes**:
@@ -68,3 +71,6 @@ Her er en guide for hvordan du kan bruke branches (grener) på GitHub.
    - **Når du eksperimenterer**: Prøv nye ideer på en egen branch for å se hvordan de fungerer uten risiko for å ødelegge noe.
 
 Ved å bruke branches, kan du og gruppen din jobbe på ulike deler av prosjektet samtidig uten å tråkke hverandre på tærne. Det hjelper også med å holde hovedversjonen av koden stabil og fungerende.
+
+## Pull requests
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LdSwWxVzUpo?si=9Zs5sYInCiCnR_jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

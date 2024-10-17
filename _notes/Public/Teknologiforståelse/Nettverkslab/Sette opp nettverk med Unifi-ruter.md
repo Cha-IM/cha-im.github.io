@@ -21,7 +21,7 @@ Nå må du resette ruteren for å sette den opp på nytt med denne innstillinger
 
 1. Sett strøm på svitsjen. Den vil nå starte opp og lyset rundt logoene på toppen vil begynne å blinke. 
 2. **Vent ca 1 minutt** til lyset på toppen lyser fast.
-2. Stikk en binders inn i det lille hullet på forsiden av ruteren. Hold bindersen der i ca 10 sekunder, **til lyset oppå svitsjen** slås av.
+2. Stikk en binders inn i det lille hullet på forsiden av ruteren. Hold bindersen der i ca 10 sekunder, **til lyset oppå ruteren** slås av.
 3. Svitsjen vil nå starte på nytt og begynne å blinke. Vent ca ett minutt til lyset blir fast igjen. Hvis alt er som det skal, skal lyset være hvitt.
 
 ## 3. Gå inn i ruterens innstillinger

@@ -40,6 +40,8 @@ Her er en guide til hvordan dere kan samarbeide om gruppearbeid i GitHub, med ut
      - Dette vil hente ned eventuelle endringer som andre i gruppen har gjort, slik at dere alltid jobber med den nyeste versjonen.
 
 ### 6. **Løse eventuelle merge-konflikter**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HosPml1qkrg?si=BArgDq9YKVm1Dc4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
    - **Håndtere konflikter:**
      - Hvis to elever har endret de samme linjene i en fil, kan det oppstå en merge-konflikt når du prøver å pushe endringene.
      - VS Code vil vise hvilke filer som har konflikter. Åpne filen, se på de motstridende endringene, og velg hvilken som skal beholdes, eller kombiner dem.
