@@ -102,13 +102,14 @@ Vi kan ikke bruke nyeste versjon av Unifi Controller, men vi bruker version 7.0.
 	* _Local administrator username_: admin. **Skriv ned dette i dokumentasjonen din.**
 	* _Local administrator password_: et enkelt passord som du husker - **Skriv ned passordet i dokumentasjonen din** (ikke bruk et passord du bruker andre steder)
 	* _Confirm password_: Skriv passordet en gang til
-12. Klikk på _Next_
-13. **Unifi Network Setup** Klikk bryteren _Enable auto backup_ **av**.
-14. **Devices setup**: Huk av boksen ved __USG-3P__. Dette er ruteren din, som skal meldes inn i nettverket.
-15. **WiFi Setup**: (Vi skal egentlig ikke bruke WiFi, men vi må sette det opp likevel)
+	* *Local administrator email*: Din skole-epost
+1. Klikk på _Next_
+2. **Unifi Network Setup** Klikk bryteren _Enable auto backup_ **av**.
+3. **Devices setup**: Klikk på boksen ved __USG-3P__, slik at det kommer opp en hake (✔️) i boksen. Dette er ruteren din, som skal meldes inn i nettverket.
+4. **WiFi Setup**: (Vi skal egentlig ikke bruke WiFi, men vi må sette det opp likevel)
 	* _WiFi Name_: F.eks. dittNavnWiFi. **Skriv ned dette i dokumentasjonen din.**
 	* _WiFi Password_: Et enkelt passord med minst 8 tegn. **Skriv ned passordet i dokumentasjonen din**
-16. **Review Configuration**: Her får du en oppsummering av innstillingene dine, og skal velge land og tidssone
+5. **Review Configuration**: Her får du en oppsummering av innstillingene dine, og skal velge land og tidssone
 	* _Country or Territory_: Norway (tips: trykk på O, så er Norge rett over Oman)
 	* _Timezone_: (UTC+1) Europe/Oslo
-17. Trykk på **Finish**
+6. Trykk på **Finish**
