@@ -45,6 +45,7 @@ app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
 ```
+Les mer om denne koden her: [[Hva betyr koden i server.js?]]
 
 ### 3. Opprett en mappe for statiske filer
 
