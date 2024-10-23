@@ -1,10 +1,10 @@
 ---
-title: Npx express-generator
+title: Express Generator
 feed: show
 date: 22-10-2024
 ---
 
-Ja, du kan bruke **npx** til å generere et nytt Express.js-prosjekt med **Express Generator**, som er et verktøy som gjør det enkelt å sette opp et grunnleggende Express-prosjekt med forhåndsdefinerte strukturer og konfigurasjoner. Her er en trinnvis guide for hvordan du gjør det:
+Du kan bruke **npx** til å generere et nytt Express.js-prosjekt med **Express Generator**, som er et verktøy som gjør det enkelt å sette opp et grunnleggende Express-prosjekt med forhåndsdefinerte strukturer og konfigurasjoner. Her er en trinnvis guide for hvordan du gjør det:
 
 ### 1. Installer Express Generator
 
