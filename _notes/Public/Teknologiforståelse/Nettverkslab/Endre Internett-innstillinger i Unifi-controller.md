@@ -1,3 +1,8 @@
+---
+title: Endre Internett-innstillinger i Unifi-controller
+feed: show
+date: 24-10-2024
+---
 
 1. Åpne Unifi Controller
 2. I raden av ikoner til venstre, klikk på tannhjulet nederst (settings)
