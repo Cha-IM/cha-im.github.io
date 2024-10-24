@@ -30,7 +30,7 @@ Nå må du resette ruteren for å sette den opp på nytt med denne innstillinger
 Du vil nå få opp et skjema der du skal fylle inn innformasjon om nettverket ditt.
 
 ## 4. IP-adresser
-Fyll ut skjemaet med info fra [IM CHA Oversikt over labmaskiner og IP-adresser 2023-2024 - Google Regneark](https://docs.google.com/spreadsheets/d/1CZ7tFNzi1N6dENOXU-uCyjHjf3NYJQOspECbOoXKM5k/edit#gid=1414378157) slik:
+Fyll ut skjemaet med info fra regnearket [IP-adresser i lab.xlsx](https://tronder.sharepoint.com/:x:/s/IMCharlottenlund/Ef98P9EJRO5NnUspzok7g3gBBj5-aM77rAv5XPjbC24-Ww?e=survQx) (finn navnet ditt i lista) slik:
 
 ### WAN Settings:
 1. Connection type: **Static IP**
@@ -83,7 +83,8 @@ Last ned siste versjon av Java: [Download Java for Windows](https://www.java.com
 Åpne installasjonsfilen og installer på vanlig måte.
 
 ## 7. Last ned Unifi Controller
-Vi kan ikke bruke nyeste versjon av Unifi Controller, men vi bruker version 7.0.23: [UniFi Network Application for Windows](https://dl.ui.com/unifi/7.0.23/UniFi-installer.exe)
+Vi kan ikke bruke nyeste versjon av Unifi Controller, men vi bruker versjon 7.0.23: [UniFi Network Application for Windows](https://dl.ui.com/unifi/7.0.23/UniFi-installer.exe)
+I noen tilfeller kan det være at denne ikke virker. I så fall må du installere versjon 5.12.35.
 
 Åpne installasjonsfilen og installer på vanlig måte.
 
