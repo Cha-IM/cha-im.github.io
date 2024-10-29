@@ -3,9 +3,6 @@ title: Twitter-klone i Express.js
 feed: show
 date: 29-10-2024
 ---
-Her er en detaljert steg-for-steg guide, skrevet med tanke på at alle elever skal kunne følge med. Målet er å bygge en enkel Twitter-klone med Express.js, der innlegg lagres som objekter i en liste i minnet.
-
----
 
 ### **Oppgave: Bygg en Twitter-klone med Express.js**
 
