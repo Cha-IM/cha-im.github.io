@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette gjestebruker i Windows via Powershell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nettverkslab"
+              "title": "Opprette gjestebruker i Windows via Powershell"
             }
           }
         ],
@@ -180,6 +180,7 @@
   },
   "active": "206741aaa0cd46ad",
   "lastOpenFiles": [
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette gjestebruker i Windows via Powershell.md",
     "assets/img/rightclickstartmenu.png",
     "assets/img/PowerShellScripting.jpg",
@@ -187,7 +188,6 @@
     "_notes/Public/Utvikling/Node.js og Express.js/Node.js og Express.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Forklaring av koden for å håndtere innlegg i Twitter-klonen.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Endre Internett-innstillinger i Unifi-controller.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Express Generator.md",
     "_notes/Public/Utvikling/Utvikling.md",
