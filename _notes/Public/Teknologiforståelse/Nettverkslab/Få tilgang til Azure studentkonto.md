@@ -10,7 +10,7 @@ Du vil motta en Chamedia e-postadresse fra skolen. Denne e-posten består av dit
 <img src="/assets/img/nettverkslab/onecomforward.png" style="float:right;width:50%">
 Du skal ha fått en e-post fra **one.com Kundservice** på skole-eposten din (Outlook) med emnet **Verifiser videresending av e-post fra chamedia.no**
 
-
+<div style="clear:both"></div>
 ## Steg 2: Legg til adressen til en (personlig) Microsoftkonto
 Denne e-postadressen må du legge til i en Microsoft-konto. Her kan du velge å legge til e-posten i din personlige Microsoft-konto (ikke trøndelag-kontoen), eller så kan du opprette en ny Microsoft konto med den e-postadressen.
 
