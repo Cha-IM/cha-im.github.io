@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette gjestebruker i Windows via Powershell.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Få tilgang til Azure studentkonto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Opprette gjestebruker i Windows via Powershell"
+              "title": "Få tilgang til Azure studentkonto"
             }
           }
         ],
@@ -178,10 +178,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "206741aaa0cd46ad",
+  "active": "a73f6c88154bc3a8",
   "lastOpenFiles": [
-    "assets/img/rightclickstartmenu.png",
+    "assets/img/nettverkslab/onecomforward.png",
+    "assets/img/nettverkslab",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette gjestebruker i Windows via Powershell.md",
+    "assets/img/rightclickstartmenu.png",
     "assets/img/rightclickstartmenu.png.sb-2d1ed743-rL0iTv",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "assets/img/PowerShellScripting.jpg",

@@ -7,21 +7,18 @@ tags: []
 ## Steg 1: Chamedia e-postadresse
 Du vil motta en Chamedia e-postadresse fra skolen. Denne e-posten består av ditt elevnummer + @chamedia.no (eksempel: elevXXXXXX@chamedia.no).
 
+<img src="/assets/img/nettverkslab/onecomforward.png" style="float:right;width:50%">
+Du skal ha fått en e-post fra **one.com Kundservice** på skole-eposten din (Outlook) med emnet **Verifiser videresending av e-post fra chamedia.no**
+
+
 ## Steg 2: Legg til adressen til en (personlig) Microsoftkonto
 Denne e-postadressen må du legge til i en Microsoft-konto. Her kan du velge å legge til e-posten i din personlige Microsoft-konto (ikke trøndelag-kontoen), eller så kan du opprette en ny Microsoft konto med den e-postadressen.
 
-### Legg til i personlig konto: 
-1. Logg inn på https://login.live.com
-2. Etter du har logget inn, vil du se en meny til venstre side av skjermen. Naviger til din informasjon, og skroll ned til kontoinformasjon.
-3. Trykk så «Rediger kontoinformasjon»
-4. Trykk «Legg til e-post», og skriv inn chamedia e-postadressen din.
-5. Se til at du har aktivert innlogging via chamedia e-postadressen slik at du kan bruke den til å logge inn på kontoen din med. Om innlogging med chamedia e-postadressen ikke er aktivert, må du skru dette på før du går videre. 
-Spørsmål? [Følg denne guiden fra Microsoft (microsoft.com)](https://support.microsoft.com/nb-no/account-billing/slik-legger-du-til-en-e-postadresse-eller-et-telefonnummer-i-microsoft-kontoen-1898efcd-3f0a-6646-46d8-5b681999e047)
-
 ### Lag ny konto:
-1. Gå til https://signup.live.com
-2. Skriv inn chamedia e-postadressen din, og fortsett videre med å opprette kontoen. Bruk gjerne samme passord på denne kontoen som du har på elev-kontoen din. 
-4. Spørsmål? Følg denne guiden fra Microsoft: https://support.microsoft.com/nb-no/account-billing/slik-oppretter-du-en-ny-microsoft-konto-a84675c3-3e9e-17cf-2911-3d56b15c0aaf
+1. Gå til [signup.live.com](https://signup.live.com)
+2. Skriv inn @chamedia.no-e-postadressen din, og fortsett videre med å opprette kontoen. 
+4. Spørsmål? Følg denne guiden fra Microsoft: [Slik oppretter du en ny Microsoft-konto](https://support.microsoft.com/nb-no/account-billing/slik-oppretter-du-en-ny-microsoft-konto-a84675c3-3e9e-17cf-2911-3d56b15c0aaf)
+
 
 ## Steg 3: Logg på Azure for students
 Logg inn på Microsoft Azure gjennom student-innloggingen. Uansett om du har laget en ny konto med chamedia e-postadressen eller om du har lagt til e-postadressen i en eksisterende personlig konto, skal du logge inn i Azure ved å skrive inn chamedia e-postadressen din i innloggingsfeltet i [Azure login (Microsoft.com)](https://azure.microsoft.com/nb-no/free/students) (Klikk på den grønne knappen "Start gratis")
