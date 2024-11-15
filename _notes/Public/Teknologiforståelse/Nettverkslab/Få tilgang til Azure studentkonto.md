@@ -8,7 +8,7 @@ tags: []
 Du vil motta en Chamedia e-postadresse fra skolen. Denne e-posten består av ditt elevnummer + @chamedia.no (eksempel: elevXXXXXX@chamedia.no).
 
 <img src="/assets/img/nettverkslab/onecomforward.png" style="float:right;width:50%">
-Du skal ha fått en e-post fra **one.com Kundservice** på skole-eposten din (Outlook) med emnet **Verifiser videresending av e-post fra chamedia.no**
+Du skal ha fått en e-post fra **one.com Kundservice** på skole-eposten din (Outlook) med emnet **Verifiser videresending av e-post fra chamedia.no**. Åpne denne eposten og klikk på den blå knappen *Verifiser videresending av e-post*. Du blir da sendt til one.com. Her vil du mest sannsynlig få en feilmelding om at videresending ikke kunne verifiseres. **Ikke bry deg om denne feilmeldingen, det virker uansett.**
 
 <div style="clear:both"></div>
 ## Steg 2: Legg til adressen til en (personlig) Microsoftkonto
