@@ -57,7 +57,11 @@ Nå skal vi lage to ruter:
 - En **POST-rute** som lar oss legge til nye innlegg.
 
 1. Åpne `routes/index.js`.
-2. **Lag GET-ruten** som henter alle innleggene:
+2. **Lag en liste** for å lagre innlegg midlertidig:
+```javascript
+const posts = []; // Liste for å lagre innlegg midlertidig
+```
+3. **Lag GET-ruten** som henter alle innleggene:
 
    ```javascript
    const express = require('express');
@@ -69,7 +73,7 @@ Nå skal vi lage to ruter:
    });
    ```
 
-3. **Lag POST-ruten** for å legge til nye innlegg:
+4. **Lag POST-ruten** for å legge til nye innlegg:
 
    ```javascript
    // POST-rute for å lage et nytt innlegg
@@ -94,10 +98,10 @@ Nå skal vi lage to ruter:
    });
    ```
 
-4. **Legg til JSON-støtte** i `app.js` for at serveren skal kunne lese dataene fra POST-forespørslene. I `app.js`, legg til denne linjen etter `app.use(express.static(...));`:
+5. **Legg til støtte for ruter** i `app.js` for at serveren skal kunne bruke rutene vi definerte i `routes/index.js`. Legg til denne linjen i `app.js`:
 
    ```javascript
-   app.use(express.json());
+  var router = express.Router();
    ```
 
 ---
