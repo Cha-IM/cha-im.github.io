@@ -82,6 +82,10 @@ ul, ol {
 li {
   margin-bottom: 5px;
 }
+
+img{
+	width: 100%;
+}
 ```
 
 ### Hvordan bruke malen:
