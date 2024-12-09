@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/Node.js og Express.js/Twitter-klone i Express.js.md",
+                "file": "_notes/Public/Utvikling/HTML og CSS/HTML og CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Twitter-klone i Express.js"
+              "title": "HTML og CSS"
             }
           }
         ],
@@ -180,6 +180,8 @@
   },
   "active": "206741aaa0cd46ad",
   "lastOpenFiles": [
+    "_notes/Public/Utvikling/HTML og CSS/CSS-maler og klasser.md",
+    "_notes/Public/Utvikling/Node.js og Express.js/Twitter-klone i Express.js.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Få tilgang til Azure studentkonto.md",
     "assets/img/nettverkslab/onecomforward.png",
@@ -189,7 +191,6 @@
     "assets/img/rightclickstartmenu.png.sb-2d1ed743-rL0iTv",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "assets/img/PowerShellScripting.jpg",
-    "_notes/Public/Utvikling/Node.js og Express.js/Twitter-klone i Express.js.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Node.js og Express.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Forklaring av koden for å håndtere innlegg i Twitter-klonen.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Endre Internett-innstillinger i Unifi-controller.md",
