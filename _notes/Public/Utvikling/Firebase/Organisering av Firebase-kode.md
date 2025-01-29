@@ -1,3 +1,9 @@
+---
+title: Organisering av Firebase-kode
+feed: show
+date: 29-01-2025
+---
+
 For å holde Firebase-koden din ryddig kan det lønne seg å dele opp de ulike Firebase-operasjonene i forskjellige js-filer. Her er et forslag til hvordan du kan organisere dette:
 
 ## firebaseconfig.js
