@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sette opp gjestekonto på en Windows 11-maskin"
+              "title": "Nettverkslab"
             }
           }
         ],
@@ -180,9 +180,9 @@
   },
   "active": "206741aaa0cd46ad",
   "lastOpenFiles": [
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "assets/img/nettverkslab/datalab.png",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
     "assets/img/nettverkslab/guestlogin.png",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette gjestebruker i Windows via Powershell.md",
     "_notes/Public/Utvikling/Jekyll/Opprett en ny Jekyll-webside på din datamaskin.md",
