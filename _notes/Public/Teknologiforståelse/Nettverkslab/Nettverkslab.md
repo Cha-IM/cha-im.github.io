@@ -7,8 +7,8 @@ date: 19-03-2024
 *Bilde generert av Microsoft Copilot*
 
 1. [[Sette opp nettverk med Unifi-ruter]]
-2. [[Endre Internett-innstillinger i Unifi-controller]]
-3. [[Få tilgang til Azure studentkonto]]
-4. [[Sette opp Active Directory]]
-5. [[Sette opp gjestekonto på en Windows 11-maskin]]
-6. [[Opprette gjestebruker i Windows via Powershell]]
+		1. [[Endre Internett-innstillinger i Unifi-controller]]
+2. [[Få tilgang til Azure studentkonto]]
+3. [[Sette opp Active Directory]]
+4. [[Sette opp gjestekonto på en Windows 11-maskin]]
+		1. [[Opprette gjestebruker i Windows via Powershell]]
