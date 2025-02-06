@@ -4,6 +4,7 @@ feed: show
 date: 06-02-2025
 ---
 ![](/assets/img/nettverkslab/guestlogin.png)
+*Bilde generert av Microsoft Copilot*
 
 Hvis vi vil tillate at gjester kan bruke datalaben, eller at elever kan bytte plass på ulike prosjekter, må vi sette opp gjestekontoer, slik at alle kan bruke hvilken som helst datamaskin uten å endre innstillinger eller få tilgang til filene til den som sitter på plassen til vanlig.
 
@@ -16,6 +17,8 @@ Det er to måter å gjøre dette, avhengig av om datamaskinen er meldt inn i et 
 
 ---
 ![](/assets/img/nettverkslab/guestaccount.png)
+*Bilde generert av Microsoft Copilot*
+
 ### 1: Sette opp en gjestekonto uten passord på en vanlig Windows 11-klient (ikke meldt inn i et domene)
 
 1. **Åpne Innstillinger**:
