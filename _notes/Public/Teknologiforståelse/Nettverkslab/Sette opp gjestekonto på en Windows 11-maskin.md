@@ -12,8 +12,8 @@ Det er to måter å gjøre dette, avhengig av om datamaskinen er meldt inn i et 
 
 ---
 ### Innhold
-1. Sette opp en gjestekonto uten passord på en vanlig Windows 11-klient (ikke meldt inn i et domene)
-2. Sette opp en gjestekonto uten passord på en Windows 11-klient meldt inn i et Windows Server domene
+1. **Sette opp en gjestekonto uten passord på en vanlig Windows 11-klient (ikke meldt inn i et domene)**
+2. **Sette opp en gjestekonto uten passord på en Windows 11-klient meldt inn i et Windows Server domene**
 
 ---
 ![](/assets/img/nettverkslab/guestaccount.png)
