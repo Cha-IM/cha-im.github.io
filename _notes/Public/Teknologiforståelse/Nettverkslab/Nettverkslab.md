@@ -11,4 +11,3 @@ date: 19-03-2024
 3. [[Få tilgang til Azure studentkonto]]
 4. [[Sette opp Active Directory]]
 5. [[Sette opp gjestekonto på en Windows 11-maskin]]
-6. [[Opprette gjestebruker i Windows via Powershell]]
