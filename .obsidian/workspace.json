@@ -13,31 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
+                "file": "pages/Teknologiforståelse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sette opp nettverk med Unifi-ruter"
-            }
-          },
-          {
-            "id": "206741aaa0cd46ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sette opp gjestekonto på en Windows 11-maskin"
+              "title": "Teknologiforståelse"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -56,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -179,12 +164,23 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "206741aaa0cd46ad",
+  "active": "e36c91ac470d59be",
   "lastOpenFiles": [
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Endre Internett-innstillinger i Unifi-controller.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
+    "_notes/Public/Teknologiforståelse/Teknologiforståelse.md",
+    "pages/Teknologiforståelse.md",
+    "pages/posts.md",
+    "pages/notes.md",
+    "pages/lists.md",
+    "pages/index.md",
+    "pages/404.md",
+    "README.md",
+    "2.md",
+    "_posts/2020-03-01-features.md",
+    "_posts/2020-03-01-how-to.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Endre Internett-innstillinger i Unifi-controller.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "assets/img/nettverkslab/datalab.png",
     "assets/img/nettverkslab/guestlogin.png",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette gjestebruker i Windows via Powershell.md",
@@ -195,26 +191,16 @@
     "_notes/Public/Utvikling/Jekyll/Endre CSS-koden til bloggen din.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Få tilgang til Azure studentkonto.md",
     "assets/img/nettverkslab/guestaccount.png",
-    "2.md",
     "_notes/Public/Teknologiforståelse/Bærekraftig utvikling/Bærekraftig utvikling.md",
     "_notes/Public/Utvikling/Firebase/Organisering av Firebase-kode.md",
     "_notes/Public/Utvikling/Firebase/Firebase.md",
     "_notes/Public/Teknologiforståelse/Personvern/Personopplysningsloven og GDPR.md",
-    "_notes/Public/Utvikling/HTML og CSS/CSS-mal.md",
     "_notes/Public/Teknologiforståelse/Personvern",
-    "_notes/Public/Utvikling/HTML og CSS/HTML og CSS.md",
-    "_notes/Public/Utvikling/HTML og CSS/Eksempel på en websidelayout med posisjonerte elementer.md",
-    "_notes/Public/Utvikling/HTML og CSS/Hvordan midtstille elementer i en div enklest mulig.md",
-    "_notes/Public/Utvikling/HTML og CSS/CSS-klasser for mer effektiv styling.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/Twitter-klone i Express.js.md",
     "assets/img/nettverkslab/onecomforward.png",
     "assets/img/nettverkslab",
     "assets/img/rightclickstartmenu.png",
     "assets/img/rightclickstartmenu.png.sb-2d1ed743-rL0iTv",
     "assets/img/PowerShellScripting.jpg",
-    "_notes/Public/Utvikling/Node.js og Express.js/Node.js og Express.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/Forklaring av koden for å håndtere innlegg i Twitter-klonen.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/Express Generator.md",
     "_notes/Public/Utvikling/Node.js og Express.js",
     "assets/img/IM_Discord.jpg",
     "assets/img/moon.svg",
