@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Teknologiforståelse.md",
+                "file": "2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Teknologiforståelse"
+              "title": "2"
             }
           }
         ]
@@ -166,14 +166,14 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
-    "_notes/Public/Teknologiforståelse/Teknologiforståelse.md",
+    "README.md",
     "pages/Teknologiforståelse.md",
+    "_notes/Public/Teknologiforståelse/Teknologiforståelse.md",
     "pages/posts.md",
     "pages/notes.md",
     "pages/lists.md",
     "pages/index.md",
     "pages/404.md",
-    "README.md",
     "2.md",
     "_posts/2020-03-01-features.md",
     "_posts/2020-03-01-how-to.md",
