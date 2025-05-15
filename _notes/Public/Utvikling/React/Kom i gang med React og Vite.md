@@ -128,11 +128,9 @@ Her er et eksempel på en .jsx-fil:
 //Hei.jsx
 
 function Hei() {
-
-	const navn = "Aurora";
 	
 	return(
-		<h1>Hei {navn}</h1>
+		<h1>Hei verden!</h1>
 	);
 	
 }
