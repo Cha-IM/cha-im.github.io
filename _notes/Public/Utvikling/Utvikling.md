@@ -14,3 +14,4 @@ date: 19-03-2024
 - [[Github]]
 - [[Tailwind CSS]]
 - [[JSON]] 
+- [[React]]
