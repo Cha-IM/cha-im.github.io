@@ -29,19 +29,17 @@ Denne komponenten returnerer en `<h1>`-overskrift. Den kan brukes hvor som helst
 
 ---
 
-### 🔌 Hvordan bruke en komponent?
+### Hvordan bruke en komponent?
 
 For å bruke `Hilsen`-komponenten i prosjektet ditt, må du først importere den i en annen komponent, for eksempel i `App.jsx`:
 
 ```jsx
-import Hilsen from './Hilsen';
+import Hilsen from './components/Hilsen';
 
 function App() {
   return (
 	<>
-	    <div>
-	      <Hilsen />
-	    </div>
+		<Hilsen />
     </>
   );
   
@@ -50,39 +48,43 @@ function App() {
 export default App;
 ```
 
-Når vi bruker komponenter må vi starte og avslutte return-funksjonen med en tom HTML-tagg (`<>` og `</>`), slik som i eksempelet. Legg merke til at komponenter **må ha stor forbokstav**, og at man bruker dem som HTML-tagger uten avslutningstagg, slik: `<Hilsen />`.
+Inni `return` må alt vi viser være pakket inn i ett HTML-element. For å slippe å bruke unødvendige `<div>`-er, kan vi bruke tomme tagger: `<>` og `</>`, slik som i eksempelet. Dette kalles et _fragment_.
+
+Legg merke til at komponenter **må ha stor forbokstav**, og at man bruker dem som HTML-tagger uten avslutningstagg, slik: `<Hilsen />`.
 
 ---
 
-### Lage flere komponenter
+### Sette sammen flere komponenter
 
-Du kan lage mange forskjellige komponenter. For eksempel:
+Du kan sette sammen flere forskjellige komponenter i en fil. På denne måten kan komponenter fungere som en slags mal for elementer på en nettside. For eksempel kan vi lage en header-komponent som kan legges øverst på alle nettsider:
 
 ```jsx
-// Oppskrift.jsx
+// Header.jsx
 
-function Oppskrift() {
+function Header() {
   return (
-    <div>
-      <h2>Pannekaker</h2>
-      <p>Ingredienser: Melk, mel, egg</p>
-    </div>
+    <>
+      <h1>KOKEBOKA.NO</h1>
+      <h2>De beste norske oppskriftene</h2>
+    </>
   );
 }
 
-export default Oppskrift;
+export default Header;
 ```
 
-Og bruke den slik:
+Og bruke den sammen med andre komponenter, slik:
 
 ```jsx
-import Oppskrift from './Oppskrift';
+import Header from './components/Header';
+import Hilsen from './components/Hilsen';
 
 function App() {
   return (
-    <div>
-      <Oppskrift />
-    </div>
+    <>
+      <Header />
+      <Hilsen />
+    </>
   );
 }
 ```
@@ -97,7 +99,7 @@ Lag en egen mappe i `src` som heter `components`, og lagre komponentene der. Eks
 src/
 ├── components/
 │   ├── Hilsen.jsx
-│   └── Oppskrift.jsx
+│   └── Header.jsx
 ├── App.jsx
 └── main.jsx
 ```

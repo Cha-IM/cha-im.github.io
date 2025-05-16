@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/React/React.md",
+                "file": "_notes/Public/Utvikling/React/Komponenter i React.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React"
+              "title": "Komponenter i React"
             }
           }
         ]
@@ -166,8 +166,8 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
-    "_notes/Public/Utvikling/React/Komponenter i React.md",
     "_notes/Public/Utvikling/React/Props – sende data til komponenter.md",
+    "_notes/Public/Utvikling/React/Komponenter i React.md",
     "_notes/Public/Utvikling/React/React.md",
     "_notes/Public/Utvikling/React/State – lagre og endre data i komponenter.md",
     "_notes/Public/Utvikling/React/Kom i gang med React og Vite.md",
