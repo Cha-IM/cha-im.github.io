@@ -89,6 +89,8 @@ function App() {
 }
 ```
 
+Da vil du få en nettside som har headeren øverst, og hilsenen (Hei verden!) under.
+
 ---
 
 ### Hvor skal komponenter lagres?

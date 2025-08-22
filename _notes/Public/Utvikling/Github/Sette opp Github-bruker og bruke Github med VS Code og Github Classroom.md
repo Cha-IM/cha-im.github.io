@@ -58,7 +58,8 @@ feed: show
 
 3. **Installer GitHub-utvidelsen i VS Code:**
    - Klikk på "Extensions"-ikonet på venstre side i VS Code.
-   - Søk etter "GitHub" og installer den offisielle GitHub-utvidelsen. Dette vil gi deg ekstra funksjonalitet for å jobbe med GitHub-repositorier direkte i VS Code.
+   - Søk etter "[GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) " og installer den offisielle GitHub-utvidelsen. Dette vil gi deg ekstra funksjonalitet for å jobbe med GitHub-repositorier direkte i VS Code.
+2. Du vil nå få et nytt ikon i VS Code-menyen til venstre med bilde av Github-maskoten "Octocat". Klikk på den og logg inn på GitHub.
 
 ## 5. Bruke GitHub i VS Code via Version Control-menyen
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i_23KUAEtUM?si=362WP_klYbD_LAMq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
