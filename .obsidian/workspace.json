@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/Github/Sette opp Github-bruker og bruke Github med VS Code og Github Classroom.md",
+                "file": "_notes/Public/Utvikling/HTML og CSS/HTML og CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sette opp Github-bruker og bruke Github med VS Code og Github Classroom"
+              "title": "HTML og CSS"
             }
           }
         ]
@@ -167,6 +167,7 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
+    "_notes/Public/Utvikling/Github/Sette opp Github-bruker og bruke Github med VS Code og Github Classroom.md",
     "_posts/2020-03-01-features.md",
     "_posts/2020-03-01-how-to.md",
     "pages/Teknologiforståelse.md",
@@ -197,7 +198,6 @@
     "pages/404.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Endre Internett-innstillinger i Unifi-controller.md",
     "assets/img/nettverkslab/datalab.png",
     "assets/img/nettverkslab/guestlogin.png",
     "assets/img/nettverkslab/guestaccount.png",

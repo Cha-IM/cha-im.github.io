@@ -18,4 +18,4 @@ date: 19-09-2024
 11. [[CSS-klasser for mer effektiv styling]]
 
 ## Nyttige lenker
-- [CSS Flexbox Layout Guide (css-tricks.com)]([CSS Flexbox Layout Guide | CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)) (med plakat som kan skrives ut)
+- [CSS Flexbox Layout Guide (css-tricks.com)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (med plakat som kan skrives ut)
