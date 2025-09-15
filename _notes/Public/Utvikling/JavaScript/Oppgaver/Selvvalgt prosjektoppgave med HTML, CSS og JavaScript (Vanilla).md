@@ -1,5 +1,5 @@
 ---
-title: Oppgaveliste-app
+title: Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla)
 feed: show
 date: 15-09-2025
 ---
