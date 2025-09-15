@@ -1,3 +1,8 @@
+---
+title: Dokumentasjon
+feed: hide
+date: 15-09-2025
+---
 
 Når vi lager programvare eller nettsider, er det ikke nok å bare skrive koden. Vi må også kunne **dokumentere** det vi lager. Dokumentasjon betyr å beskrive arbeidet på en måte som andre (og du selv senere) kan forstå.
 
