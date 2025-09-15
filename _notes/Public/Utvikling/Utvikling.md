@@ -4,7 +4,7 @@ feed: hide
 date: 19-03-2024
 ---
 
-
+* [[Dokumentasjon]]
 - [[HTML og CSS]]
 - [[JavaScript]]
 - [[Firebase]]
