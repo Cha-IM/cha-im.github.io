@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/HTML og CSS/HTML og CSS.md",
+                "file": "_notes/Public/Utvikling/JavaScript/Oppgaver/Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML og CSS"
+              "title": "Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla)"
             }
           }
         ]
@@ -167,6 +167,21 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
+    "_notes/Public/Utvikling/JavaScript/Vanilla JavaScript/JavaScript Cheat Sheet.md",
+    "_notes/Public/Utvikling/JavaScript/JavaScript.md",
+    "_notes/Public/Utvikling/JavaScript/Oppgaver/Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla).md",
+    "_notes/Public/Utvikling/JavaScript/Lister (Arrays)/Slett et element fra en array.md",
+    "_notes/Public/Utvikling/JavaScript/Frameworks/Vue/Introduction to Vue.js.md",
+    "_notes/Public/Utvikling/JavaScript/DOM/DOM - Document Object Model.md",
+    "_notes/Public/Utvikling/Github/Github.md",
+    "_notes/Public/Utvikling/JavaScript/Oppgaver",
+    "_notes/Public/Utvikling/Github/Synkroniseringskonflikter i Github.md",
+    "_notes/Public/Utvikling/Github/Publisere nettsiden din via Github Pages.md",
+    "_notes/Public/Utvikling/Github/Commit til Github.md",
+    "_notes/Public/Utvikling/Github/Samarbeid i Github.md",
+    "_notes/Public/Utvikling/Github/Bruke branches på GitHub.md",
+    "_notes/Public/Utvikling/JavaScript/DOM",
+    "_notes/Public/Utvikling/HTML og CSS/HTML og CSS.md",
     "_notes/Public/Utvikling/Github/Sette opp Github-bruker og bruke Github med VS Code og Github Classroom.md",
     "_posts/2020-03-01-features.md",
     "_posts/2020-03-01-how-to.md",
@@ -182,22 +197,9 @@
     "assets/img/react/select-shell.png",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Få tilgang til Azure studentkonto.md",
-    "_notes/Public/Utvikling/Jekyll/Opprett en ny Jekyll-webside på din datamaskin.md",
-    "_notes/Public/Utvikling/Jekyll/Lag din egen blogg med Jekyll.md",
-    "_notes/Public/Utvikling/Jekyll/Installer Ruby og Jekyll.md",
     "assets/img/react/npm-infographic.png",
     "assets/img/react",
-    "2.md",
     "_notes/Public/Utvikling/React",
-    "README.md",
-    "_notes/Public/Teknologiforståelse/Teknologiforståelse.md",
-    "pages/posts.md",
-    "pages/notes.md",
-    "pages/lists.md",
-    "pages/index.md",
-    "pages/404.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
     "assets/img/nettverkslab/datalab.png",
     "assets/img/nettverkslab/guestlogin.png",
     "assets/img/nettverkslab/guestaccount.png",
