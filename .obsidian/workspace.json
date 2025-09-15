@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/Dokumentasjon/Dokumentasjon.md",
+                "file": "_notes/Public/Utvikling/Dokumentasjon/Kravspesifikasjon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dokumentasjon"
+              "title": "Kravspesifikasjon"
             }
           }
         ]
@@ -167,8 +167,8 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
-    "_notes/Public/Utvikling/Utvikling.md",
     "_notes/Public/Utvikling/Dokumentasjon/Dokumentasjon.md",
+    "_notes/Public/Utvikling/Utvikling.md",
     "_notes/Public/Utvikling/Dokumentasjon/Kommentarer i koden (JavaScript).md",
     "_notes/Public/Utvikling/Dokumentasjon/Kravspesifikasjon.md",
     "_notes/Public/Utvikling/JavaScript/Oppgaver/Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla).md",

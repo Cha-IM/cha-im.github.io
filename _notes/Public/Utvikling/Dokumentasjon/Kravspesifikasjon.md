@@ -13,13 +13,9 @@ En kravspesifikasjon er et dokument som beskriver **hva løsningen skal gjøre**
 ## Hvorfor lage en kravspesifikasjon?
 
 - Den hjelper deg å **forstå oppgaven** før du begynner å programmere.
-    
 - Den gjør det lettere å **diskutere med kunden eller oppdragsgiveren** og sørge for at dere er enige.
-    
 - Den gjør det enklere å **planlegge arbeidet**, fordi du vet hva som er viktigst å lage først.
-    
 - Den kan brukes senere for å sjekke: _“Har vi oppfylt kravene vi satte oss?”_
-    
 
 
 
@@ -33,11 +29,8 @@ Dette er krav som beskriver **hva systemet skal gjøre**.
 Eksempler:
 
 - Brukeren skal kunne logge inn med brukernavn og passord.
-    
 - En ansatt skal kunne legge inn en ny kunde i kø-listen.
-    
 - Spillet skal telle poeng for hver gang spilleren samler en mynt.
-    
 
 ### 2. Ikke-funksjonelle krav
 
@@ -45,11 +38,8 @@ Dette er krav som beskriver **hvordan systemet skal være**, eller hvilke rammer
 Eksempler:
 
 - Nettsiden skal laste inn på under 2 sekunder.
-    
 - Appen skal fungere på både mobil og PC.
-    
 - Designet skal være minimalistisk og enkelt å lese på en skjerm.
-    
 
 
 ## Må-krav og valgfrie krav
@@ -57,9 +47,7 @@ Eksempler:
 I tillegg kan man skille mellom:
 
 - **Må-krav (obligatoriske krav)** – ting som **må** være med for at systemet skal fungere.
-    
 - **Valgfrie krav (bør-/kan-krav)** – ting som er ønskelige, men ikke nødvendige. Hvis man får tid, kan man legge dem til.
-    
 
 Dette gjør det lettere å prioritere hvis dere har lite tid.
 
@@ -70,22 +58,16 @@ Når du skal lage en kravspesifikasjon, kan du følge disse stegene:
 
 1. **Beskriv prosjektet kort**  
     – Hvem er kunden, og hva skal systemet brukes til?
-    
 2. **Definer formålet og målene**  
     – Hvorfor skal løsningen lages, og hva ønsker man å oppnå?
-    
 3. **Beskriv målgruppen**  
     – Hvem skal bruke løsningen, og hva er deres behov?
-    
 4. **List opp funksjonelle krav**  
     – Hva skal brukeren kunne gjøre? (minst 3)
-    
 5. **List opp ikke-funksjonelle krav**  
     – Hvordan skal løsningen være? (minst 3)
-    
 6. **Skill mellom må-krav og valgfrie krav**  
     – Skriv gjerne i to forskjellige lister.
-    
 
 ---
 
@@ -96,19 +78,17 @@ Når du skal lage en kravspesifikasjon, kan du følge disse stegene:
 - **Funksjonelle krav (må):**
     
     - Ansatte skal kunne legge til nye kunder i listen.
-        
     - Ansatte skal kunne fjerne kunder som er ferdige.
-        
+
 - **Funksjonelle krav (valgfrie):**
     
     - Vise hvem som er neste i køen.
-        
+
 - **Ikke-funksjonelle krav:**
     
     - Løsningen skal være enkel å lese på en infoskjerm.
-        
     - Designet skal være minimalistisk.
-        
+
 
 ---
 
