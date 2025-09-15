@@ -1,5 +1,5 @@
 ---
-title: Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla)
+title: Oppgaveliste-app
 feed: show
 date: 15-09-2025
 ---
@@ -12,7 +12,7 @@ Dere har tre muligheter for å velge prosjekt:
 1. **Eget prosjekt**
     
     - Dere kan lage deres eget prosjekt basert på en idé dere har lyst til å prøve ut.
-    - Dette kan være en nettside, et spill eller et lite system dere selv finner på.'
+    - Dette kan være en nettside, et spill eller et lite system dere selv finner på.
 
 2. **Prosjekt for en kunde**
     
