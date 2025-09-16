@@ -67,7 +67,47 @@ De har et drop-in-system og ønsker en digital løsning for å holde oversikt ov
 - Designet skal være responsivt slik at det også fungerer på nettbrett/mobil.
 
 
-## Eksempeloppgave 2: _(kommer senere)_
+## Eksempeloppgave 2: Handleliste-app
 
-(Her vil det komme en ny oppgavetekst med en annen type kunde/idé.)
+En familie ønsker en enkel digital handleliste de kan bruke sammen, i stedet for gule lapper på kjøleskapet.
 
+### Funksjonelle krav (må)
+
+- Brukere skal kunne legge til nye varer i handlelisten.
+- Brukere skal kunne markere varer som "kjøpt".
+- Brukere skal kunne slette varer fra listen.
+
+### Funksjonelle krav (valgfrie)
+
+- Lagre tidligere handlelister for gjenbruk.
+- Mulighet for å legge til antall (f.eks. "3 liter melk").
+- Sortere varer i kategorier (f.eks. frukt, meieri, kjøtt).
+
+### Ikke-funksjonelle krav
+
+- Nettsiden skal ha et minimalistisk design med fokus på handlelisten.
+- Designet skal være ryddig og oversiktlig.
+- Designet skal være responsivt slik at det også fungerer på nettbrett/mobil.
+
+
+## Eksempeloppgave 3: Sportsklubben Aktiv
+
+Sportsklubben Aktiv ønsker en enkel nettside for å holde oversikt over treningene sine.
+
+### Funksjonelle krav (må)
+
+- Brukeren skal kunne legge inn treninger (dato, klokkeslett, sted).
+- Brukeren skal kunne slette treninger som ikke gjelder lenger.
+- Nettsiden skal vise en liste over kommende treninger.
+
+### Funksjonelle krav (valgfrie)
+
+- Mulighet for å redigere en trening (endre klokkeslett, sted, osv.).
+- Vise tidligere treninger.
+- Mulighet til å legge inn kamper (og filtrere på fremtidige kamper og treninger).
+
+### Ikke-funksjonelle krav
+
+- Nettsiden skal ha et minimalistisk design med fokus på treningene.
+- Designet skal være ryddig og oversiktlig.
+- Designet skal være responsivt slik at det også fungerer på nettbrett/mobil.
