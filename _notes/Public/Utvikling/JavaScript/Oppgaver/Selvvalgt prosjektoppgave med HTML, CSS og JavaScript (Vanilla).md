@@ -28,7 +28,8 @@ Dere har tre muligheter for å velge prosjekt:
 
 ## Hva dere skal levere
 
-Dere skal levere en **markdown-fil på Github** som presenterer kravspesifikasjonen deres. Denne fila skal ligge på rota i prosjektet, og hete *kravspesifikasjon.md*.
+## 1. Kravspesifikasjon
+Dere skal levere en **markdown-fil på Github** som presenterer kravspesifikasjonen deres. Denne fila skal ligge i en mappe i prosjektet/repoen som heter **docs**, og fila skal hete *kravspesifikasjon.md*.
 
 Dokumentet skal inneholde følgende punkter:
 
@@ -41,6 +42,12 @@ Dokumentet skal inneholde følgende punkter:
     - Minst 3 **funksjonelle krav** (hva løsningen skal kunne gjøre)
     - Minst 3 **ikke-funksjonelle krav** (hvordan løsningen skal være eller fungere)
 7. **(Valgfritt)**: Forslag til mulige utvidelser
+
+## 2. Designskisse
+Dere skal lage en skisse eller wireframe av hvordan nettsiden skal se ut. Dette kan lages i Figma, Canva, eller tegnes i f.eks. Photoshop, Illustrator, Paint, eller på ark. Skissen skal lastes opp i prosjekt-repoet, i **docs**-mappa.
+
+## 3. Nettside/applikasjon
+Dere skal lage en dynamisk nettside som oppfyller kravene i kravspesifikasjonen (se eksempeloppgavene). Denne skal leveres i prosjekt-repoet.
 
 
 ## Eksempeloppgave 1: _Fin Sveis AS_
