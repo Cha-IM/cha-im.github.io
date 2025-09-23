@@ -9,10 +9,8 @@ date: 23-09-2025
 Når vi lager nettsider, kan det noen ganger være nyttig å lagre informasjon slik at den ikke forsvinner når vi laster siden på nytt.  
 For eksempel:
 
-- Huske brukernavn til en elev som har logget inn.
-    
+* Huske brukernavn til en elev som har logget inn.
 - Huske hvilken bakgrunnsfarge brukeren har valgt.
-    
 
 Til dette kan vi bruke **`localStorage`**, som er en del av nettleseren.
 
@@ -21,11 +19,8 @@ Til dette kan vi bruke **`localStorage`**, som er en del av nettleseren.
 ## Viktige egenskaper
 
 - `localStorage` lagrer data **lokalt i nettleseren**.
-    
 - Dataen blir liggende der selv om du lukker nettleseren eller skrur av PC-en.
-    
 - Den lagrer **alltid som tekst (string)**.
-    
 
 ---
 
@@ -41,9 +36,7 @@ Her lagres teksten `"Ola"` med nøkkelen `"navn"`.
 Tenk på det som en merkelapp og en verdi:
 
 - **nøkkel (key):** "navn"
-    
 - **verdi (value):** "Ola"
-    
 
 ---
 
@@ -75,7 +68,6 @@ localStorage.clear();
 ## Viktig å huske
 
 - Alt lagres som tekst, selv om du skriver inn et tall:
-    
 
 ```js
 localStorage.setItem("alder", 16);
@@ -84,5 +76,4 @@ console.log(alder); // Skriver "16" (som tekst, ikke tall)
 ```
 
 - Senere skal vi lære å lagre mer kompliserte ting som lister og objekter, men da trenger vi **JSON**. Enn så lenge kan dere lagre enkle ting som navn, tall (som tekst), eller små innstillinger.
-    
 ---
