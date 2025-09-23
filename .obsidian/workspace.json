@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/JavaScript/Oppgaver/Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla).md",
+                "file": "_notes/Public/Utvikling/JavaScript/Lister (Arrays)/Slett et element fra en array.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla)"
+              "title": "Slett et element fra en array"
             }
           }
         ]
@@ -167,19 +167,20 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
+    "_notes/Public/Utvikling/JavaScript/Frameworks/Vue/Introduction to Vue.js.md",
+    "_notes/Public/Utvikling/JavaScript/DOM/DOM - Document Object Model.md",
+    "_notes/Public/Utvikling/JavaScript/JavaScript.md",
+    "_notes/Public/Utvikling/JavaScript/Vanilla JavaScript/localStorage.md",
+    "_notes/Public/Utvikling/JavaScript/Oppgaver/Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla).md",
     "_notes/Public/Utvikling/Github/Synkroniseringskonflikter i Github.md",
     "_notes/Public/Utvikling/Github/Samarbeid i Github.md",
     "_notes/Public/Utvikling/Utvikling.md",
-    "_notes/Public/Utvikling/JavaScript/Oppgaver/Selvvalgt prosjektoppgave med HTML, CSS og JavaScript (Vanilla).md",
     "_notes/Public/Utvikling/Dokumentasjon/Kommentarer i koden (JavaScript).md",
     "_notes/Public/Utvikling/Dokumentasjon/Dokumentasjon.md",
     "_notes/Public/Utvikling/Dokumentasjon/Kravspesifikasjon.md",
     "_notes/Public/Utvikling/Dokumentasjon",
     "_notes/Public/Utvikling/JavaScript/Vanilla JavaScript/JavaScript Cheat Sheet.md",
-    "_notes/Public/Utvikling/JavaScript/JavaScript.md",
     "_notes/Public/Utvikling/JavaScript/Lister (Arrays)/Slett et element fra en array.md",
-    "_notes/Public/Utvikling/JavaScript/Frameworks/Vue/Introduction to Vue.js.md",
-    "_notes/Public/Utvikling/JavaScript/DOM/DOM - Document Object Model.md",
     "_notes/Public/Utvikling/Github/Github.md",
     "_notes/Public/Utvikling/JavaScript/Oppgaver",
     "_notes/Public/Utvikling/Github/Publisere nettsiden din via Github Pages.md",
@@ -195,7 +196,6 @@
     "_notes/Public/Utvikling/React/React.md",
     "_notes/Public/Utvikling/React/Props – sende data til komponenter.md",
     "_notes/Public/Utvikling/React/Komponenter i React.md",
-    "_notes/Public/Utvikling/React/Kom i gang med React og Vite.md",
     "assets/img/react/vite-react-template.png",
     "assets/img/react/select-shell.png",
     "assets/img/react/npm-infographic.png",

@@ -7,3 +7,4 @@ date: 04-10-2024
 Vanlig JavaScript
 
 1. [[JavaScript Cheat Sheet]]
+2. [[localStorage]]
