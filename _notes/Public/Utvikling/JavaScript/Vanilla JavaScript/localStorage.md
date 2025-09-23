@@ -67,7 +67,7 @@ localStorage.clear();
 
 ## Viktig å huske
 
-- Alt lagres som tekst, selv om du skriver inn et tall:
+Alt lagres som tekst, selv om du skriver inn et tall:
 
 ```js
 localStorage.setItem("alder", 16);
@@ -75,5 +75,5 @@ const alder = localStorage.getItem("alder");
 console.log(alder); // Skriver "16" (som tekst, ikke tall)
 ```
 
-- Senere skal vi lære å lagre mer kompliserte ting som lister og objekter, men da trenger vi **JSON**. Enn så lenge kan dere lagre enkle ting som navn, tall (som tekst), eller små innstillinger.
----
+ Senere skal vi lære å lagre mer kompliserte ting som lister og objekter, men da trenger vi **JSON**. Enn så lenge kan dere lagre enkle ting som navn, tall (som tekst), eller små innstillinger.
+
