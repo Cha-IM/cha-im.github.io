@@ -1,6 +1,6 @@
 ---
 title: Twitter-klone i Express.js
-feed: show
+feed: hide
 date: 29-10-2024
 ---
 
