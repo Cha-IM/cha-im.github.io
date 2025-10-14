@@ -110,6 +110,8 @@ node app.js
 
 Serveren vil kjøre på [http://localhost:3000](http://localhost:3000), og du kan åpne denne adressen i nettleseren din for å se din statiske webside.
 
+Du kan stoppe webserveren ved å trykke `ctrl` + `C` inne i terminalvinduet.
+
 ### Oppsummering
 
 Du har nå satt opp en grunnleggende Express.js-applikasjon som serverer en statisk HTML-side med tilhørende CSS. Alle statiske filer (HTML, CSS, bilder, osv.) vil bli servert fra `public`-mappen, og Express håndterer dette for deg med `express.static()`-middleware.
