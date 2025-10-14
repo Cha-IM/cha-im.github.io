@@ -8,20 +8,25 @@ Du kan bruke **npx** til å generere et nytt Express.js-prosjekt med **Express G
 
 ### 1. Installer Express Generator
 
-Du kan installere Express Generator globalt på systemet ditt, eller bruke **npx** for å kjøre det uten å installere det globalt. Det anbefales å bruke **npx** for å unngå globale installasjoner. Slik gjør du det:
-
+Kjør denne koden i et terminalvindu for å installere express-generator:
 ```bash
-npx express-generator my-express-app
+npm install -g express-generator
 ```
 
-Dette vil opprette en ny mappe kalt `my-express-app` med alle nødvendige filer og mapper for et grunnleggende Express-prosjekt.
+Så oppretter du en ny Express-app med denne koden:
+
+```bash
+npx express --view=ejs my-ejs-app
+```
+
+Dette vil opprette en ny mappe kalt `my-ejs-app` med alle nødvendige filer og mapper for et grunnleggende Express-prosjekt.
 
 ### 2. Naviger til prosjektmappen
 
 Gå inn i den opprettede mappen:
 
 ```bash
-cd my-express-app
+cd my-ejs-app
 ```
 
 ### 3. Installer avhengigheter

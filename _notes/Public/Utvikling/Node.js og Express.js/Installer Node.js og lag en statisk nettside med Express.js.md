@@ -51,9 +51,13 @@ Les mer om denne koden her: [[Hva betyr koden i server.js?]]
 
 Lag en mappe som heter `public`. Dette er stedet hvor vi skal lagre alle statiske filer, som HTML, CSS, og bilder.
 
+Skriv dette i terminalen:
+
 ```bash
 mkdir public
 ```
+
+eller opprett en mappe i *Explorer*.vinduet i VS Code som du kaller **public**.
 
 ### 4. Opprett HTML og CSS
 
