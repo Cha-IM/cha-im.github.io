@@ -16,9 +16,9 @@ npm install ejs
 
 ### 2. Konfigurer Express til å bruke EJS
 
-I `server.js`-filen må du konfigurere Express til å bruke EJS som templatemotor. Du kan også fjerne den statiske serveringen av HTML-sider fra `public`-mappen, siden vi nå skal bruke `.ejs`-filer.
+I `app.js`-filen må du konfigurere Express til å bruke EJS som templatemotor. Du kan også fjerne den statiske serveringen av HTML-sider fra `public`-mappen, siden vi nå skal bruke `.ejs`-filer.
 
-Oppdater `server.js` slik:
+Oppdater `app.js` slik:
 
 ```javascript
 const express = require('express');
@@ -110,7 +110,7 @@ Dette sikrer at vi fortsatt kan bruke CSS-filen `styles.css` i `public`-mappen.
 Start serveren igjen:
 
 ```bash
-node server.js
+node app.js
 ```
 
 ### 6. Test i nettleseren
@@ -127,7 +127,7 @@ Eksempel: Du kan lage en "team"-side hvor informasjon om teammedlemmer vises dyn
 
 #### Eksempel:
 ```javascript
-// server.js
+// app.js
 const team = [
   { name: "Alice", role: "Developer" },
   { name: "Bob", role: "Designer" },
