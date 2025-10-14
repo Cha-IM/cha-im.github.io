@@ -26,10 +26,10 @@ npm install express
 
 ### 2. Opprett en grunnleggende server med Express.js
 
-I mappen din, opprett en fil som heter `server.js` eller `app.js`. Denne filen vil inneholde koden for å sette opp serveren.
+I mappen din, opprett en fil som heter `app.js`. Denne filen vil inneholde koden for å sette opp serveren.
 
 ```javascript
-// server.js
+// app.js
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -105,7 +105,7 @@ p {
 Gå tilbake til terminalen og start Express-serveren ved å kjøre følgende kommando:
 
 ```bash
-node server.js
+node app.js
 ```
 
 Serveren vil kjøre på [http://localhost:3000](http://localhost:3000), og du kan åpne denne adressen i nettleseren din for å se din statiske webside.

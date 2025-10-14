@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/Node.js og Express.js/Express Generator.md",
+                "file": "_notes/Public/Utvikling/Node.js og Express.js/Installer Node.js og lag en statisk nettside med Express.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Express Generator"
+              "title": "Installer Node.js og lag en statisk nettside med Express.js"
             }
           }
         ]
@@ -167,12 +167,12 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
-    "_notes/Public/Utvikling/Node.js og Express.js/Embedded JavaScript.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Node.js og Express.md",
+    "_notes/Public/Utvikling/Node.js og Express.js/Embedded JavaScript.md",
+    "_notes/Public/Utvikling/Node.js og Express.js/Express Generator.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Legg til flere nettsider og sett opp ruter i Express.js.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Installer Node.js og lag en statisk nettside med Express.js.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Hva betyr koden i server.js.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/Express Generator.md",
     "_notes/Public/Utvikling/JavaScript/Vanilla JavaScript/localStorage.md",
     "_notes/Public/Utvikling/JavaScript/Lister (Arrays)/Slett et element fra en array.md",
     "_notes/Public/Utvikling/JavaScript/Frameworks/Vue/Introduction to Vue.js.md",
