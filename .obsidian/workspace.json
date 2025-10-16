@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/Node.js og Express.js/Twitter-klone i Express.js.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverk/Innføring i lokale nettverk med Cisco Packet Tracer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Twitter-klone i Express.js"
+              "title": "Innføring i lokale nettverk med Cisco Packet Tracer"
             }
           }
         ]
@@ -167,6 +167,11 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
+    "_notes/Public/Teknologiforståelse/Nettverk/Mininet.md",
+    "_notes/Public/Teknologiforståelse/Nettverk/Innføring i lokale nettverk med Cisco Packet Tracer.md",
+    "_notes/Public/Teknologiforståelse/Nettverk/Nettverk.md",
+    "_notes/Public/Utvikling/Node.js og Express.js/JSON-filer i Express.md",
+    "_notes/Public/Utvikling/Node.js og Express.js/Twitter-klone i Express.js.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Node.js og Express.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Express Generator.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Embedded JavaScript.md",
@@ -190,12 +195,7 @@
     "_notes/Public/Utvikling/Github/Github.md",
     "_notes/Public/Utvikling/JavaScript/Oppgaver",
     "_notes/Public/Utvikling/Github/Publisere nettsiden din via Github Pages.md",
-    "_notes/Public/Utvikling/Github/Commit til Github.md",
-    "_notes/Public/Utvikling/Github/Bruke branches på GitHub.md",
     "_notes/Public/Utvikling/JavaScript/DOM",
-    "_notes/Public/Utvikling/HTML og CSS/HTML og CSS.md",
-    "_notes/Public/Utvikling/Github/Sette opp Github-bruker og bruke Github med VS Code og Github Classroom.md",
-    "_posts/2020-03-01-features.md",
     "assets/img/react/vite-react-template.png",
     "assets/img/react/select-shell.png",
     "assets/img/react/npm-infographic.png",
