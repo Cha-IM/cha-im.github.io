@@ -18,7 +18,7 @@ En virtuell maskin er en stimulert datamaskin som kjører virtuelt på en fysisk
 Last ned VirtualBox fra [virtualbox.org](https://www.virtualbox.org/wiki/Downloads) (klikk lenken for operativsystemet på din datamaskin, f.eks. Windows eller MacOS), og installer programmet.
 
 ## 3. Laste inn Mininet image i VirtualBox
-Når VirtualBox er installert og Mininet imaget du lastet ned i punkt 1 er ferdig nedlastet. Kan du laste imaget inn i VirtualBox. Alt du trenger å gjøre er å pakke ut zip-filen med Minniet imaget, og åpne filen som slutter på .ovf. Dette vil åpne VirtualBox og et vindu som viser deg info om imaget. Klikk på Finish for å legge den virtuelle maskinen inn i VirtualBox.
+Når VirtualBox er installert og Mininet imaget du lastet ned i punkt 1 er ferdig nedlastet. Kan du laste imaget inn i VirtualBox. Alt du trenger å gjøre er å pakke ut zip-filen med Mininet imaget, og åpne filen som slutter på .ovf. Dette vil åpne VirtualBox og et vindu som viser deg info om imaget. Klikk på Finish for å legge den virtuelle maskinen inn i VirtualBox.
 
 Før du åpner den virtuelle maskinen må du endre på skjerminnstillingene i VirtualBox slik at det er mulig å endre størrelsen på den virtuelle maskinen, da skjermen er som standard veldig liten. For å få muligheten til å gjøre vinduet større og skaleres, gå inn i VM-ens innstillinger (klikk på Minninet-VM, og det gule tannhjulet der det står **Settings**), velg **User Interface** -> **Visual state: Scaled**.
 
