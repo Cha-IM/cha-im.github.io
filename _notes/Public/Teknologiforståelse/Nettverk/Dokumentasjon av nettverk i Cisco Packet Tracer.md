@@ -14,12 +14,12 @@ Mens du jobber med kurset skal du også dokumentere nettverkene du setter opp i 
 
 Lag en mappe i [dokumentasjons-repoet ditt på Github](https://classroom.github.com/a/UVPhVCn7) som du kaller `modul-04-nettverkslab/`. I denne mappen lager du en fil som du kaller `packet-tracer-dokumentasjon.md` Lag også en undermappe som du kaller `assets/`. Hvis du har clonet repoet ditt til VS Code, kan du opprette mappene og filene direkte i *Explorer*-vinduet i VS Code. Hvis ikke kan du gjøre det direkte i github.com i nettleseren ved å klikke på **+**-tegnet ved siden av den grønne **Code**-knappen.
 
-![Skjermbilde av Github-repo på github.com](assets/img/packettracer/github-new-file.png)
+![Skjermbilde av Github-repo på github.com](/assets/img/packettracer/github-new-file.png)
 ### Tips: Lag en ny mappe direkte i nettleseren
 
 For å lage en ny mappe avslutter du mappenavnet med *skråstrek*, slik: `modul-04-nettverkslab/`. Da kommer det opp et nytt tekstfelt for å lage en ny fil i den nye mappa. Du må lage en ny fil, så det enkleste er å bare lage en `readme.md`-fil i den nye mappa.
 
-![](assets/img/packettracer/github-new-folder.gif)
+![](/assets/img/packettracer/github-new-folder.gif)
 
 
 ## Dokumentasjon av kontornettverk i Cisco Packet Tracer
