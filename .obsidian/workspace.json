@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp Active Directory.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sette opp Active Directory"
+              "title": "Nettverkslab"
             }
           }
         ]
@@ -167,6 +167,8 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp filserver på Windows Server.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp Active Directory.md",
     "_notes/Public/Teknologiforståelse/Nettverk/Dokumentasjon av nettverk i Cisco Packet Tracer.md",
     "assets/img/packettracer/github-new-folder.gif",
     "assets/img/packettracer/github-new-file.png",
@@ -196,7 +198,6 @@
     "_notes/Public/Utvikling/Github/Synkroniseringskonflikter i Github.md",
     "_notes/Public/Utvikling/Github/Samarbeid i Github.md",
     "_notes/Public/Utvikling/Utvikling.md",
-    "_notes/Public/Utvikling/Dokumentasjon/Kommentarer i koden (JavaScript).md",
     "_notes/Public/Utvikling/Dokumentasjon",
     "_notes/Public/Utvikling/JavaScript/Oppgaver",
     "_notes/Public/Utvikling/JavaScript/DOM",
