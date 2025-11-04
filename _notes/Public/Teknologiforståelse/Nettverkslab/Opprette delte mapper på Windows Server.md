@@ -82,3 +82,84 @@ Eller via File Explorer:
 - Høyreklikk på "Denne PC-en" → **Koble til nettverksstasjon**
 
 ---
+
+## Sette hjemmemappe for mange brukere samtidig
+
+For å sette **hjemmemapper for mange brukere samtidig** via **Group Policy (GPO)**, må du bruke en kombinasjon av **Active Directory** og **Group Policy Preferences**. Her er en trinnvis guide:
+
+---
+
+## 🧭 Fremgangsmåte: Hjemmemapper via GPO
+
+### 🔹 1. Forbered delt mappe på filserveren
+
+- Opprett en mappe, f.eks. `D:\HomeFolders`
+- Del den som `Home$` (skjult deling)
+- Gi NTFS-rettigheter:
+    - **Domain Users**: `Create folders / append data`
+    - **CREATOR OWNER**: `Full Control`
+
+---
+
+### 🔹 2. Bruk Group Policy til å tilordne hjemmemapper
+
+#### 📍 Steg 1: Åpne Group Policy Management Console (GPMC)
+
+- På en domenekontroller: Start **Group Policy Management**
+
+#### 📍 Steg 2: Opprett eller rediger en GPO
+
+- Høyreklikk på ønsket OU (f.eks. `Elever`) → **Create a GPO**
+- Gi den et navn, f.eks. `Hjemmemapper-elever`
+
+#### 📍 Steg 3: Konfigurer Drive Mapping
+
+1. Gå til: User Configuration → Preferences → Windows Settings → Drive Maps
+2. Høyreklikk → **New → Mapped Drive**
+3. Sett følgende:
+    - **Action**: `Create`
+    - **Location**: `\\Filserver\Home$\%username%`
+    - **Drive Letter**: f.eks. `H:`
+    - **Label**: `Hjemmemappe`
+    - Huk av for **Reconnect**
+
+#### 📍 Steg 4: Aktiver hjemmemappeoppretting
+
+- Sørg for at brukere har rettigheter til å opprette sin egen mappe.
+- Alternativt: Opprett mappene manuelt eller med PowerShell.
+
+---
+
+### 🔹 3. Alternativ: Bruk PowerShell for å opprette mappene
+
+$users = Get-ADUser -Filter * -SearchBase "OU=Elever,DC=domene,DC=no"
+
+foreach ($user in $users) {
+
+    $folder = "D:\HomeFolders\" + $user.SamAccountName
+
+    New-Item -ItemType Directory -Path $folder
+
+    $acl = Get-Acl $folder
+
+    $rule = New-Object System.Security.AccessControl.FileSystemAccessRule($user.SamAccountName, "FullControl", "ContainerInherit,ObjectInherit", "None", "Allow")
+
+    $acl.AddAccessRule($rule)
+
+    Set-Acl $folder $acl
+
+}
+
+---
+
+## ✅ Resultat
+
+Når brukeren logger inn:
+
+- GPO tilordner `H:`-stasjonen til `\\Filserver\Home$\brukernavn`
+- Mappen opprettes automatisk (hvis tillatelser er riktig satt)
+- Brukeren får tilgang til sin egen private mappe
+
+---
+
+Vil du at jeg skal lage et ferdig PowerShell-skript og GPO-mal du kan bruke i undervisning?
