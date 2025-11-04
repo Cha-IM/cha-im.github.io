@@ -3,7 +3,7 @@ title: Sette opp filserver på Windows Server
 feed: show
 date: 04-11-2025
 ---
-
+*NB: Denne artikkelen er skrevet av en KI-chatbot, og ikke kvalitetssikret. Den kan inneholde feil. Ta kontakt hvis du oppdager feil.*
 
 Her er en komplett guide for å sette opp en **filserver på Windows Server** og konfigurere **hjemmemapper for brukere via Active Directory (AD)**, slik at brukere automatisk får tilgang til sin egen nettverksmappe ved pålogging.
 
