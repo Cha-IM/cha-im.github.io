@@ -72,6 +72,7 @@ Her er en komplett guide for å sette opp en **filserver på Windows Server** og
 
 Eksempel PowerShell:
 
+```shell
 Get-ADUser -Filter * -SearchBase "OU=Brukere,DC=eksempel,DC=no" | ForEach-Object {
 
     $homeDir = "\Filserver\Home$\" + $_.SamAccountName_
@@ -79,7 +80,7 @@ Get-ADUser -Filter * -SearchBase "OU=Brukere,DC=eksempel,DC=no" | ForEach-Object
     _Set-ADUser $_ -HomeDirectory $homeDir -HomeDrive "H:"
 
 }
-
+```
 ---
 
 ## 🧪 Test
