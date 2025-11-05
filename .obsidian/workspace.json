@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Fullstendig nettverksoppsett med Windows Server, sjekkliste.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nettverkslab"
+              "title": "Fullstendig nettverksoppsett med Windows Server, sjekkliste"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Fullstendig nettverksoppsett med Windows Server, sjekkliste.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nettverkslab"
+              "title": "Backlinks for Fullstendig nettverksoppsett med Windows Server, sjekkliste"
             }
           },
           {
@@ -167,11 +167,11 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Fullstendig nettverksoppsett med Windows Server, sjekkliste.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette delte mapper på Windows Server.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab v2.0",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp filserver på Windows Server.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp Active Directory.md",
     "_notes/Public/Teknologiforståelse/Nettverk/Dokumentasjon av nettverk i Cisco Packet Tracer.md",

@@ -38,6 +38,7 @@ date: 05-11-2025
 
 
 > **Neste punkt kan gjøres på to måter, 3a ELLER 3b**
+
 ### 3a. Installasjon av Unifi Controller på en virtuell Ubuntu Server
 1. Installer Hyper-V-tjenesten på Windows Server 2025 (husk å sette opp virtuell switch koblet til fysisk nettverkskort)
 2. Opprett en virtuell maskin i Hyper-V med Ubuntu Server 24.04 
