@@ -14,5 +14,6 @@ date: 19-03-2024
 6. [[Opprette delte mapper på Windows Server]]*
 7. [[Sette opp gjestekonto på en Windows 11-maskin]]
 
+*Preview*: [[Fullstendig nettverksoppsett med Windows Server, sjekkliste]]
 
 *(lenker markert med * markerer artikler som er skrevet av en KI-chatbot, og er ikke kvalitetssikret)*

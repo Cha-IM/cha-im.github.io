@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Fullstendig nettverksoppsett med Windows Server, sjekkliste.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fullstendig nettverksoppsett med Windows Server, sjekkliste"
+              "title": "Nettverkslab"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5,
-    "collapsed": true
+    "width": 270.5
   },
   "right": {
     "id": "c8bdf11215bcd1eb",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Fullstendig nettverksoppsett med Windows Server, sjekkliste.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Fullstendig nettverksoppsett med Windows Server, sjekkliste"
+              "title": "Backlinks for Nettverkslab"
             }
           },
           {
@@ -168,8 +167,8 @@
   },
   "active": "e36c91ac470d59be",
   "lastOpenFiles": [
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette delte mapper på Windows Server.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Fullstendig nettverksoppsett med Windows Server, sjekkliste.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette delte mapper på Windows Server.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab v2.0",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp filserver på Windows Server.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
