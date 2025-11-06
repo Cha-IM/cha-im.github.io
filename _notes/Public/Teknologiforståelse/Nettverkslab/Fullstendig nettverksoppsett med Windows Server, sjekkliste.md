@@ -7,11 +7,11 @@ date: 05-11-2025
 ## Nødvendig utstyr
 - 2 PC-er med skjerm, tastatur og mus (en klient og en server)
 - Unifi router
-- Switch
+- Unifi switch
 - Minnepenn
 
 ## Programvare/filer
-- Rufus (prgramvare for å lage oppstartsmedium)
+- Rufus (programvare for å lage oppstartsmedium)
 - ISO-fil med Windows Server 2025
 - ISO-fil med Windows 11
 - ISO-fil med Ubuntu Server 24.04
@@ -19,15 +19,15 @@ date: 05-11-2025
 ## Fremgangsmåte
 
 ### 1. Installer Windows Server
-
 1. Gjør minnepinnen til oppstartsmedium for Windows Server 2025 vha Rufus
-2. Installer Windows Server på den ene PC-en
-	1. Lag en partisjon som bruker all tilgjengelig plass på harddisken
-3. Når Windows server er installert:
+2. Sjekk at virtualisering er aktivert i BIOS på server-PC-en ([])
+3. Installer Windows Server på den ene PC-en
+	1. Lag to partisjoner; 
+		1. En partisjon (C:) på 100-150 GB for operativsystemet og evt tjenester
+		2. En partisjon (D:) for resten av den tilgjengelige plassen for å lagre VM-er og data
+4. Når Windows server er installert:
 	1. Endre maskinnavn til noe enkelt, f.eks. `Labserver`
 	2. Still klokka på serveren (Tidssone UTC+0100)
-	3. Sett statisk IP-adresse `192.168.1.10` på serverens nettverkskort.
-		1. Snarvei til Network Connections: <kbd>Win</kbd> + <kbd>R</kbd> <span>&rarr;</span> `ncpa.cpl`
 
 ### 2. Basisoppsett av Unifi-ruter
 1. Koble Windows Server-PC-en til Unifi-ruterens LAN-port og koble ruterens WAN-port til nettverkspunktet i veggen
@@ -35,6 +35,8 @@ date: 05-11-2025
 3. Koble til ruteren ved å skrive default gateway-adressen inn i nettleser på Windows serveren.
 4. Kjør basisoppsett på Unifi-ruteren så du får nett
 	1. Om labnettverket er satt opp med DHCP, trenger du ikke statisk IP-adresse på WAN-siden, men du kan velge DHCP (snakk med lærer/nettverksadmin om du er usikker).
+5. På Windows Server; sett statisk IP-adresse `192.168.1.10` på serverens nettverkskort.
+	1. Snarvei til Network Connections: <kbd>Win</kbd> + <kbd>R</kbd> <span>&rarr;</span> `ncpa.cpl`
 
 
 > **Neste punkt kan gjøres på to måter, 3a ELLER 3b**
