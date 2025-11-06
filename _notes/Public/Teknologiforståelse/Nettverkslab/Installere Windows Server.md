@@ -5,12 +5,12 @@ date: 06-11-2025
 ---
 
 ## Steg 1: Hent ISO fil fra Azure
-Gå til https://azure.com og logg inn med din Chamedia.no bruker.
+Gå til [Azure](https://azure.com) og logg inn med din Chamedia.no bruker.
 Naviger til Education -> Learning Resources -> Software og finn 'Windows Server 2025'.
 Last ned denne versjonen av Windows Server.
 
 ## Steg 2: Last ned Rufus
-Gå til https://rufus.ie/nb/#download og last ned nyeste versjonen av Rufus.
+Gå til [Rufus](https://rufus.ie/nb/#download) og last ned nyeste versjonen av Rufus.
 
 ## Steg 3: Legg til ISO filen til en USB
 1. Sett en USB penn i PC'en din.
