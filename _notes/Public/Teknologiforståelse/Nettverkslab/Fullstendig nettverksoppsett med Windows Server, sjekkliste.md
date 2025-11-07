@@ -76,10 +76,27 @@ date: 05-11-2025
 ### 6. Sette opp AD, DNS og DHCP
 
 > Dette kan gjøres på to måter: 
-> 1. Alle servertjenester installeres på Windows serveren du har installert, eller 
-> 2. Sett opp virtuelle servere, med AD og DNS på en server, og DHCP på en annen server. Dette er regnet som beste praksis i produksjonsmiljøer, da det er mer stabilt å kjøre tjenester separat fra hverandre. Ulempen er at du trenger lisensnøkler for hver enkelt av Windows Server VM-instansene (med mindre du har tilgang til Windows server Datacenter Edition).
 
-### 7. Sette opp andre tjenester
+a. Alle servertjenester installeres på Windows serveren du har installert, eller 
+
+b. Sett opp virtuelle servere, med AD og DNS på en server, og DHCP på en annen server. Dette er regnet som beste praksis i produksjonsmiljøer, da det er mer stabilt å kjøre tjenester separat fra hverandre. Ulempen er at du trenger lisensnøkler for hver enkelt av Windows Server VM-instansene (med mindre du har tilgang til Windows server Datacenter Edition).
+
+### 7. Serveroppsett med virtualisert tjenestearkitektur
+Det kan være en fordel å separere de enkelte tjenestene i hver sin virtuelle maskin. Dette kan gi mer stabil drift, da feil på en tjeneste ikke vil føre til problemer for hele serveren.
+
+Om du har satt opp AD, DNS og DHCP på den fysiske serveren din, kan du beholde AD og DNS på den fysiske serveren, men DHCP bør flyttes over på en virtuell server. Dette reduserer risikoen for at serveren går ned pga DHCP-feil.
+
+1. Installer Hyper-V-tjenesten om du ikke har gjort det allerede. Husk å angi at det fysiske nettverkskortet skal fundere som en virtuell switch (Dette er en del av installasjonen).
+2. Opprett en VM som du kaller **DHCP01** og installer Windows Server 2025 på denne.
+	- Du kan laste ned en gratis ISO-fil med Windows Server 2025 fra [Microsoft Evaluation Center](https://info.microsoft.com/ww-landing-evaluate-windows-server-2025.html?lcid=en-us&culture=en-us&country=us) (fyll ut skjemaet og klikk på **Download**). Dette er en evalueringsversjon som kan brukes gratis i 180 dager.
+3. Sett en statisk IP-adresse på den virtuelle serveren (f.eks. `192.168.1.11`)
+4. Deaktiver DHCP på den fysiske serveren
+5. Installer DHCP-tjenesten på den virtuelle serveren
+6. Lag en ny Virtuell maskin som du kaller **FS01** og installer Windows Server 2025.
+7. Sett en statisk IP-adresse på denne virtuelle serveren (f.eks. `192.168.1.12`)
+8. [[Sette opp filserver på Windows Server|Sett opp en filserver på denne virtuelle maskinen]]
+
+### 8. Sette opp andre tjenester
 > Alle tjenester som skal være tilgjengelig i nettverket kan nå installeres på VM-er på serveren. Her er et eksempel på oppsett med Hyper-V.
 
 
