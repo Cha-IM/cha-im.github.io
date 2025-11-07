@@ -22,21 +22,20 @@ date: 05-11-2025
 1. Gjør minnepinnen til oppstartsmedium for Windows Server 2025 vha Rufus
 2. Sjekk at virtualisering er aktivert i BIOS på server-PC-en ([])
 3. Installer Windows Server på den ene PC-en
-	1. Lag to partisjoner; 
-		1. En partisjon (C:) på 100-150 GB for operativsystemet og evt tjenester
-		2. En partisjon (D:) for resten av den tilgjengelige plassen for å lagre VM-er og data
+	- Lag to partisjoner; 
+		- En partisjon (C:) på 100-150 GB for operativsystemet og evt tjenester
+		- En partisjon (D:) for resten av den tilgjengelige plassen for å lagre VM-er og data
 4. Når Windows server er installert:
-	1. Endre maskinnavn til noe enkelt, f.eks. `Labserver`
-	2. Still klokka på serveren (Tidssone UTC+0100)
+	- Endre maskinnavn til noe enkelt, f.eks. `Labserver`
+	- Still klokka på serveren (Tidssone UTC+0100)
 
 ### 2. Basisoppsett av Unifi-ruter
 1. Koble Windows Server-PC-en til Unifi-ruterens LAN-port og koble ruterens WAN-port til nettverkspunktet i veggen
 2. Resett Unifi-ruteren
 3. Koble til ruteren ved å skrive default gateway-adressen inn i nettleser på Windows serveren.
 4. Kjør basisoppsett på Unifi-ruteren så du får nett
-	1. Om labnettverket er satt opp med DHCP, trenger du ikke statisk IP-adresse på WAN-siden, men du kan velge DHCP (snakk med lærer/nettverksadmin om du er usikker).
-5. På Windows Server; sett statisk IP-adresse `192.168.1.10` på serverens nettverkskort.
-	1. Snarvei til Network Connections: <kbd>Win</kbd> + <kbd>R</kbd> <span>&rarr;</span> `ncpa.cpl`
+	- Om labnettverket er satt opp med DHCP, trenger du ikke statisk IP-adresse på WAN-siden, men du kan velge DHCP (snakk med lærer/nettverksadmin om du er usikker).
+5. På Windows Server; sett statisk IP-adresse `192.168.1.10` på serverens nettverkskort. (Snarvei til Network Connections: Trykk <kbd>Win</kbd> + <kbd>R</kbd> på tastaturet og skriv inn `ncpa.cpl`, trykk <kbd>Enter</kbd>)
 
 
 > **Neste punkt kan gjøres på to måter, 3a ELLER 3b**
@@ -67,10 +66,10 @@ date: 05-11-2025
 ### 5. Sette opp klientmaskin
 1. Lag installasjonsmedium for Windows 11 (Rufus og minnepinne)
 2. Installer Windows 11 på klientmaskinen
-		1. Lag tre like store partisjoner:
-			1. En for Windows (NTFS)
-			2. En for data (filer/dokumenter) (ExFAT)
-			3. En som er tom (unallocated data - kan brukes til å installere Linux senere)
+	- Lag tre like store partisjoner:
+		- En for Windows (NTFS)
+		- En for data (filer/dokumenter) (ExFAT)
+		- En som er tom (unallocated data - kan brukes til å installere Linux senere)
 3. Sjekk om du har nett på klientmaskinen
 
 ### 6. Sette opp AD, DNS og DHCP
