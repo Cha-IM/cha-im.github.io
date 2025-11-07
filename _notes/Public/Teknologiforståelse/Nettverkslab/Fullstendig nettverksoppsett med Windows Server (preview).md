@@ -1,5 +1,5 @@
 ---
-title: Fullstendig nettverksoppsett med Windows Server, sjekkliste
+title: Fullstendig nettverksoppsett med Windows Server (preview)
 feed: show
 date: 05-11-2025
 ---

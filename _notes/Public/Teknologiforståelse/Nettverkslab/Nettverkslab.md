@@ -15,6 +15,6 @@ date: 19-03-2024
 7. [[Sette opp gjestekonto på en Windows 11-maskin]]
 8. [[Installere Windows Server]]
 
-*Preview*: [[Fullstendig nettverksoppsett med Windows Server, sjekkliste]]
+*Preview*: [[Fullstendig nettverksoppsett med Windows Server (preview)]]
 
 *(lenker markert med * markerer artikler som er skrevet av en KI-chatbot, og er ikke kvalitetssikret)*
