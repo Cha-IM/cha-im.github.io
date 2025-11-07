@@ -120,7 +120,7 @@ Om du har satt opp AD, DNS og DHCP på den fysiske serveren din, kan du beholde 
 - Installer **SSH** på Linux-VM-er for fjernstyring.
 - Bruk **evalueringsversjoner** av Windows Server for testing.
 
-### 8. Sett opp Azure Arc
+### 9. Sett opp Azure Arc
 
 >**Azure Arc** er Microsofts løsning for å **administrere lokale og hybride miljøer** som om de var en del av Azure – og det passer perfekt inn i et oppsett som har **lokale VM-er i Hyper-V** som kjører tjenester som AD, DHCP, filserver osv.
 
