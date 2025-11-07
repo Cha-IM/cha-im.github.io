@@ -94,7 +94,7 @@ Om du har satt opp AD, DNS og DHCP på den fysiske serveren din, kan du beholde 
 5. Installer DHCP-tjenesten på den virtuelle serveren
 6. Lag en ny Virtuell maskin som du kaller **FS01** og installer Windows Server 2025.
 7. Sett en statisk IP-adresse på denne virtuelle serveren (f.eks. `192.168.1.12`)
-8. [[Sette opp filserver på Windows Server|Sett opp en filserver på denne virtuelle maskinen]]
+8. Sett opp filserver på denne virtuelle serveren ([[Sette opp filserver på Windows Server]])
 
 ### 8. Sette opp andre tjenester
 > Alle tjenester som skal være tilgjengelig i nettverket kan nå installeres på VM-er på serveren. Her er et eksempel på oppsett med Hyper-V.
