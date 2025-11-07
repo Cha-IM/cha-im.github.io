@@ -88,6 +88,8 @@ Om du har satt opp AD, DNS og DHCP på den fysiske serveren din, kan du beholde 
 
 1. Installer Hyper-V-tjenesten om du ikke har gjort det allerede. Husk å angi at det fysiske nettverkskortet skal fundere som en virtuell switch (Dette er en del av installasjonen).
 2. Opprett en VM som du kaller **DHCP01** og installer Windows Server 2025 på denne.
+	- For å installere Windows Server 2025 på en virtuell maskin må du sette av minst 1280MB RAM til VM-en. Du kan sette opp dette i Hyper-V-innstillingene. Etter installasjonen kan du redusere RAM til 1024MB om nødvendig.
+	- Hvis du får feilmelding om at du har for lite minne når du starter den virtuelle maskinen; lukk nettleser og alle andre programmer som ikke er nødvendige og prøv igjen.
 	- Du kan laste ned en gratis ISO-fil med Windows Server 2025 fra [Microsoft Evaluation Center](https://info.microsoft.com/ww-landing-evaluate-windows-server-2025.html?lcid=en-us&culture=en-us&country=us) (fyll ut skjemaet og klikk på **Download**). Dette er en evalueringsversjon som kan brukes gratis i 180 dager.
 3. Sett en statisk IP-adresse på den virtuelle serveren (f.eks. `192.168.1.11`)
 4. Deaktiver DHCP på den fysiske serveren
