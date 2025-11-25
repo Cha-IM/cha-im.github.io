@@ -8,3 +8,4 @@ date: 19-03-2024
 - [[Nettverkslab]]
 - [[Bærekraftig utvikling]]
 - [[Cybersikkerhet]]
+- [[3D printing]]
