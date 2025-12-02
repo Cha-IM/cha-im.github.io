@@ -19,8 +19,9 @@ date: 05-11-2025
 ## Fremgangsmåte
 
 ### 1. Installer Windows Server
+> Guide: [[Installere Windows Server]]
 1. Gjør minnepinnen til oppstartsmedium for Windows Server 2025 vha Rufus
-2. Sjekk at virtualisering er aktivert i BIOS på server-PC-en ([])
+2. Sjekk at virtualisering er aktivert i BIOS på server-PC-en
 3. Installer Windows Server på den ene PC-en
 	- Lag to partisjoner; 
 		- En partisjon (C:) på 100-150 GB for operativsystemet og evt tjenester
