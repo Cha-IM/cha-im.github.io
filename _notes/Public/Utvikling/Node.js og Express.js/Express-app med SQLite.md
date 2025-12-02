@@ -55,8 +55,7 @@ mkdir db
 
 ```js
 const sqlite3 = require('sqlite3').verbose();
-// Stien er nå inne i 'db/'-mappen
-const DB_PATH = './chat.db'; 
+const DB_PATH = 'db/chat.db'; 
 
 const db = new sqlite3.Database(DB_PATH, (err) => {
   if (err) {
@@ -100,7 +99,6 @@ Vi lager ruten for meldinger og registrerer den sentralt.
 ```js
 const express = require('express');
 const router = express.Router();
-// Merk: Stien er oppdatert for å peke til vår nye fil
 const db = require('../db/db_setup'); 
 
 router.get('/', (req, res) => {
