@@ -16,3 +16,6 @@ Velkommen til **Cha-IM LEARN**. Her finner du læringsressurser for **Informasjo
 - [Utvikling](note/Utvikling)
     Ressursene i utvikling er også relevante for programfagene IT-1 og IT-2 på Studiespesialisering
 - [Tverrfaglige caseoppgaver/Eksamensoppgaver vg2 IT](note/note/Eksamensoppgaver-vg2-IT)
+
+# YFF
+* [[Info om lærlingetid og påbygg]]
