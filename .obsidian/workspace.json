@@ -27,12 +27,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/Node.js og Express.js/Express-app med SQLite.md",
+                "file": "_notes/Public/YFF/Lærlingetid og påbygg/Alternativer til lærlingetiden.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Express-app med SQLite"
+              "title": "Alternativer til lærlingetiden"
+            }
+          },
+          {
+            "id": "8f030e6040f8c0cd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           }
         ],
@@ -182,6 +194,15 @@
   },
   "active": "bfa0a61562511aa3",
   "lastOpenFiles": [
+    "_notes/Public/YFF/Lærlingetid og påbygg/Lærlingetiden.md",
+    "_notes/Public/YFF/Lærlingetid og påbygg/Info om lærlingetid og påbygg.md",
+    "_notes/Public/YFF/Lærlingetid og påbygg/Søke lærlingeplass.md",
+    "_notes/Public/YFF/Lærlingetid og påbygg/Alternativer til lærlingetiden.md",
+    "_notes/Public/YFF/Lærlingetid og påbygg",
+    "_notes/Public/YFF",
+    "_notes/Public/Utvikling/Github/Make a fork public.md",
+    "_notes/Public/Utvikling/Node.js og Express.js/Eksempel - bildatabase.md",
+    "_notes/Public/Utvikling/Node.js og Express.js/Express-app med SQLite.md",
     "assets/img/3dprint/tinkercadverktøy.png",
     "assets/img/3dprint/tinkercadrename.png",
     "assets/img/3dprint/tinkercadlagehull.png",
@@ -192,14 +213,12 @@
     "assets/img/3dprint/tinkercad.jpg",
     "assets/img/3dprint/crealityprint9.png",
     "assets/img/3dprint/crealityprint8.png",
-    "assets/img/3dprint/crealityprint7.png",
     "assets/img/3dprint",
     "_notes/Public/Teknologiforståelse/3D printing/Tinkercad.md",
     "_notes/Public/Teknologiforståelse/3D printing/Oppsett av Creality Print.md",
     "_notes/Public/Teknologiforståelse/3D printing/3D printing.md",
     "_notes/Public/Teknologiforståelse/3D printing",
     "_notes/Public/Utvikling/Node.js og Express.js/Express Generator.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/Express-app med SQLite.md",
     "_notes/Public/Utvikling/Node.js og Express.js/Node.js og Express.md",
     "_notes/Public/Teknologiforståelse/Cybersikkerhet/Cybersikkerhet.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Fullstendig nettverksoppsett med Windows Server (sjekkliste).md",
@@ -218,15 +237,8 @@
     "_notes/Public/Utvikling/Teknologistack/Teknologistack.md",
     "_notes/Public/Teknologiforståelse/Nettverk/Viktige nettverksbegreper.md",
     "_notes/Public/Utvikling/Teknologistack",
-    "_notes/Public/Teknologiforståelse/Nettverk/Nettverk.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/JSON-filer i Express.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/Twitter-klone i Express.js.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/Embedded JavaScript.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/Installer Node.js og lag en statisk nettside med Express.js.md",
     "_notes/Public/Utvikling/Dokumentasjon",
     "_notes/Public/Utvikling/JavaScript/Oppgaver",
-    "_notes/Public/Utvikling/JavaScript/DOM",
-    "assets/img/react",
-    "_notes/Public/Utvikling/React"
+    "_notes/Public/Utvikling/JavaScript/DOM"
   ]
 }
