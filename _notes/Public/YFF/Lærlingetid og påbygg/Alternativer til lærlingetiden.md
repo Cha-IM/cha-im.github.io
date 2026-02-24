@@ -3,7 +3,7 @@ title: Alternativer til lærlingetiden
 feed: show
 date: 24-02-2026
 ---
-
+Før, etter eller i stedet for lærlingetiden kan du ta påbygg, forkurs til ingeniørutdanning, folkehøgskole eller omvalg. Disse alternativene kan du lese mer om her.
 ## Påbygging til generell studiekompetanse
 Hvis du ikke ønsker å bli lærling, men heller vil studere ved universitet eller høyskole kan du ta påbygging til generell studiekompetanse, også kalt påbygg. Det er et ekstra år på skolen, der du tar alle fagene som trengs for å få samme kompetanse som de som går studieforberedende fag på videregående.
 
