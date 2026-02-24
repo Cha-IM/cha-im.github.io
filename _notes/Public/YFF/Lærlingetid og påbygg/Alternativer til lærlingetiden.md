@@ -29,7 +29,7 @@ Hvis du ønsker å ta påbygg etter lærlingetiden, slipper du gym og det ekstra
 Du kan også ta påbygg samtidig som du er lærling, i Trøndelag Nettskole. Du kan lese mer om det på [trondelagnettskole.no/]([Tilbud og søking påbygg-fag](https://web.trondelagfylke.no/trondelag-nettskole/tilbud-larlinger/pabygg-etter-yrkeskompetanse/))
 
 ## Forkurs for ingeniør- og sivilingeniørutdanning
-Hvis du har tenkt å bli ingeniør eller sivilingeniør kan du i stedet for påbygg søke på forkurs for ingeniør- og sivilingeniørutdanning på NTNU. Det kan du søke på rett etter vg2, eller etter lærlingetiden. Her er undervisningen på NTNU, og fagene er tilpasset direkte for at man skal inn på ingeniør eller sivilingeniørutdanning etter dette året. 
+Hvis du har tenkt å bli ingeniør eller sivilingeniør kan du i stedet for påbygg søke på forkurs for ingeniør- og sivilingeniørutdanning på NTNU. Det kan du søke på rett etter vg2, eller etter lærlingetiden. Her er undervisningen på NTNU, og fagene er tilpasset direkte for at man skal inn på ingeniør eller sivilingeniørutdanning etter dette året. Du kan lese mer om dette på NTNUs nettsider: [Ettårig forkurs for 3-årig ingeniørutdanning og integrert masterstudium i teknologiske fag - NTNU](https://www.ntnu.no/studier/ftforkurs).
 
 **NB!** Forkurset er ikke det samme som påbygg, og gir derfor ikke studiekompetanse for å studere andre fag enn ingeniørstudiene. På samme måte gir ikke vanlig påbygg studiekompetanse for ingeniørfagene, da disse fagene krever ekstra matte og realfag i tillegg til generell studiekompetanse.
 

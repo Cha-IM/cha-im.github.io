@@ -34,7 +34,12 @@ Når du har sendt inn søknaden din kan du bli kalt inn til intervju. Det er van
 
 Etter jobbintervjuet, hvis bedriften fortsatt er interssert i deg, tar de kontakt med referansene dine. Referansene er folk som kan si noe fint om deg, om hvordan du er i en profesjonell setting. Det kan være en lærer, en arbeidsgiver, en trener eller en annen voksen som kjenner deg. Det bør ikke være foreldrene dine, de bør ikke involveres i det hele tatt i søknadsprosessen, bortsett fra evt hjelp til skriving av søknad og CV.
 
+### Jobbtilbud
+Hvis bedriften velger deg som den de vil ansette, vil de gi deg et jobbtilbud. Du trenger ikke takke ja til jobbtilbudet med en gang, men du kan spørre om litt tid før du svarer. **De kan uansett ikke trekke tilbake jobbtilbudet de har gitt deg**. Denne ventetida kan du for eksempel bruke til å vente på svar fra andre bedrifter, om du har vært i flere søknadsprosesser. Det går også an å kontakte andre du venter på svar fra og informere om at du har fått jobbtilbud. Da kan det hende flere tilbud kommer litt raskt, om det er flere bedrifter som er interssert i deg.
+
+Etter at du har fått et jobbtilbud har du også mulighet til å forhandle litt rundt lønna. Dette er mest aktuelt for jobber i privat næringsliv, da offentlige arbeidsplasser har mindre mulighet til å justere lønn (men det er mulig - i det offentlige er ofte den eneste gangen du kan forhandle om lønn nettopp ved ansettelse). Det verste som kan skje når du forhandler lønn er at de sier nei. Som sagt, kan ikke bedriften ikke trekke tilbake jobbtilbudet, med mindre du gir dem et ulitmatum.
+
 ### Meld fra på Vigo.no om at du skal søke lærlingeplass
 På [vigo.no](https://www.vigo.no/nyvigo/vigo) må du melde fra om at du skal søke lærlingeplass. Dette er fordi fylkeskommunen har ansvaret for at du skal få en videregående opplæring, og de vil derfor vite hva du har tenkt å gjøre. Når du er lærling skal fylkeskommunen betale ut lærlingetilskudd til læreplassen din (bedriften du er lærling i), så derfor er det viktig at de har beskjed om hva du har tenkt å gjøre. 
 
-Husk: **Fylkeskommunen eller Vigo.no hjelper deg ikke å finne lærlingeplass**, dette er kun en melding om hva du har tenkt å gjøre. Du kan også søke om plass på *påbygging til generell studiekompetanse* på Vigo.no. Du kan lese mer om dette lenger ned på siden.
+Husk: **Fylkeskommunen eller Vigo.no hjelper deg ikke å finne lærlingeplass**, dette er kun en melding om hva du har tenkt å gjøre. Du kan også søke om plass på *påbygging til generell studiekompetanse* på Vigo.no. Du kan lese mer om dette i artikkelen [[Alternativer til lærlingetiden]].

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/index.md",
+                "file": "_notes/Public/YFF/Lærlingetid og påbygg/Søke lærlingeplass.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Søke lærlingeplass"
             }
           },
           {
@@ -194,11 +194,12 @@
   },
   "active": "bfa0a61562511aa3",
   "lastOpenFiles": [
-    "_notes/Public/YFF/YFF.md",
     "_notes/Public/YFF/Lærlingetid og påbygg/Alternativer til lærlingetiden.md",
-    "_notes/Public/YFF/Lærlingetid og påbygg/Lærlingetiden.md",
-    "_notes/Public/YFF/Lærlingetid og påbygg/Info om lærlingetid og påbygg.md",
     "_notes/Public/YFF/Lærlingetid og påbygg/Søke lærlingeplass.md",
+    "_notes/Public/YFF/Lærlingetid og påbygg/Lærlingetiden.md",
+    "pages/index.md",
+    "_notes/Public/YFF/YFF.md",
+    "_notes/Public/YFF/Lærlingetid og påbygg/Info om lærlingetid og påbygg.md",
     "_notes/Public/YFF/Lærlingetid og påbygg",
     "_notes/Public/YFF",
     "_notes/Public/Utvikling/Github/Make a fork public.md",
@@ -235,7 +236,6 @@
     "_notes/Public/Teknologiforståelse/Nettverk/Innføring i lokale nettverk med Cisco Packet Tracer.md",
     "_notes/Public/Teknologiforståelse/Nettverk/Mininet.md",
     "assets/img/packettracer",
-    "_notes/Public/Utvikling/Teknologistack/Teknologistack.md",
     "_notes/Public/Utvikling/Teknologistack",
     "_notes/Public/Utvikling/Dokumentasjon",
     "_notes/Public/Utvikling/JavaScript/Oppgaver",
