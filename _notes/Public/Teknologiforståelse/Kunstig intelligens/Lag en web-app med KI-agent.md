@@ -120,7 +120,7 @@ MERK:
 Men **disse delene må ligge i dokumentet**:
 
   
-```html
+```markdown
 <form method="POST">
 
     <input type="text" name="question" placeholder="Skriv spørsmålet ditt..." />
