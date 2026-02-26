@@ -94,6 +94,8 @@ Du skal se `(venv)` foran prompten.
     - `ordensreglement.txt`
     - `fravær.txt`
 
+Informasjon til disse filene må du hente fra skolens hjemmeside.
+
 Kun `.txt` støttes i denne første versjonen.
 
 ---
