@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/YFF/Lærlingetid og påbygg/Alternativer til lærlingetiden.md",
+                "file": "_notes/Public/Teknologiforståelse/Teknologiforståelse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alternativer til lærlingetiden"
+              "title": "Teknologiforståelse"
             }
           },
           {
@@ -194,10 +194,18 @@
   },
   "active": "bfa0a61562511aa3",
   "lastOpenFiles": [
+    "_notes/Public/Teknologiforståelse/Kunstig intelligens/Kunstig intelligens.md",
+    "_notes/Public/Teknologiforståelse/Kunstig intelligens/Lag en web-app med KI-agent.md",
+    "_notes/Public/Utvikling/React/Chef Claude/Chef Claude 2.md",
+    "_notes/Public/Teknologiforståelse/Kunstig intelligens",
+    "_notes/Public/Utvikling/React/Chef Claude/Chef Claude 1.md",
+    "_notes/Public/Utvikling/React/React.md",
+    "_notes/Public/Utvikling/React/Chef Claude",
+    "_notes/Public/Utvikling/React/Kom i gang med React og Vite.md",
+    "_notes/Public/YFF/Lærlingetid og påbygg/Alternativer til lærlingetiden.md",
     "_notes/Public/YFF/Lærlingetid og påbygg/Info om lærlingetid og påbygg.md",
     "_notes/Public/YFF/Lærlingetid og påbygg/Søke lærlingeplass.md",
     "_notes/Public/YFF/Lærlingetid og påbygg/Lærlingetiden.md",
-    "_notes/Public/YFF/Lærlingetid og påbygg/Alternativer til lærlingetiden.md",
     "pages/index.md",
     "_notes/Public/YFF/YFF.md",
     "_notes/Public/YFF/Lærlingetid og påbygg",
@@ -228,17 +236,9 @@
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Installere Windows Server.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette delte mapper på Windows Server.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab v2.0",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp Active Directory.md",
-    "_notes/Public/Teknologiforståelse/Nettverk/Dokumentasjon av nettverk i Cisco Packet Tracer.md",
-    "_notes/Public/Teknologiforståelse/Nettverk/Innføring i lokale nettverk med Cisco Packet Tracer.md",
-    "_notes/Public/Teknologiforståelse/Nettverk/Mininet.md",
     "assets/img/packettracer",
     "_notes/Public/Utvikling/Teknologistack",
-    "_notes/Public/Utvikling/Dokumentasjon",
-    "_notes/Public/Utvikling/JavaScript/Oppgaver",
-    "_notes/Public/Utvikling/JavaScript/DOM"
+    "_notes/Public/Utvikling/Dokumentasjon"
   ]
 }

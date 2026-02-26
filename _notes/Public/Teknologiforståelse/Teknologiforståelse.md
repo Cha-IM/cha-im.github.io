@@ -9,3 +9,4 @@ date: 19-03-2024
 - [[Bærekraftig utvikling]]
 - [[Cybersikkerhet]]
 - [[3D printing]]
+- [[Kunstig intelligens]]
