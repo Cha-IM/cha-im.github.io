@@ -160,7 +160,7 @@ Legg gjerne til egen CSS i `static/style.css` for utseende.
 
 # Del H — Flask‑appen (kopier hele filen under til `app.py`)
 
-**Viktig:** Ingen TODO‑merker. Hvis noe kan endres, står det med EGEN KOMMENTARLINJE I STORE BOKSTAVER.
+(*oppdatert 26.2.2026 kl 15:20*)
 
 ```python
 # app.py
