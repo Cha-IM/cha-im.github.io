@@ -131,24 +131,26 @@ Men **disse delene må ligge i dokumentet**:
 
   
 
-{% if chat %}
+//{% if chat %}
 
 <h2>Chatlogg</h2>
 
 <ul>
 
-    {% for item in chat %}
+    //{% for item in chat %}
 
         <li><strong>Du:</strong> {{ item.user }}<br>
 
         <strong>Bot:</strong> {{ item.bot }}</li>
 
-    {% endfor %}
+    //{% endfor %}
 
 </ul>
 
-{% endif %}
+//{% endif %}
 ```
+
+
 
 Legg gjerne til egen CSS i `static/style.css` for utseende.
 
