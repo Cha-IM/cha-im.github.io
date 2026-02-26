@@ -104,7 +104,7 @@ Kun `.txt` støttes i denne første versjonen.
 
 ```
 HF_TOKEN=DIN_HF_TOKEN_HER
-MODEL=mistralai/Mistral-7B-Instruct-v0.3
+MODEL=meta-llama/Meta-Llama-3-8B-Instruct
 ```
 
 MERK:
@@ -167,51 +167,31 @@ Legg gjerne til egen CSS i `static/style.css` for utseende.
 
 # -------------------------------
 
-  
-
 # En enkel Flask-basert skoleassistent.
-
-  
 
 # Leser .txt-filer fra ./data og kaller en språkmodell via Hugging Face Inference API.
 
-  
-
 # Viser chatlogg (bruker-spørsmål og modell-svar).
-
-  
 
 # -------------------------------
 
   
 
-  
-
 from flask import Flask, request, render_template
-
-  
 
 from dotenv import load_dotenv
 
-  
-
 import os
-
-  
 
 import requests
 
   
 
-  
-
 # Laster miljøvariabler fra .env (HF_TOKEN og MODEL)
 
-  
+# override=True sikrer at vi bruker ny verdi selv om gammel henger igjen
 
-load_dotenv()
-
-  
+load_dotenv(override=True)
 
   
 
@@ -219,291 +199,163 @@ app = Flask(__name__)
 
   
 
-  
-
 # HENTER API-NØKKEL OG MODELLNAVN FRA .env
 
-  
-
 HF_TOKEN = os.getenv("HF_TOKEN")
-
-  
 
 MODEL = os.getenv("MODEL")
 
   
 
-  
-
 # SJEKKER AT NØKKEL FINNES
 
-  
-
 if not HF_TOKEN:
-
-  
 
     raise RuntimeError("HF_TOKEN mangler i .env. Legg inn din Hugging Face API-nøkkel.")
 
   
 
-  
-
 # ENKEL FUNKSJON SOM LESER ALLE .txt-FILER I ./data VED OPPSTART
-
-  
 
 def load_documents():
 
-  
-
     docs = ""
-
-  
 
     data_dir = "data"
 
-  
-
     if not os.path.isdir(data_dir):
-
-  
 
         return docs
 
   
 
-  
-
     for filename in os.listdir(data_dir):
-
-  
 
         if filename.endswith(".txt"):
 
-  
-
             path = os.path.join(data_dir, filename)
-
-  
 
             try:
 
-  
-
                 with open(path, "r", encoding="utf-8") as f:
-
-  
 
                     content = f.read().strip()
 
-  
-
                     # Legg til filnavn som skille for tydeligere kontekst
-
-  
 
                     docs += f"\n\n### FIL: {filename}\n{content}"
 
-  
-
             except Exception as e:
 
-  
-
                 print(f"Kunne ikke lese {filename}: {e}")
-
-  
 
     return docs
 
   
 
-  
-
 # LASTER DOKUMENTER EN GANG (VED OPPSTART)
-
-  
 
 DOCUMENTS = load_documents()
 
   
 
-  
-
 # CHATLOGG I MINNET (LISTE AV DIKTIONARIES)
 
-  
-
 # MERK: DENNE TØMMES HVIS APPEN STARTES PÅ NYTT. FOR VEDVARENDE LAGRING MÅ DU BRUKE DATABASE.
-
-  
 
 chatlog = []
 
   
 
-  
-
 def build_prompt(question: str, chat_history: list) -> str:
 
-  
-
     """
-
-  
 
     Bygger prompt til språkmodellen.
 
-  
-
     - Legger ved dokumentkontekst
-
-  
 
     - Legger ved tidligere meldinger i økten (chat_history)
 
-  
-
     - Presiserer at model skal svare KUN ut fra dokumentene
-
-  
 
     """
 
-  
-
     history_text = ""
 
-  
-
     for entry in chat_history:
-
-  
 
         history_text += f"Bruker: {entry['user']}\nBot: {entry['bot']}\n\n"
 
   
 
-  
-
     prompt = f"""
 
-  
-
 Du er en hjelpsom skoleassistent. Du svarer KUN basert på informasjon i dokumentene.
-
-  
 
 Dersom svaret ikke finnes i dokumentene, svar: "Det står ikke i dokumentene."
 
   
 
-  
-
 DOKUMENTER:
-
-  
 
 {DOCUMENTS}
 
   
 
-  
-
 TIDLIGERE SAMTALE I DENNE ØKTEN:
-
-  
 
 {history_text}
 
   
 
-  
-
 BRUKERENS SPØRSMÅL:
-
-  
 
 {question}
 
   
 
-  
-
 SVAR:
 
-  
-
 """
-
-  
 
     return prompt
 
   
 
-  
-
 def ask_model(prompt: str) -> str:
-
-  
 
     """
 
-  
-
-    Ringer Hugging Face Inference API med gitt prompt.
-
-  
+    Ringer Hugging Face Inference API med gitt prompt via OpenAI-kompatibelt endepunkt.
 
     Forventer HF_TOKEN og MODEL fra .env.
 
-  
-
     """
-
-  
 
     headers = {
 
-  
-
         "Authorization": f"Bearer {HF_TOKEN}",
-
-  
 
         "Content-Type": "application/json"
 
-  
-
     }
 
-  
+    # Bruker OpenAI-kompatibelt format for chat-modeller
 
     body = {
 
-  
+        "model": MODEL,
 
-        "inputs": prompt,
+        "messages": [
 
-  
+            {"role": "user", "content": prompt}
 
-        "parameters": {
+        ],
 
-  
+        "max_tokens": 500,
 
-            "max_new_tokens": 200,
-
-  
-
-            "temperature": 0.3
-
-  
-
-        }
-
-  
+        "temperature": 0.3
 
     }
 
@@ -511,51 +363,37 @@ def ask_model(prompt: str) -> str:
 
     try:
 
+        # Peke mot den nye routeren som bruker OpenAI-format
+
+        url = "https://router.huggingface.co/v1/chat/completions"
+
   
 
         resp = requests.post(
 
-  
-
-            f"https://api-inference.huggingface.co/models/{MODEL}",
-
-  
+            url,
 
             headers=headers,
 
-  
-
             json=body,
-
-  
 
             timeout=60
 
-  
-
         )
+
+        if resp.status_code != 200:
+
+            return f"Feil: API returnerte statuskode {resp.status_code}. Svar: {resp.text}"
 
   
 
         data = resp.json()
 
-  
+        # Sjekk om svaret er i OpenAI format (choices -> message -> content)
 
-        # De fleste tekstdemo-modeller returnerer en liste med 'generated_text'
+        if "choices" in data and len(data["choices"]) > 0:
 
-  
-
-        if isinstance(data, list) and len(data) > 0 and "generated_text" in data[0]:
-
-  
-
-            return data[0]["generated_text"]
-
-  
-
-        # Fallback for avvikende svarformat
-
-  
+             return data["choices"][0]["message"]["content"]
 
         return str(data)
 
@@ -563,91 +401,51 @@ def ask_model(prompt: str) -> str:
 
     except Exception as e:
 
-  
-
         return f"Feil ved kall til modellen: {e}"
-
-  
 
   
 
 @app.route("/", methods=["GET", "POST"])
 
-  
-
 def index():
 
-  
-
     """
-
-  
 
     Viser forsiden og håndterer innsending av skjema (POST).
 
-  
-
     Oppdaterer chatlogg og rendrer index.html med chat-listen.
 
-  
-
     """
-
-  
 
     global chatlog
 
   
 
-  
-
     if request.method == "POST":
-
-  
 
         user_question = request.form.get("question", "").strip()
 
-  
-
         if user_question:
-
-  
 
             prompt = build_prompt(user_question, chatlog)
 
-  
-
             answer = ask_model(prompt)
-
-  
 
             chatlog.append({"user": user_question, "bot": answer})
 
   
 
-  
-
     # RENDERER siden med dagens chatlogg
-
-  
 
     return render_template("index.html", chat=chatlog)
 
   
 
-  
-
 if __name__ == "__main__":
-
-  
 
     # KJØRER FLASK I UTVIKLINGSMODUS
 
-  
-
-    # DU KAN ENDR E 'debug=False' HVIS DU IKKE VIL SE RESTART/FEILLOGG I TERMINALEN.
-
-  
+    # DU KAN ENDRE 'debug=False' HVIS DU IKKE VIL SE RESTART/FEILLOGG I TERMINALEN.
 
     app.run(debug=True)
 ```
