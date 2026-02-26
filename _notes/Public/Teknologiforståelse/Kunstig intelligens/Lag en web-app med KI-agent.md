@@ -187,6 +187,8 @@ import os
 
 import requests
 
+import markdown
+
   
 
 # Laster miljøvariabler fra .env (HF_TOKEN og MODEL)
@@ -198,6 +200,16 @@ load_dotenv(override=True)
   
 
 app = Flask(__name__)
+
+  
+
+# REGISTRER MARKDOWN-FILTER
+
+@app.template_filter('markdown')
+
+def render_markdown(text):
+
+    return markdown.markdown(text)
 
   
 
@@ -251,6 +263,12 @@ def load_documents():
 
                 print(f"Kunne ikke lese {filename}: {e}")
 
+    print(f"DEBUG: Lastet {len(docs)} tegn med dokumentasjon.")
+
+    if len(docs) == 0:
+
+        print("ADVARSEL: Ingen dokumenter lastet funnet i data-mappen!")
+
     return docs
 
   
@@ -269,33 +287,39 @@ chatlog = []
 
   
 
-def build_prompt(question: str, chat_history: list) -> str:
+def build_messages(question: str, chat_history: list) -> list:
 
     """
 
-    Bygger prompt til språkmodellen.
+    Bygger meldingsliste til språkmodellen.
 
-    - Legger ved dokumentkontekst
+    - System-melding: Instruksjoner og dokumentkontekst.
 
-    - Legger ved tidligere meldinger i økten (chat_history)
+    - Historikk: Tidligere spørsmål og svar.
 
-    - Presiserer at model skal svare KUN ut fra dokumentene
+    - Siste melding: Brukerens nye spørsmål.
 
     """
 
-    history_text = ""
+    # 1. System-instruksjon med dokumenter
 
-    for entry in chat_history:
+    system_content = f"""
 
-        history_text += f"Bruker: {entry['user']}\nBot: {entry['bot']}\n\n"
+Du er en hjelpsom skoleassistent for Charlottenlund vgs.
+
+Din oppgave er å svare på spørsmål basert på informasjonen gitt i "DOKUMENTER" nedenfor.
 
   
 
-    prompt = f"""
+VIKTIGE REGLER:
 
-Du er en hjelpsom skoleassistent. Du svarer KUN basert på informasjon i dokumentene.
+1. Bruk KUN informasjonen i dokumentene for å svare.
 
-Dersom svaret ikke finnes i dokumentene, svar: "Det står ikke i dokumentene."
+2. Hvis du ikke finner svaret i dokumentene, svar høflig at du ikke vet det basert på tilgjengelig info. Ikke finn på ting.
+
+3. Vær kortfattet, presis og hyggelig.
+
+4. Svar på norsk.
 
   
 
@@ -303,33 +327,37 @@ DOKUMENTER:
 
 {DOCUMENTS}
 
-  
-
-TIDLIGERE SAMTALE I DENNE ØKTEN:
-
-{history_text}
-
-  
-
-BRUKERENS SPØRSMÅL:
-
-{question}
-
-  
-
-SVAR:
-
 """
 
-    return prompt
+    messages = [{"role": "system", "content": system_content.strip()}]
 
   
 
-def ask_model(prompt: str) -> str:
+    # 2. Legg til historikk
+
+    for entry in chat_history:
+
+        messages.append({"role": "user", "content": entry['user']})
+
+        messages.append({"role": "assistant", "content": entry['bot']})
+
+  
+
+    # 3. Legg til brukerens nye spørsmål
+
+    messages.append({"role": "user", "content": question})
+
+  
+
+    return messages
+
+  
+
+def ask_model(messages: list) -> str:
 
     """
 
-    Ringer Hugging Face Inference API med gitt prompt via OpenAI-kompatibelt endepunkt.
+    Ringer Hugging Face Inference API med en liste av meldinger.
 
     Forventer HF_TOKEN og MODEL fra .env.
 
@@ -349,11 +377,7 @@ def ask_model(prompt: str) -> str:
 
         "model": MODEL,
 
-        "messages": [
-
-            {"role": "user", "content": prompt}
-
-        ],
+        "messages": messages,
 
         "max_tokens": 500,
 
@@ -361,6 +385,7 @@ def ask_model(prompt: str) -> str:
 
     }
 
+  
   
 
     try:
@@ -429,9 +454,9 @@ def index():
 
         if user_question:
 
-            prompt = build_prompt(user_question, chatlog)
+            messages = build_messages(user_question, chatlog)
 
-            answer = ask_model(prompt)
+            answer = ask_model(messages)
 
             chatlog.append({"user": user_question, "bot": answer})
 
