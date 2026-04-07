@@ -7,7 +7,8 @@ Denne guiden inneholder kjappe forklaringer på det du trenger for å komme igan
 ## Innhold
 - <a href="#en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?</a>
 - <a href="#to">Hvordan legger jeg inn data i Firebase-databasen min?</a>
-- [[Firebase cheat sheet#Hvordan henter jeg data fra databasen og viser det på nettsiden min?|Hvordan henter jeg data fra databasen og viser det på nettsiden min?]]
+- <a href="#tre">Hvordan henter jeg data fra databasen og viser det på nettsiden min?</a>
+
 
 <h2 id="en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?</h2>
 
@@ -54,6 +55,7 @@ I alle filene der du skal bruke Firebase legger du inn denne koden øverst i fil
 ```js
 import { db } from "./firebaseConfig.js"
 ```
+
 
 <h2 id="to">Hvordan legger jeg inn data i Firebase-databasen min?</h2> 
 
@@ -111,12 +113,15 @@ node ./populateDatabase.js
 
 Da sendes all informasjonen direkte til databasen.
 
-## Hvordan henter jeg data fra databasen og viser det på nettsiden min?
+
+<h2 id="tre">Hvordan henter jeg data fra databasen og viser det på nettsiden min?</h2>
 
 For å hente data fra databasen bruker vi *getDocs*-metoden i Firebase. Denne henter ut et *snapshot* fra databasen, som inneholder en liste med all data fra databasen på det tidspunktet vi ber om denne (siden data i en database forandrer seg hele tiden).
 
-Slik fungerer det:
+Slik fungerer det (husk å importere *getDocs* øverst i js-fila di):
 ```js
+import { getDocs, collection } from "firebase/firestore";
+
 const snapshot = await getDocs(collection(db, "hotelrooms"));
 ```
 
@@ -142,3 +147,21 @@ snapshot.forEach((doc) => {
 ```
 
 Merk at her bruker vi [Template Literals](https://www.w3schools.com/js/js_string_templates.asp) (backticks) for å kunne bruke JavaScript-logikk inne i en tekststreng, med bruk av \` \` og `${...}` for å legge variabler rett inn i teksten.
+
+Her er hele koden for å hente data og skrive den ut på nettsiden:
+
+```js
+//main.js
+
+import './style.css'
+import { getDocs, collection, query, where, orderBy } from "firebase/firestore";
+import { db } from "./firebaseConfig.js";
+
+const app = document.querySelector("#app");
+  
+const snapshot = await getDocs(collection(db, "hotelrooms"));
+  
+snapshot.forEach((doc) => {
+  app.innerHTML += `${doc.data().roomNumber} - ${doc.data().roomType} <br>`
+})
+```
