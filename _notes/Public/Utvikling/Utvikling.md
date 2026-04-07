@@ -15,3 +15,4 @@ date: 19-03-2024
 - [[Tailwind CSS]]
 - [[JSON]] 
 - [[React]]
+- [[Vite-vanilla]]

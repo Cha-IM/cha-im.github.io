@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Cybersikkerhet/Cybersikkerhet.md",
+                "file": "_notes/Public/Utvikling/Firebase/Firebase cheat sheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cybersikkerhet"
+              "title": "Firebase cheat sheet"
             }
           },
           {
@@ -208,14 +208,20 @@
   },
   "active": "1fa9f654d818b1f8",
   "lastOpenFiles": [
+    "_notes/Public/Utvikling/Utvikling.md",
+    "_notes/Public/Utvikling/Vite/Vite-vanilla.md",
+    "_notes/Public/Utvikling/Firebase/Firebase cheat sheet.md",
+    "_notes/Public/Utvikling/Vite",
+    "_notes/Public/Utvikling/Firebase/Oppsett av Firebase og Cloud Firestore.md",
+    "_notes/Public/Teknologiforståelse/Kunstig intelligens/Lag en web-app med KI-agent.md",
+    "_notes/Public/Teknologiforståelse/Kunstig intelligens/Kunstig intelligens.md",
+    "_notes/Public/Teknologiforståelse/Cybersikkerhet/Cybersikkerhet.md",
     "_notes/Public/For lærere/Tverrfaglig eksamen/Oppsummering av sensorreglement for Trøndelag fylkeskommune.md",
     "_notes/Public/For lærere/Tverrfaglig eksamen/Tverrfaglig eksamen.md",
     "_notes/Public/For lærere/Tverrfaglig eksamen/Forslag til tidsplan for gjennomføring av praktisk tverrfaglig eksamen.md",
     "_notes/Public/For lærere/Tverrfaglig eksamen",
     "_notes/Public/For lærere",
     "_notes/Public/Teknologiforståelse/Teknologiforståelse.md",
-    "_notes/Public/Teknologiforståelse/Kunstig intelligens/Kunstig intelligens.md",
-    "_notes/Public/Teknologiforståelse/Kunstig intelligens/Lag en web-app med KI-agent.md",
     "_notes/Public/Utvikling/React/Chef Claude/Chef Claude 2.md",
     "_notes/Public/Teknologiforståelse/Kunstig intelligens",
     "_notes/Public/Utvikling/React/Chef Claude/Chef Claude 1.md",
@@ -246,13 +252,7 @@
     "assets/img/3dprint",
     "_notes/Public/Teknologiforståelse/3D printing/Tinkercad.md",
     "_notes/Public/Teknologiforståelse/3D printing/Oppsett av Creality Print.md",
-    "_notes/Public/Teknologiforståelse/3D printing/3D printing.md",
     "_notes/Public/Teknologiforståelse/3D printing",
-    "_notes/Public/Utvikling/Node.js og Express.js/Express Generator.md",
-    "_notes/Public/Utvikling/Node.js og Express.js/Node.js og Express.md",
-    "_notes/Public/Teknologiforståelse/Cybersikkerhet/Cybersikkerhet.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Fullstendig nettverksoppsett med Windows Server (sjekkliste).md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab v2.0",
-    "assets/img/packettracer"
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab v2.0"
   ]
 }
