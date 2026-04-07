@@ -122,37 +122,65 @@ Da sendes all informasjonen direkte til databasen. Når du har kjørt koden en g
 
 <h2 id="tre">Hvordan henter jeg data fra databasen og viser det på nettsiden min?</h2>
 
-For å hente data fra databasen bruker vi *getDocs*-metoden i Firebase. Denne henter ut et *snapshot* fra databasen, som inneholder en liste med all data fra databasen på det tidspunktet vi ber om denne (siden data i en database forandrer seg hele tiden).
+For å hente data fra databasen bruker vi *getDocs*-metoden i Firebase. Denne henter ut et *snapshot* fra databasen, som inneholder all data fra den valgte somlingen på det tidspunktet vi ber om denne (siden data i en database forandrer seg hele tiden). Snapshot er et spesielt objekt i Firebase-biblioteket som ligner på en liste. For å gjøre det enklere å forstå, kan vi gjøre om snapshotet til en liste før vi fortsetter å jobbe med det.
 
 Slik fungerer det (husk å importere *getDocs* øverst i js-fila di):
 ```js
 import { getDocs, collection } from "firebase/firestore";
 
 const snapshot = await getDocs(collection(db, "hotelrooms"));
+const hotelrooms = snapshot.docs; // Vi gjør om snapshotet til en vanlig liste
 ```
 
-Denne henter ut all info fra samlingen "hotelrooms". For å få ut spesifikk informasjon må vi gå gjennom lista med en forEach-løkke og hente ut enkeltinfo slik:
+Da har vi en liste med all dataen fra samlingen "hotelrooms". For å få ut spesifikk informasjon må vi gå gjennom lista med en forEach-løkke og hente ut enkeltdata slik:
 
 ```js
-snapshot.forEach((doc) => {
-  console.log(doc.data().roomNumber, doc.data().roomType)
+hotelrooms.forEach((room) => {
+  console.log(room.data().roomNumber, room.data().roomType)
 })
 ```
 
 Denne koden vil skrive ut romnummer og romtype for alle hotellrommene i databasen.
 
+### Pro-tip: Slipp å bruke .data() hver gang
+
+Hvis du vil slippe å skrive `.data()` hver gang du skal bruke informasjonen, kan du transformere listen med en gang du har hentet den. Dette gjør vi med `.map()`-metoden. Da lager vi en ren liste med objekter som inneholder akkurat det vi trenger:
+
+```js
+const snapshot = await getDocs(collection(db, "hotelrooms"));
+
+const hotelrooms = snapshot.docs.map((room) => {
+    return {
+        id: doc.id,       // Vi tar med ID-en i tilfelle vi trenger den senere
+        ...doc.data()     // Vi "sprer" alle feltene fra data() inn i objektet
+    };
+});
+
+// Nå kan vi bruke listen helt uten .data()!
+hotelrooms.forEach((room) => {
+    console.log(room.roomNumber, room.roomType);
+});
+```
+
+---
+#### SIDEBAR: .map()-metoden vs .forEach()-metoden
+*`.map()` og `.forEach()` er to arraymetoder (metoder som brukes på lister) i JavaScript som ligner på hverandre. Begge kjører en funksjon på alle elementene i en liste, men forskjellen er at `.map()` returnerer en ny liste, mens `.forEach()` ikke returnerer noen ting.* 
+
+*`.map()` brukes dermed når vi vil gjøre om eller transformere dataen i en liste, mens `.forEach()` brukes når vi skal gå gjennom lista og gjøre en handling for hvert element.*
+
+---
 ### Vise databaseinnholdet på nettsiden
 
 Hvis jeg vil vise det på nettsiden kan jeg gjøre det slik i Vite-vanilla:
 ```js
 const app = document.querySelector("#app");
   
-snapshot.forEach((doc) => {
-  app.innerHTML += `${doc.data().roomNumber} - ${doc.data().roomType} <br>`
+hotelrooms.forEach((room) => {
+  app.innerHTML += `${room.roomNumber} - ${room.roomType} <br>`
 })
 ```
 
-Merk at her bruker vi [Template Literals](https://www.w3schools.com/js/js_string_templates.asp) (backticks) for å kunne bruke JavaScript-logikk inne i en tekststreng, med bruk av \` \` og `${...}` for å legge variabler rett inn i teksten.
+*Merk at her bruker vi [Template Literals](https://www.w3schools.com/js/js_string_templates.asp) (backticks) for å kunne bruke JavaScript-logikk inne i en tekststreng, med bruk av \` \` og `${...}` for å legge variabler rett inn i teksten.*
 
 Her er hele koden for å hente data og skrive den ut på nettsiden:
 
@@ -164,11 +192,42 @@ import { db } from "./firebaseConfig.js";
 import { getDocs, collection, query, where, orderBy } from "firebase/firestore";
 
 const app = document.querySelector("#app");
-  
+
 const snapshot = await getDocs(collection(db, "hotelrooms"));
+
+const hotelrooms = snapshot.docs.map((room) => {
+    return {
+        id: room.id,       
+        ...room.data()     
+    };
+});
   
-snapshot.forEach((doc) => {
-  app.innerHTML += `${doc.data().roomNumber} - ${doc.data().roomType} <br>`
+hotelrooms.forEach((room) => {
+  app.innerHTML += `${room.roomNumber} - ${room.roomType} <br>`
 })
 ```
 
+I `app.innerHTML` kan jeg legge inn mer avansert HTML. For eksempel kan jeg legge infoen inn i en tabell, slik:
+
+```js
+app.innerHTML = `
+	<table>
+		<tr>
+			<th>Room number</th>
+			<th>Room Type</th>
+			<th># of beds</th>
+		</tr>
+`
+
+hotelrooms.forEach((room) => {
+  app.innerHTML += `
+  <tr>
+	  <td>${room.roomNumber}</td>
+	  <td>${room.roomType}</td>
+	  <td>${room.noOfBeds}</td>
+  </tr>
+  `
+})
+
+app.innerHTML += `</table>`
+```
