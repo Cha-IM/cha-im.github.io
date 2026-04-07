@@ -5,10 +5,10 @@ date: 07-04-2026
 ---
 Denne guiden inneholder kjappe forklaringer på det du trenger for å komme igang med Firebase i [[React]] eller [[Vite-vanilla]].
 ## Innhold
-[[#Hvordan setter jeg opp Firebase i web-prosjektet mitt?]]
-[[#Hvordan legger jeg inn data i Firebase-databasen min?]]
+<a href="#en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?</a>
+<a href="#to">Hvordan legger jeg inn data i Firebase-databasen min?</a>
 
-## Hvordan setter jeg opp Firebase i web-prosjektet mitt?
+<h2 id="en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?</h2>
 
 For et Vite-prosjekt (React eller Vanilla) må du først installere Firebase i prosjektet ditt med npm:
 
@@ -54,7 +54,7 @@ I alle filene der du skal bruke Firebase legger du inn denne koden øverst i fil
 import { db } from "./firebaseConfig.js"
 ```
 
-## Hvordan legger jeg inn data i Firebase-databasen min?
+<h2 id="to">Hvordan legger jeg inn data i Firebase-databasen min?</h2> 
 
 Det går an å legge inn data i databasen via Firebase-konsollen, men det er litt upraktisk og tidkrevende. Den enkleste måten er å opprette en fil som du kaller *populateDatabase.js*. I denne filen legger du inn kode for å sende data til databasen.
 
