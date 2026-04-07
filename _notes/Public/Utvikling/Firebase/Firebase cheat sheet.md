@@ -60,6 +60,7 @@ import { db } from "./firebaseConfig.js"
 ```
 
 
+
 <h2 id="to">Hvordan legger jeg inn data i Firebase-databasen min?</h2> 
 
 Det går an å legge inn data i databasen via Firebase-konsollen, men det er litt upraktisk og tidkrevende. Den enkleste måten er å opprette en fil som du kaller *populateDatabase.js*. I denne filen legger du inn kode for å sende data til databasen.
@@ -71,8 +72,8 @@ Her er et eksempel fra en database med hotellrom, der vi lagrer dokumentene i sa
 ```js
 // populateDatabase.js
 
-import { collection, addDoc } from "firebase/firestore";
 import { db } from "./firebaseConfig.js";
+import { collection, addDoc } from "firebase/firestore";
 
 addDoc(collection(db, "hotelrooms"), {
     floor: 1,
@@ -159,8 +160,8 @@ Her er hele koden for å hente data og skrive den ut på nettsiden:
 // main.js
 
 import './style.css'
-import { getDocs, collection, query, where, orderBy } from "firebase/firestore";
 import { db } from "./firebaseConfig.js";
+import { getDocs, collection, query, where, orderBy } from "firebase/firestore";
 
 const app = document.querySelector("#app");
   
