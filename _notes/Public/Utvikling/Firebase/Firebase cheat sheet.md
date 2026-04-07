@@ -7,6 +7,7 @@ Denne guiden inneholder kjappe forklaringer på det du trenger for å komme igan
 ## Innhold
 <a href="#en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?</a>
 <a href="#to">Hvordan legger jeg inn data i Firebase-databasen min?</a>
+[[Firebase cheat sheet#Hvordan henter jeg data fra databasen og viser det på nettsiden min?|Hvordan henter jeg data fra databasen og viser det på nettsiden min?]]
 
 <h2 id="en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?</h2>
 
