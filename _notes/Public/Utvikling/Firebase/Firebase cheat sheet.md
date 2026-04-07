@@ -22,6 +22,7 @@ Så må du hente ut Firebase-konfigasjonen din slik:
 1. Gå til [firebase.google.com](https://firebase.google.com/)
 2. Opprett et prosjekt hvis du ikke har, eller gå inn på prosjektet ditt
 3. Gå inn på *Settings* og scroll ned til du ser en kode som ser slik ut:
+
 ```js
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -41,10 +42,12 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 ```
+
 4. Kopier denne koden.
 5. Opprett en ny fil i prosjektet ditt som du kaller *firebaseConfig.js*
 6. Lim inn koden.
 7. Legg til denne koden på slutten av fila:
+
 ```js
 import { getFirestore } from "firebase/firestore";
 const db = getFirestore(app);
