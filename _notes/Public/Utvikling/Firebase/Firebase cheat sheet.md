@@ -66,6 +66,8 @@ Funksjonen vi bruker for å sende data til databasen heter *addDoc*. I addDoc m�
 Her er et eksempel fra en database med hotellrom, der vi lagrer dokumentene i samlingen "hotelrooms":
 
 ```js
+// populateDatabase.js
+
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "./firebaseConfig.js";
 
@@ -111,7 +113,7 @@ Denne fila skal **ikke** kobles til en HTML-fil eller en annen JS-fil, men skal 
 node ./populateDatabase.js
 ```
 
-Da sendes all informasjonen direkte til databasen.
+Da sendes all informasjonen direkte til databasen. Når du har kjørt koden en gang kan det være lurt å kommentere ut alle kodelinjene, slik at det ikke går an å kjøre koden en gang til, da dette vil føre til duplikater i databasen. Merk koden og hold inn <kbd>Ctrl</kbd> og trykk <kbd>K</kbd> og så <kbd>C</kbd> for å kommentere ut koden.
 
 
 <h2 id="tre">Hvordan henter jeg data fra databasen og viser det på nettsiden min?</h2>
@@ -151,7 +153,7 @@ Merk at her bruker vi [Template Literals](https://www.w3schools.com/js/js_string
 Her er hele koden for å hente data og skrive den ut på nettsiden:
 
 ```js
-//main.js
+// main.js
 
 import './style.css'
 import { getDocs, collection, query, where, orderBy } from "firebase/firestore";
@@ -165,3 +167,4 @@ snapshot.forEach((doc) => {
   app.innerHTML += `${doc.data().roomNumber} - ${doc.data().roomType} <br>`
 })
 ```
+
