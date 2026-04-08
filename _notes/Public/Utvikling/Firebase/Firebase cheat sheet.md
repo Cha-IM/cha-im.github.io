@@ -10,8 +10,10 @@ Denne guiden inneholder kjappe forklaringer på det du trenger for å komme igan
 - <a href="#tre">Hvordan henter jeg data fra databasen og viser det på nettsiden min?</a>
 
 
-<h2 id="en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?</h2>
 
+
+<h2 style="width: 100%; padding: 80px 20px; margin: 60px 0; display: flex; align-items: center; justify-content: center; color: white; background-color: darkcyan; font-family: sans-serif; text-shadow: 2px 2px 4px rgba(0,0,0,0.4); box-sizing: border-box; text-align: center;"id="en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?
+</h2>
 For et Vite-prosjekt (React eller Vanilla) må du først installere Firebase i prosjektet ditt med npm:
 
 ```shell
@@ -61,7 +63,7 @@ import { db } from "./firebaseConfig.js"
 
 
 
-<h2 id="to">Hvordan legger jeg inn data i Firebase-databasen min?</h2> 
+<h2 style="width: 100%; padding: 80px 20px; margin: 60px 0; display: flex; align-items: center; justify-content: center; color: white; background-color: indigo; font-family: sans-serif; text-shadow: 2px 2px 4px rgba(0,0,0,0.4); box-sizing: border-box; text-align: center;" id="to">Hvordan legger jeg inn data i Firebase-databasen min?</h2> 
 
 Det går an å legge inn data i databasen via Firebase-konsollen, men det er litt upraktisk og tidkrevende. Den enkleste måten er å opprette en fil som du kaller *populateDatabase.js*. I denne filen legger du inn kode for å sende data til databasen.
 
@@ -120,7 +122,7 @@ node ./populateDatabase.js
 Da sendes all informasjonen direkte til databasen. Når du har kjørt koden en gang kan det være lurt å kommentere ut alle kodelinjene, slik at det ikke går an å kjøre koden en gang til, da dette vil føre til duplikater i databasen. Merk koden og hold inn <kbd>Ctrl</kbd> og trykk <kbd>K</kbd> og så <kbd>C</kbd> for å kommentere ut koden.
 
 
-<h2 id="tre">Hvordan henter jeg data fra databasen og viser det på nettsiden min?</h2>
+<h2 style="width: 100%; padding: 80px 20px; margin: 60px 0; display: flex; align-items: center; justify-content: center; color: white; background-color: deeppink; font-family: sans-serif; text-shadow: 2px 2px 4px rgba(0,0,0,0.4); box-sizing: border-box; text-align: center;" id="tre">Hvordan henter jeg data fra databasen og viser det på nettsiden min?</h2>
 
 For å hente data fra databasen bruker vi *getDocs*-metoden i Firebase. Denne henter ut et *snapshot* fra databasen, som inneholder all data fra den valgte somlingen på det tidspunktet vi ber om denne (siden data i en database forandrer seg hele tiden). Snapshot er et spesielt objekt i Firebase-biblioteket som ligner på en liste. For å gjøre det enklere å forstå, kan vi gjøre om snapshotet til en liste før vi fortsetter å jobbe med det.
 
@@ -162,13 +164,13 @@ hotelrooms.forEach((room) => {
 });
 ```
 
----
-#### SIDEBAR: .map()-metoden vs .forEach()-metoden
-*`.map()` og `.forEach()` er to arraymetoder (metoder som brukes på lister) i JavaScript som ligner på hverandre. Begge kjører en funksjon på alle elementene i en liste, men forskjellen er at `.map()` returnerer en ny liste, mens `.forEach()` ikke returnerer noen ting.* 
+<div style="float: right; width: 30%; margin: 0 0 20px 20px; padding: 15px; background-color: rgba(0, 0, 0, 0.05); border-left: 5px solid Crimson; border-radius: 5px; font-family: sans-serif; font-size: 0.9em; box-sizing: border-box;">
+  <strong>.map()-metoden vs .forEach()-metoden:</strong><br>
+<p>`.map()` og `.forEach()` er to arraymetoder (metoder som brukes på lister) i JavaScript som ligner på hverandre. Begge kjører en funksjon på alle elementene i en liste, men forskjellen er at `.map()` returnerer en ny liste, mens `.forEach()` ikke returnerer noen ting.</p>
 
-*`.map()` brukes dermed når vi vil gjøre om eller transformere dataen i en liste, mens `.forEach()` brukes når vi skal gå gjennom lista og gjøre en handling for hvert element.*
+<p>`.map()` brukes dermed når vi vil gjøre om eller transformere dataen i en liste, mens `.forEach()` brukes når vi skal gå gjennom lista og gjøre en handling for hvert element.</p>
+</div>
 
----
 ### Vise databaseinnholdet på nettsiden
 
 Hvis jeg vil vise det på nettsiden kan jeg gjøre det slik i Vite-vanilla:
