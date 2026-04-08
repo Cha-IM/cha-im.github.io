@@ -444,6 +444,57 @@ summary {
     outline: none;
 }
 
+/* Collapsible info box: use with <details class="info-box"> */
+.info-box {
+    margin: 1.35rem 0;
+    border: 1px solid var(--color-border-light);
+    border-radius: 0.95rem;
+    background: var(--surface-card, var(--color-bg-main));
+    overflow: hidden;
+    box-shadow: var(--heading-shadow);
+}
+
+.info-box > summary {
+    width: 100%;
+    cursor: pointer;
+    list-style: none;
+    padding: 0.95rem 1.1rem;
+    font-weight: var(--text-weight-bold);
+    background: var(--heading-band);
+    color: var(--color-text-main);
+    justify-content: space-between;
+}
+
+.info-box > summary::-webkit-details-marker {
+    display: none;
+}
+
+.info-box > summary::after {
+    content: "+";
+    font-size: 1.15em;
+    line-height: 1;
+    transform: translateY(-1px);
+    transition: transform 0.24s ease;
+}
+
+.info-box[open] > summary::after {
+    transform: rotate(45deg);
+}
+
+.info-box > .info-box__content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0 1.1rem;
+    transition: max-height 0.34s ease, opacity 0.24s ease, padding 0.24s ease;
+}
+
+.info-box[open] > .info-box__content {
+    max-height: 40rem;
+    opacity: 1;
+    padding: 0.85rem 1.1rem 1rem;
+}
+
 cite {
     padding-left: 50px;
     font-style: oblique;
