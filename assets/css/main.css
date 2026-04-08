@@ -1124,7 +1124,7 @@ a.box-feed:active {
   display: block;
   width: 100%;
   margin: 2.4rem 0 1.4rem;
-  padding: 1.35rem 1.2rem;
+  padding: 1.5em 1.2rem;
   border: 1px solid var(--color-border-light);
   border-radius: 1rem;
   background: var(--heading-band);
@@ -1156,6 +1156,7 @@ a.box-feed:active {
 .content ol {
   list-style-position: outside;
   margin: 1rem 0;
+  margin-left: 1rem;
   padding-left: 1.6rem;
   }
   .content ol:not([type]) {
@@ -1175,6 +1176,7 @@ ol p {
 .content ul {
   list-style-position: outside;
   margin: 1rem 0;
+  margin-left: 1rem;
   padding-left: 1.6rem;
 }
 .content ul li,
@@ -1183,21 +1185,10 @@ ol p {
   padding: 0.58rem 0.75rem;
   border-radius: 0.75rem;
   box-sizing: border-box;
-}
-.content ul li:nth-child(odd),
-.content ol li:nth-child(odd) {
-  background-color: rgba(35, 128, 237, 0.06);
-}
-.content ul li:nth-child(even),
-.content ol li:nth-child(even) {
   background-color: rgba(35, 128, 237, 0.12);
 }
-html[data-theme="dark"] .content ul li:nth-child(odd),
-html[data-theme="dark"] .content ol li:nth-child(odd) {
-  background-color: rgba(109, 158, 255, 0.09);
-}
-html[data-theme="dark"] .content ul li:nth-child(even),
-html[data-theme="dark"] .content ol li:nth-child(even) {
+html[data-theme="dark"] .content ul li,
+html[data-theme="dark"] .content ol li {
   background-color: rgba(109, 158, 255, 0.15);
 }
 .content ul ul,
