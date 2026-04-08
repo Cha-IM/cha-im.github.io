@@ -47,6 +47,10 @@ html[data-theme="dark"] {
         --color-border-dark: #E6E6E6;
         --color-border: #696969;
         --color-border-light: #353535;
+        --surface-card: rgba(24, 24, 28, 0.92);
+        --surface-code: rgba(109, 158, 255, 0.12);
+        --heading-band: linear-gradient(90deg, rgba(109, 158, 255, 0.24), rgba(109, 158, 255, 0.10));
+        --heading-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
     }
 
     html[data-theme="light"] {
@@ -58,6 +62,10 @@ html[data-theme="dark"] {
         --color-border-dark: #363636;
         --color-border: #BABCBD;
         --color-border-light: #E5E5E5;
+        --surface-card: rgba(255, 255, 255, 0.88);
+        --surface-code: rgba(35, 128, 237, 0.08);
+        --heading-band: linear-gradient(90deg, rgba(35, 128, 237, 0.16), rgba(60, 161, 255, 0.10));
+        --heading-shadow: 0 14px 32px rgba(19, 54, 102, 0.08);
     }
 }
 
@@ -142,8 +150,18 @@ p {
 
 code {
     font-size: var(--text-m);
-    font-weight: var(--text-leading-normal);
-    padding: 0.25em 0.5em 0.25em;
+    font-weight: var(--text-weight-normal);
+    font-family: var(--code-font-family);
+    padding: 0.18em 0.5em 0.2em;
+    background: var(--surface-code);
+    border: 1px solid var(--color-border-light);
+    border-radius: 0.5rem;
+}
+
+pre code {
+    background: transparent;
+    border: 0;
+    padding: 0;
 }
 
 h1,
@@ -151,24 +169,22 @@ h2,
 h3,
 h4,
 h5,
+h6 {
+    margin: 0;
     font-family: var(--primary-font-family);
     letter-spacing: -0.03em;
-    margin: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 p a,
-    font-family: var(--code-font-family);
 ul a,
 li a,
 td a,
- a,
+a,
 h1 a,
 h2 a,
 h3 a,
 h4 a,
 h5 a,
-    padding-bottom: var(--padding-broad);
 h6 a,
 span a,
 div a,
@@ -196,6 +212,7 @@ body {
 
 .section {
     padding-top: var(--padding-broad);
+    padding-bottom: var(--padding-broad);
 }
 
 
