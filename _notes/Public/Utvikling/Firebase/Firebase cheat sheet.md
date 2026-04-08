@@ -163,13 +163,14 @@ hotelrooms.forEach((room) => {
 });
 ```
 
----
-#### SIDEBAR: .map()-metoden vs .forEach()-metoden
-*`.map()` og `.forEach()` er to arraymetoder (metoder som brukes på lister) i JavaScript som ligner på hverandre. Begge kjører en funksjon på alle elementene i en liste, men forskjellen er at `.map()` returnerer en ny liste, mens `.forEach()` ikke returnerer noen ting.* 
 
-*`.map()` brukes dermed når vi vil gjøre om eller transformere dataen i en liste, mens `.forEach()` brukes når vi skal gå gjennom lista og gjøre en handling for hvert element.*
+<details class="info-box"><summary>.map()-metoden vs .forEach()-metoden</summary>
+<div class="info-box_content">`.map()` og `.forEach()` er to arraymetoder (metoder som brukes på lister) i JavaScript som ligner på hverandre. Begge kjører en funksjon på alle elementene i en liste, men forskjellen er at `.map()` returnerer en ny liste, mens `.forEach()` ikke returnerer noen ting.
+<br>
+`.map()` brukes dermed når vi vil gjøre om eller transformere dataen i en liste, mens `.forEach()` brukes når vi skal gå gjennom lista og gjøre en handling for hvert element.
+</div></details>
 
----
+
 ### Vise databaseinnholdet på nettsiden
 
 Hvis jeg vil vise det på nettsiden kan jeg gjøre det slik i Vite-vanilla:
