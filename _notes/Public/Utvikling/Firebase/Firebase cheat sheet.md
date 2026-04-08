@@ -11,9 +11,9 @@ Denne guiden inneholder kjappe forklaringer på det du trenger for å komme igan
 
 
 
-
 <h2 style="width: 100%; padding: 80px 20px; margin: 60px 0; display: flex; align-items: center; justify-content: center; color: white; background-color: darkcyan; font-family: sans-serif; text-shadow: 2px 2px 4px rgba(0,0,0,0.4); box-sizing: border-box; text-align: center;"id="en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?
 </h2>
+
 For et Vite-prosjekt (React eller Vanilla) må du først installere Firebase i prosjektet ditt med npm:
 
 ```shell
@@ -146,6 +146,13 @@ Denne koden vil skrive ut romnummer og romtype for alle hotellrommene i database
 
 ### Pro-tip: Slipp å bruke .data() hver gang
 
+<div style="float: right; width: 30%; margin: 0 0 20px 20px; padding: 15px; background-color: rgba(0, 0, 0, 0.05); border-left: 5px solid Crimson; border-radius: 5px; font-family: sans-serif; font-size: 0.9em; box-sizing: border-box;">
+  <strong>.map()-metoden vs .forEach()-metoden:</strong><br>
+<p>`.map()` og `.forEach()` er to arraymetoder (metoder som brukes på lister) i JavaScript som ligner på hverandre. Begge kjører en funksjon på alle elementene i en liste, men forskjellen er at `.map()` returnerer en ny liste, mens `.forEach()` ikke returnerer noen ting.</p>
+
+<p>`.map()` brukes dermed når vi vil gjøre om eller transformere dataen i en liste, mens `.forEach()` brukes når vi skal gå gjennom lista og gjøre en handling for hvert element.</p>
+</div>
+
 Hvis du vil slippe å skrive `.data()` hver gang du skal bruke informasjonen, kan du transformere listen med en gang du har hentet den. Dette gjør vi med `.map()`-metoden. Da lager vi en ren liste med objekter som inneholder akkurat det vi trenger:
 
 ```js
@@ -164,12 +171,7 @@ hotelrooms.forEach((room) => {
 });
 ```
 
-<div style="float: right; width: 30%; margin: 0 0 20px 20px; padding: 15px; background-color: rgba(0, 0, 0, 0.05); border-left: 5px solid Crimson; border-radius: 5px; font-family: sans-serif; font-size: 0.9em; box-sizing: border-box;">
-  <strong>.map()-metoden vs .forEach()-metoden:</strong><br>
-<p>`.map()` og `.forEach()` er to arraymetoder (metoder som brukes på lister) i JavaScript som ligner på hverandre. Begge kjører en funksjon på alle elementene i en liste, men forskjellen er at `.map()` returnerer en ny liste, mens `.forEach()` ikke returnerer noen ting.</p>
 
-<p>`.map()` brukes dermed når vi vil gjøre om eller transformere dataen i en liste, mens `.forEach()` brukes når vi skal gå gjennom lista og gjøre en handling for hvert element.</p>
-</div>
 
 ### Vise databaseinnholdet på nettsiden
 
