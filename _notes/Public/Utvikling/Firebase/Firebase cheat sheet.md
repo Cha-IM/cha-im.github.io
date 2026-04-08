@@ -210,24 +210,26 @@ hotelrooms.forEach((room) => {
 I `app.innerHTML` kan jeg legge inn mer avansert HTML. For eksempel kan jeg legge infoen inn i en tabell, slik:
 
 ```js
-app.innerHTML = `
-	<table>
-		<tr>
-			<th>Room number</th>
-			<th>Room Type</th>
-			<th># of beds</th>
-		</tr>
+let tableHTML = `
+  <table>
+    <tr>
+      <th>Room number</th>
+      <th>Room Type</th>
+      <th># of beds</th>
+    </tr>
 `
-
+  
 hotelrooms.forEach((room) => {
-  app.innerHTML += `
+  tableHTML += `
   <tr>
-	  <td>${room.roomNumber}</td>
-	  <td>${room.roomType}</td>
-	  <td>${room.noOfBeds}</td>
-  </tr>
-  `
+    <td>${room.roomNumber}</td>
+    <td>${room.roomType}</td>
+    <td>${room.noOfBeds}</td>
+  </tr>
+  `
 })
 
-app.innerHTML += `</table>`
+tableHTML += `</table>`
+  
+app.innerHTML = tableHTML;
 ```
