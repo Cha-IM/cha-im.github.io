@@ -14,6 +14,10 @@ html[data-theme="light"] {
     --color-border-dark: #363636;
     --color-border: #BABCBD;
     --color-border-light: #E5E5E5;
+    --surface-card: rgba(255, 255, 255, 0.88);
+    --surface-code: rgba(35, 128, 237, 0.08);
+    --heading-band: linear-gradient(90deg, rgba(35, 128, 237, 0.16), rgba(60, 161, 255, 0.10));
+    --heading-shadow: 0 14px 32px rgba(19, 54, 102, 0.08);
 }
 
 html[data-theme="dark"] {
@@ -25,6 +29,10 @@ html[data-theme="dark"] {
     --color-border-dark: #E6E6E6;
     --color-border: #696969;
     --color-border-light: #353535;
+    --surface-card: rgba(24, 24, 28, 0.92);
+    --surface-code: rgba(109, 158, 255, 0.12);
+    --heading-band: linear-gradient(90deg, rgba(109, 158, 255, 0.24), rgba(109, 158, 255, 0.10));
+    --heading-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +62,9 @@ html[data-theme="dark"] {
 }
 
 :root {
+    --primary-font-family: "Inter", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    --secondary-font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    --code-font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
     --text-xs: clamp(0.70rem, calc(0.79rem + -0.06vw), 0.78rem);
     --text-s: clamp(0.94rem, calc(0.94rem + 0.00vw), 0.94rem);
     --text-m: clamp(1.13rem, calc(1.11rem + 0.09vw), 1.25rem);
@@ -140,12 +151,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+    font-family: var(--primary-font-family);
+    letter-spacing: -0.03em;
     margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
 p a,
+    font-family: var(--code-font-family);
 ul a,
 li a,
 td a,
@@ -155,6 +168,7 @@ h2 a,
 h3 a,
 h4 a,
 h5 a,
+    padding-bottom: var(--padding-broad);
 h6 a,
 span a,
 div a,
