@@ -1218,6 +1218,7 @@ html[data-theme="dark"] .content ol li {
 .content pre {
   -webkit-overflow-scrolling: touch;
   border-radius: 1rem;
+  margin: 0 0 1.6rem;
   overflow-x: auto;
   white-space: pre;
   word-wrap: normal; }
@@ -1716,6 +1717,7 @@ a.tag:hover {
 .highlight {
   font-weight: 400;
   max-width: 100%;
+  margin-bottom: 1.8rem;
   background-color: var(--surface-card, var(--color-bg-main));
   border: 1px solid var(--color-border-light);
   border-radius: 1rem;
