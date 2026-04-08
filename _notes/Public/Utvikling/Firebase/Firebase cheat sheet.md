@@ -12,8 +12,7 @@ Denne guiden inneholder kjappe forklaringer på det du trenger for å komme igan
 
 
 
-<h2 style="width: 100%; padding: 80px 20px; margin: 60px 0; display: flex; align-items: center; justify-content: center; color: white; background-color: darkcyan; font-family: sans-serif; text-shadow: 2px 2px 4px rgba(0,0,0,0.4); box-sizing: border-box; text-align: center;"id="en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?
-</h2>
+<h2 style="width: 100%; padding: 80px 20px; margin: 60px 0; display: flex; align-items: center; justify-content: center; color: white; background-color: darkcyan; font-family: sans-serif; text-shadow: 2px 2px 4px rgba(0,0,0,0.4); box-sizing: border-box; text-align: center;" id="en"> Hvordan setter jeg opp Firebase i web-prosjektet mitt?</h2>
 
 For et Vite-prosjekt (React eller Vanilla) må du først installere Firebase i prosjektet ditt med npm:
 
