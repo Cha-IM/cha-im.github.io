@@ -16,6 +16,7 @@ html[data-theme="light"] {
     --color-border-light: #E5E5E5;
     --surface-card: rgba(255, 255, 255, 0.88);
     --surface-code: rgba(35, 128, 237, 0.08);
+    --highlight-color-comment-bg: rgba(35, 128, 237, 0.06);
     --heading-band: linear-gradient(90deg, rgba(35, 128, 237, 0.16), rgba(60, 161, 255, 0.10));
     --heading-shadow: 0 14px 32px rgba(19, 54, 102, 0.08);
 }
@@ -31,6 +32,7 @@ html[data-theme="dark"] {
     --color-border-light: #353535;
     --surface-card: rgba(24, 24, 28, 0.92);
     --surface-code: rgba(109, 158, 255, 0.12);
+    --highlight-color-comment-bg: rgba(109, 158, 255, 0.10);
     --heading-band: linear-gradient(90deg, rgba(109, 158, 255, 0.24), rgba(109, 158, 255, 0.10));
     --heading-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
 }
@@ -49,6 +51,7 @@ html[data-theme="dark"] {
         --color-border-light: #353535;
         --surface-card: rgba(24, 24, 28, 0.92);
         --surface-code: rgba(109, 158, 255, 0.12);
+        --highlight-color-comment-bg: rgba(109, 158, 255, 0.10);
         --heading-band: linear-gradient(90deg, rgba(109, 158, 255, 0.24), rgba(109, 158, 255, 0.10));
         --heading-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
     }
@@ -64,6 +67,7 @@ html[data-theme="dark"] {
         --color-border-light: #E5E5E5;
         --surface-card: rgba(255, 255, 255, 0.88);
         --surface-code: rgba(35, 128, 237, 0.08);
+        --highlight-color-comment-bg: rgba(35, 128, 237, 0.06);
         --heading-band: linear-gradient(90deg, rgba(35, 128, 237, 0.16), rgba(60, 161, 255, 0.10));
         --heading-shadow: 0 14px 32px rgba(19, 54, 102, 0.08);
     }
