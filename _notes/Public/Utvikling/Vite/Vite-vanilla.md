@@ -9,7 +9,7 @@ Vite-Vanilla er et rammeverk som ligner veldig på vanlig "vanilla" JavaScript, 
 For å opprette et prosjekt med Vite-Vanilla åpner du en terminal og skriver:
 
 ```shell
-npm create latest@vite .
+npm create vite@latest .
 ```
 
 Denne kommandoen oppretter et Vite-prosjekt i mappen du står i. Når du har kjørt denne kommandoen får du noen spørsmål:

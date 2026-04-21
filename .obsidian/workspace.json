@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/Firebase/Firebase cheat sheet.md",
+                "file": "_notes/Public/Utvikling/Vite/Vite-vanilla.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Firebase cheat sheet"
+              "title": "Vite-vanilla"
             }
           },
           {
@@ -208,8 +208,8 @@
   },
   "active": "1fa9f654d818b1f8",
   "lastOpenFiles": [
-    "_notes/Public/Utvikling/Firebase/Firebase.md",
     "_notes/Public/Utvikling/Firebase/Firebase cheat sheet.md",
+    "_notes/Public/Utvikling/Firebase/Firebase.md",
     "_notes/Public/Utvikling/Utvikling.md",
     "_notes/Public/Utvikling/Vite/Vite-vanilla.md",
     "_notes/Public/Utvikling/Vite",
