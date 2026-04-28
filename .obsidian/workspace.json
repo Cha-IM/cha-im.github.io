@@ -53,14 +53,12 @@
             "id": "466bf173dd7a0a2e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_notes/Public/For lærere/Teams/Noen tips om innlegg i Teams.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/img/Teams/Pasted-image-20260424112215.png"
               },
-              "icon": "lucide-file",
-              "title": "Noen tips om innlegg i Teams"
+              "icon": "lucide-image",
+              "title": "Pasted-image-20260424112215"
             }
           },
           {
@@ -76,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,19 +218,19 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "466bf173dd7a0a2e",
+  "active": "1fa9f654d818b1f8",
   "lastOpenFiles": [
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
+    "assets/img/Teams/Pasted-image-20260424112215.png",
+    "assets/img/Teams/Pasted-image-20260424112428.png",
+    "assets/img/Teams/Pasted-image-20260424103149.png",
     "_notes/Public/For lærere/Teams/Noen tips om innlegg i Teams.md",
-    "assets/img/Teams/Pasted image 20260424125100.png",
-    "assets/img/Teams/Pasted image 20260424112428.png",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
+    "assets/img/Teams/Pasted-image-20260424125100.png",
     "pages/posts.md",
-    "assets/img/Teams/Pasted image 20260424103149.png",
     "2.md",
-    "assets/img/Teams/Pasted image 20260424103246.png",
+    "assets/img/Teams/Pasted-image-20260424103246.png",
     "assets/img/Teams",
-    "assets/img/Teams/Pasted image 20260424112528.png",
-    "assets/img/Teams/Pasted image 20260424112215.png",
+    "assets/img/Teams/Pasted-image-20260424112528.png",
     "_notes/Public/Utvikling/Vite/Vite-vanilla.md",
     "_notes/Public/For lærere/Teams",
     "_notes/Public/Utvikling/Firebase/Firebase cheat sheet.md",
@@ -260,7 +258,6 @@
     "_notes/Public/YFF/Lærlingetid og påbygg/Søke lærlingeplass.md",
     "_notes/Public/YFF/Lærlingetid og påbygg/Lærlingetiden.md",
     "pages/index.md",
-    "_notes/Public/YFF/YFF.md",
     "_notes/Public/YFF/Lærlingetid og påbygg",
     "_notes/Public/YFF",
     "assets/img/3dprint/tinkercadverktøy.png",
