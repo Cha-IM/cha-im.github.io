@@ -25,7 +25,7 @@ npm create vite@latest .
 
 Gjør deretter valgene som vist på bildet:
 
-![Skjermbilde 2026-05-04 141355.png](assets/img/vite-vanilla/Skjermbilde2026-05-04-141355.png)
+![Skjermbilde 2026-05-04 141355.png](/assets/img/vite-vanilla/Skjermbilde2026-05-04-141355.png)
 
 Vite vil nå installere Vanilla-rammeverket og starte en webserver på localhost.
 
@@ -34,7 +34,7 @@ Vite vil nå installere Vanilla-rammeverket og starte en webserver på localhost
 
 Siden terminalen du åpnet fra før er opptatt med å kjøre Vite-webserveren, må du åpne en ny terminal. Trykk på den lille pilen ved plusstegnet øverst på terminalen og velg *Command prompt*.
 
-![](assets/img/vite-vanilla/Skjermbilde2026-05-04-141448.png)
+![](/assets/img/vite-vanilla/Skjermbilde2026-05-04-141448.png)
 
 Så skriver du denne kommandoen i terminalen for å installere express og alt som er nødvendig for å sette opp en SQLite-database:
 
@@ -44,7 +44,7 @@ npm install express cors better-sqlite3
 
 ### Sette opp databaseserveren og API for å kommunisere med databasen
 
-![](assets/img/vite-vanilla/Skjermbilde2026-05-04-143756.png)
+![](/assets/img/vite-vanilla/Skjermbilde2026-05-04-143756.png)
 
 Opprett en ny fil i rotmappen som du kaller *server.js*. Legg inn følgende kode:
 
@@ -137,29 +137,29 @@ For å opprette databasen og gjøre det mulig for *main.js* å kommunisere med d
 node server.js
 ```
 
-![](assets/img/vite-vanilla/Skjermbilde2026-05-04-143925.png)
+![](/assets/img/vite-vanilla/Skjermbilde2026-05-04-143925.png)
 
 Du vil da se at databasefilen blir opprettet i rotmappen:
 
-![](assets/img/vite-vanilla/Skjermbilde2026-05-04-144153.png)
+![](/assets/img/vite-vanilla/Skjermbilde2026-05-04-144153.png)
 
 ## Skrive til databasen
 
 Åpne web-appen din i nettleseren med adressen som står i vite-terminalen (f.eks. [localhost:5173](http://localhost:5173/))
 
-![](assets/img/vite-vanilla/Skjermbilde2026-05-04-155007.png)
+![](/assets/img/vite-vanilla/Skjermbilde2026-05-04-155007.png)
 
 Du vil da få opp en enkel nettside med en tekstboks og en knapp. Skriv en melding og trykk på knappen.
 
-![](assets/img/vite-vanilla/Skjermbilde2026-05-04-144102.png)
+![](/assets/img/vite-vanilla/Skjermbilde2026-05-04-144102.png)
 
 Meldingen vil da komme opp i en liste under tekstfeltet, sammen med alle andre meldinger som er lagret i databasen.
 
-![](assets/img/vite-vanilla/Skjermbilde2026-05-04-144433.png)
+![](/assets/img/vite-vanilla/Skjermbilde2026-05-04-144433.png)
 
 Hvis du har installert SQLite viewer-extension, kan du se innholdet og strukturen på databasen ved å klikke på *database.db*. (Legg merke til at id fylles ut automatisk med neste ledige tall).
 
-![](assets/img/vite-vanilla/Skjermbilde2026-05-04-144500.png)
+![](/assets/img/vite-vanilla/Skjermbilde2026-05-04-144500.png)
 
 ## Oppsummering og veien videre
 Du har nå sett hvordan du enkelt kan sette opp en fullstack web-app med database med Vite+Vanilla, Express.js og SQLite. Nå kan du fortsette selv og lage den databasen du trenger. Nye tabeller oppretter du via *server.js* (husk å restarte serveren når du har gjort endringer), og du kan opprette nye tekstfelter i *main.js*.
