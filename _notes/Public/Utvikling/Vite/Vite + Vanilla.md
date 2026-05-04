@@ -1,5 +1,5 @@
 ---
-title: Vite-vanilla
+title: Vite + Vanilla
 feed: show
 date: 07-04-2026
 ---
@@ -33,4 +33,7 @@ Nå har du satt opp Vanilla-prosjektet ditt. For å starte med et blankt prosjek
 
 Du kan nå redigere HTML-koden i *index.html* og skrive JavaScript-kode i *main.js*, som i et vanlig HTML/CSS/JS-prosjekt.
 
-Om du trenger å opprette flere html-dokumenter, kan du opprette dem i rotmappen, ved siden av *index.html*. CSS- og JS-filer oppretter du i */src*-mappen, og bilder og andre mediefiler legger du i */src/assets*-mappen.---
+Om du trenger å opprette flere html-dokumenter, kan du opprette dem i rotmappen, ved siden av *index.html*. CSS- og JS-filer oppretter du i */src*-mappen, og bilder og andre mediefiler legger du i */src/assets*-mappen.
+
+## Neste steg
+[[Lage en enkel fullstack web-app med Vite + Vanilla, Express.js og SQLite]]
