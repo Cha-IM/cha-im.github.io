@@ -29,6 +29,8 @@ Gjør deretter valgene som vist på bildet:
 
 Vite vil nå installere Vanilla-rammeverket og starte en webserver på localhost.
 
+Mer om oppsett av Vite + Vanilla: [[Vite + Vanilla]]
+
 
 ## Sette opp backend med Express.js
 
