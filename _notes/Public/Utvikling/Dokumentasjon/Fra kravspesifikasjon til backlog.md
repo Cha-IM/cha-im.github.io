@@ -40,7 +40,8 @@ I eksempelet vårt over kan vi trekke ut FK1 (brukerregistrering) og IFK3 (sikke
 ## Brukerhistorier
 Når vi har identifisert alle epics skal vi bryte ned disse til enkeltoppgaver. Vi tar utgangspunkt i hva en bruker skal kunne gjøre i appen og lager *brukerhistorier*. En brukerhistorie ser sånn ut:
 
-	"Som en [type bruker] vil jeg [handling], slik at jeg [gevinst]"
+>"Som en [type bruker] vil jeg [handling], slik at jeg [gevinst]"
+
 For eksempel:
 - Som en *bruker* vil jeg kunne *lage lister i forskjellige kategorier*, slik at jeg kan *dele mine favoritter med andre*.
 - Som en *bruker* vil jeg *logge inn*, slik at jeg kan *se mine lagrede lister*

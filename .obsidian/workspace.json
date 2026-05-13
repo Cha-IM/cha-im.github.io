@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Utvikling/Dokumentasjon/Dokumentasjon.md",
+                "file": "_notes/Public/Utvikling/Dokumentasjon/Fra kravspesifikasjon til backlog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dokumentasjon"
+              "title": "Fra kravspesifikasjon til backlog"
             }
           },
           {
@@ -192,9 +192,10 @@
   },
   "active": "23ab4665cc10061a",
   "lastOpenFiles": [
+    "_notes/Public/Utvikling/Teknologistack/Teknologistack.md",
     "_notes/Public/Utvikling/Dokumentasjon/Fra kravspesifikasjon til backlog.md",
-    "_notes/Public/Utvikling/Dokumentasjon/Kravspesifikasjon.md",
     "_notes/Public/Utvikling/Dokumentasjon/Dokumentasjon.md",
+    "_notes/Public/Utvikling/Dokumentasjon/Kravspesifikasjon.md",
     "_notes/Public/Utvikling/Vite/Lage en enkel fullstack web-app med Vite + Vanilla, Express.js og SQLite.md",
     "assets/img/vite-vanilla/Skjermbilde2026-05-04-155007.png",
     "assets/img/vite-vanilla/Skjermbilde2026-05-04-141144.png",
@@ -213,7 +214,6 @@
     "_notes/Public/For lærere/Teams/Noen tips om innlegg i Teams.md",
     "_notes/Public/Teknologiforståelse/Teknologiforståelse.md",
     "_notes/Public/Teknologiforståelse/Kunstig intelligens/Lag en web-app med KI-agent.md",
-    "_notes/Public/Utvikling/Teknologistack/Teknologistack.md",
     "pages/posts.md",
     "2.md",
     "assets/img/Teams",
