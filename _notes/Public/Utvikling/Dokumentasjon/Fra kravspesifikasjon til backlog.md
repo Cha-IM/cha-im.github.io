@@ -26,13 +26,6 @@ Som et eksempel skal vi se for oss at vi skal lage en web-app der brukerne kan l
 | **IFK3** | **Sikkerhet**            | Alle passord skal hashes i databasen, og brukersesjoner skal sikres med HTTPS.                   |
 | **IFK4** | **Universell utforming** | Appen skal følge WCAG 2.1-standarden for tilgjengelighet (kontrast, skjermleservennlighet).      |
 | **IFK5** | **Brukervennlighet**     | Det skal ikke kreves mer enn 3 klikk for å starte prosessen med å lage en ny liste fra forsiden. |
-## Minimum Viable Product (MVP)
-Det er vanlig å tenke at man skal starte med å lage en versjon av det endelige produktet som fungerer som en fullstendig app, men som har med kun de absolutt nødvendige funksjonene. Målet er å lage en smal, men fungerende versjon av skuttproduktet som kan tas i bruk med en gang. Etter dette fortsetter man å videreutvikle produktet til man fullfører alle funksjonene man har planlagt i kravspesifikasjonen.
-
-Målet med en MVP er at man kan bruke denne til å faktisk finne ut om folk vil bruke den ferdige appen - man sjekker om ideen var god, uten at man har brukt mye tid på å perfeksjonere en fullstendig app.
-
-I eksempelet med topp 5-appen kan vi lage en MVP ved å starte med kun FK1, FK2 og FK4 og lage en fullstendig app som dekker disse tre kravene. Legg merke til at MVP skal være brukbart, så man må fortsatt ha en ferdig designet app med både frontend og backend som fungerer. Vi har da en app med nok funksjoner til at den kan testes, men som kan bygges ut senere.
-
 ## Epics
 Det første man gjør når man skal gå fra kravspesifikasjon til produktbacklog er å identifisere hovedtemaene. I softwareutvikling kalles dette ofte *Epics*. En Epic er et stort mål som inneholder mange små oppgaver. Da ser man på både funksjonelle og ikke-funksjonelle krav i kravspesifikasjonen og slår sammen de som hører til under samme tema. 
 I eksempelet vårt over kan vi trekke ut FK1 (brukerregistrering) og IFK3 (sikkerhet) til en Epic vil kaller *Autentisering*. FK2 (opprettelse), FK4 (redigering) og FK7 (kategorier) blir til *Epic: Listehåndtering*.
@@ -67,3 +60,9 @@ Når vi har brutt ned alle Epics og har en lang liste med korte oppgaver, kan vi
 
 Nå kan vi legge inn oppgavene i backlogen i Github-repoen vår, som Issues. Da blir det enkelt for hele teamet å se hva som må gjøres, og man kan se status på oppgavene om de er gjort, og av hvem.
 
+## Minimum Viable Product (MVP)
+Det er vanlig å tenke at man skal starte med å lage en versjon av det endelige produktet som fungerer som en fullstendig app, men som har med kun de absolutt nødvendige funksjonene. Målet er å lage en smal, men fungerende versjon av skuttproduktet som kan tas i bruk med en gang. Etter dette fortsetter man å videreutvikle produktet til man fullfører alle funksjonene man har planlagt i kravspesifikasjonen.
+
+Målet med en MVP er at man kan bruke denne til å faktisk finne ut om folk vil bruke den ferdige appen - man sjekker om ideen var god, uten at man har brukt mye tid på å perfeksjonere en fullstendig app.
+
+I eksempelet med topp 5-appen kan vi lage en MVP ved å starte med kun FK1, FK2 og FK4 og lage en fullstendig app som dekker disse tre kravene. Legg merke til at MVP skal være brukbart, så man må fortsatt ha en ferdig designet app med både frontend og backend som fungerer. Vi har da en app med nok funksjoner til at den kan testes, men som kan bygges ut senere.
