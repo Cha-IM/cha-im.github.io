@@ -18,4 +18,5 @@ Hvorfor er dokumentasjon viktig?
 
 ## Innhold i modulen
 * [[Kravspesifikasjon]]
+* [[Fra kravspesifikasjon til backlog]]
 * [[Kommentarer i koden (JavaScript)]]
