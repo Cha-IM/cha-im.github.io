@@ -8,6 +8,7 @@ Når dere har lagd en kravspesifikasjon er det fortsatt en del å gjøre før de
 Som et eksempel skal vi se for oss at vi skal lage en web-app der brukerne kan lage ulike topp 5-lister ned f.eks. sine favorittsanger, favorittfilmer, tv-serier, band eller lignende. Vi kan da se for oss følgende kravspesifikasjon:
 
 #### Funksjonelle krav
+
 | **ID**  | **Krav**                  | **Beskrivelse**                                                                                                       |
 | ------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | **FK1** | **Brukerregistrering**    | Brukere må kunne opprette en profil med e-post, brukernavn og passord.                                                |
@@ -19,6 +20,7 @@ Som et eksempel skal vi se for oss at vi skal lage en web-app der brukerne kan l
 | **FK7** | **Kategorisering**        | Systemet skal ha forhåndsdefinerte kategorier (Musikk, Film, spill, etc.), men også tillate "Annet".                  |
 
 #### Ikke-funksjonelle krav
+
 | **ID**   | **Kategori**             | **Krav**                                                                                         |
 | -------- | ------------------------ | ------------------------------------------------------------------------------------------------ |
 | **IFK1** | **Responstid**           | Sider skal laste på under 2 sekunder ved normal bruk.                                            |
@@ -26,6 +28,8 @@ Som et eksempel skal vi se for oss at vi skal lage en web-app der brukerne kan l
 | **IFK3** | **Sikkerhet**            | Alle passord skal hashes i databasen, og brukersesjoner skal sikres med HTTPS.                   |
 | **IFK4** | **Universell utforming** | Appen skal følge WCAG 2.1-standarden for tilgjengelighet (kontrast, skjermleservennlighet).      |
 | **IFK5** | **Brukervennlighet**     | Det skal ikke kreves mer enn 3 klikk for å starte prosessen med å lage en ny liste fra forsiden. |
+|          |                          |                                                                                                  |
+
 ## Epics
 Det første man gjør når man skal gå fra kravspesifikasjon til produktbacklog er å identifisere hovedtemaene. I softwareutvikling kalles dette ofte *Epics*. En Epic er et stort mål som inneholder mange små oppgaver. Da ser man på både funksjonelle og ikke-funksjonelle krav i kravspesifikasjonen og slår sammen de som hører til under samme tema. 
 I eksempelet vårt over kan vi trekke ut FK1 (brukerregistrering) og IFK3 (sikkerhet) til en Epic vil kaller *Autentisering*. FK2 (opprettelse), FK4 (redigering) og FK7 (kategorier) blir til *Epic: Listehåndtering*.
