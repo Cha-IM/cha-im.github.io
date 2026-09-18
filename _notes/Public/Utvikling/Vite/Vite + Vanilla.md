@@ -16,7 +16,7 @@ Denne kommandoen oppretter et Vite-prosjekt i mappen du står i. Når du har kj�
 
 1.  Hvis mappen din ikke er tom (f.eks. om du har klonet et Github-repo) får du spørsmålet: *Current directory is not empty. Please choose how to proceed.* Da velger du: *Ignore files and continue*
 2. *Select a framework*. Velg *Vanilla*.
-3. *Select a variant*. Velg *JavaScript*.
+3. *Select a variant*. Velg *TypeScript* (dette velger du uansett om du har tenkt å skrive koden i TypeScript eller JavaScript).
 4. *Install with NPM and start now?* Velg *Yes*
 
 ### Lokal webserver
@@ -27,13 +27,17 @@ npm run dev
 
 ### Lage et blankt prosjekt
 Nå har du satt opp Vanilla-prosjektet ditt. For å starte med et blankt prosjekt følger du disse stegene:
-1. Slett *counter.js* i src-mappen.
-2. Åpne *main.js* og slett alt innholdet unntatt første linje (`import ./style.css`)
-3. (valgfritt) Åpne *style.css* og slett alt innholdet hvis du vil lage din egen CSS.
+1. Slett alle filer i mappene `/src/assets` og `/public`
+2. Slett `counter.js` i `/src`-mappen.
+3. Åpne `main.js` og slett alt innholdet unntatt første linje (`import ./style.css`)
+4. (valgfritt) Åpne `style.css` og slett alt innholdet hvis du vil lage din egen CSS.
 
-Du kan nå redigere HTML-koden i *index.html* og skrive JavaScript-kode i *main.js*, som i et vanlig HTML/CSS/JS-prosjekt.
+Du kan nå redigere HTML-koden i `index.html` og skrive JavaScript-kode i `main.js`, som i et vanlig HTML/CSS/JS-prosjekt.
 
-Om du trenger å opprette flere html-dokumenter, kan du opprette dem i rotmappen, ved siden av *index.html*. CSS- og JS-filer oppretter du i */src*-mappen, og bilder og andre mediefiler legger du i */src/assets*-mappen.
+Om du trenger å opprette flere html-dokumenter, kan du opprette dem i rotmappen, ved siden av `index.html`. CSS- og JS-filer oppretter du i `/src`-mappen, og bilder og andre mediefiler legger du i `/public`-mappen.
+
+### Dokumentasjon
+Opprett en en mappe på rotnivå som du kaller `/docs`. I denne mappa skal du legge alle filer knyttet til planlegging og dokumentasjon, slik som kravspesifikasjon, designskisse, logger osv. Skriv gjerne dokumentasjonen som *.md*-filer (Markdown). Markdown er spesielle tekstfiler med enkel formatering som skrives direkte inn som tekst, som vises som html-sider på GitHub. Du finner en gjennomgang av Markdown her: [Markdown Cheatsheet · adam-p/markdown-here Wiki](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet).
 
 ## Neste steg
 [[Lage en enkel fullstack web-app med Vite + Vanilla, Express.js og SQLite]]
