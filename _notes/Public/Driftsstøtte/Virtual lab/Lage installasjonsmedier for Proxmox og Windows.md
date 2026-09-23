@@ -4,9 +4,10 @@ feed: hide
 date: 23-09-2026
 ---
 ## Innhold
-- [[#1. Forberedelser|1. Forberedelser]]
-- [[#2. Lag Proxmox USB-installasjonsmedium med Rufus|2. Lag Proxmox USB-installasjonsmedium med Rufus]]
-- [[#3. Lag et Proxmox-tilpasset Windows USB-installasjonsmedium med Rufus|3. Lag et Proxmox-tilpasset Windows USB-installasjonsmedium med Rufus]]
+
+- [1. Forberedelser](#1.%20Forberedelser)
+- [2. Lag Proxmox USB-installasjonsmedium med Rufus](#2.%20Lag%20Proxmox%20USB-installasjonsmedium%20med%20Rufus)
+- [3. Lag et Proxmox-tilpasset Windows USB-installasjonsmedium med Rufus](#3.%20Lag%20et%20Proxmox-tilpasset%20Windows%20USB-installasjonsmedium%20med%20Rufus)
 
 
 ## 1. Forberedelser

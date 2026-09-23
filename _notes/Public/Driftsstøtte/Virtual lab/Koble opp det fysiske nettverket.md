@@ -4,9 +4,12 @@ date: 23-09-2026
 feed: show
 ---
 ## Innhold
-- [[#1. Utstyrsliste og IP-plan (Per gruppe)|1. Utstyrsliste og IP-plan (Per gruppe)]]
-- [[#2. Topologioversikt|2. Topologioversikt]]
-- [[#3. Fysisk kabling|3. Fysisk kabling]]
+
+- [1. Utstyrsliste og IP-plan (Per gruppe)](#1.%20Utstyrsliste%20og%20IP-plan%20(Per%20gruppe))
+- [2. Topologioversikt](#2.%20Topologioversikt)
+- [3. Fysisk kabling](#3.%20Fysisk%20kabling)
+
+
 
 
 ## 1. Utstyrsliste og IP-plan (Per gruppe)

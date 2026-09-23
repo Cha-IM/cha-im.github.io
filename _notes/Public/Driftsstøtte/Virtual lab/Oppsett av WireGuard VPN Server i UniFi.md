@@ -6,10 +6,11 @@ date: 23-09-2026
 *Denne artikkelen er ikke testet*
 
 ## Innhold
-- [[#1. Sette opp VPN-server og klientprofiler|1. Sette opp VPN-server og klientprofiler]]
-- [[#2. Klientkonfigurasjon og Ekstern Test|2. Klientkonfigurasjon og Ekstern Test]]
-- [[#Hva som skal dokumenteres i Økt 4|Hva som skal dokumenteres i Økt 4]]
-- [[#Refleksjonsoppgaver — Økt 4|Refleksjonsoppgaver — Økt 4]]
+
+- [1. Sette opp VPN-server og klientprofiler](#1.%20Sette%20opp%20VPN-server%20og%20klientprofiler)
+- [2. Klientkonfigurasjon og Ekstern Test](#2.%20Klientkonfigurasjon%20og%20Ekstern%20Test)
+- [Hva som skal dokumenteres i Økt 4](#Hva%20som%20skal%20dokumenteres%20i%20%C3%98kt%204)
+- [Refleksjonsoppgaver — Økt 4](#Refleksjonsoppgaver%20%E2%80%94%20%C3%98kt%204)
 
 
 ## 1. Sette opp VPN-server og klientprofiler
