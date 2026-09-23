@@ -1,6 +1,15 @@
+---
+title: Lage installasjonsmedier for Proxmox og Windows
+feed: hide
+date: 23-09-2026
+---
+## Innhold
+- [[#1. Forberedelser|1. Forberedelser]]
+- [[#2. Lag Proxmox USB-installasjonsmedium med Rufus|2. Lag Proxmox USB-installasjonsmedium med Rufus]]
+- [[#3. Lag et Proxmox-tilpasset Windows USB-installasjonsmedium med Rufus|3. Lag et Proxmox-tilpasset Windows USB-installasjonsmedium med Rufus]]
 
 
-## Forberedelser
+## 1. Forberedelser
 
 - Last ned programmet Rufus her: [Rufus - Lag en oppstartbar USB-stasjon på den enkle måten](https://rufus.ie/nb/).
 - Last ned Proxmox VE her: [Proxmox VE 9.2 Installer](https://enterprise.proxmox.com/iso/proxmox-ve_9.2-1.iso).
@@ -9,7 +18,7 @@
 	- Under **Select the product language**, velg **Norwegian** eller **English**, og klikk **Confirm**.
 	- Klikk på **64-bit download**. ISO-filen vil nå begynne å laste ned.
 
-### Lag Proxmox USB-installasjonsmedium med Rufus
+## 2. Lag Proxmox USB-installasjonsmedium med Rufus
 - Åpne Rufus
 - Sett inn en USB-penn i PC-en din
 	- Rufus vil automatisk kjenne igjen USB-pennen
@@ -18,7 +27,7 @@
 	- Når den grønne Progressbaren er ferdig og det står **KLAR**, kan du ta ut minnepennen. 
 - Gjenta samme prosess for den andre minnepennen, med det andre
 
-## Lag et Proxmox-tilpasset Windows USB-installasjonsmedium med Rufus
+## 3. Lag et Proxmox-tilpasset Windows USB-installasjonsmedium med Rufus
 - Åpne Rufus
 - Sett inn en USB-penn i PC-en din
 	- Rufus vil automatisk kjenne igjen USB-pennen

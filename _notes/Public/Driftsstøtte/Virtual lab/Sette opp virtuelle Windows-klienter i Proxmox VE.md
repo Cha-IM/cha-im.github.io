@@ -1,17 +1,19 @@
-
+---
+title: Sette opp virtuelle Windows-klienter i Proxmox VE
+feed: show
+date: 23-09-2026
+---
 ## Innhold
-- [[#Opprette Virtuelle Maskiner (VM 101 og VM 102):|Opprette Virtuelle Maskiner (VM 101 og VM 102):]]
-- [[#Installasjon av Windows|Installasjon av Windows]]
-	- [[#Installasjon av Windows#Alternativ 1: Send USB-pennen direkte inn i VM-en (USB Passthrough)|Alternativ 1: Send USB-pennen direkte inn i VM-en (USB Passthrough)]]
-	- [[#Installasjon av Windows#Alternativ 2: Last opp ISO-filen til Proxmox|Alternativ 2: Last opp ISO-filen til Proxmox]]
-- [[#Etter installasjon|Etter installasjon]]
-	- [[#Etter installasjon#Hva som skal dokumenteres i Økt 3|Hva som skal dokumenteres i Økt 3]]
-	- [[#Etter installasjon#Refleksjonsoppgaver — Økt 3|Refleksjonsoppgaver — Økt 3]]
-- [[#ØKT 4: Fjernstyring (RDP) og WireGuard VPN for Hjemmekontor|ØKT 4: Fjernstyring (RDP) og WireGuard VPN for Hjemmekontor]]
-	- [[#ØKT 4: Fjernstyring (RDP) og WireGuard VPN for Hjemmekontor#Praktiske oppgaver|Praktiske oppgaver]]
+- [[#1. Opprette Virtuelle Maskiner (VM 101 og VM 102):|1. Opprette Virtuelle Maskiner (VM 101 og VM 102):]]
+- [[#2. Installasjon av Windows|2. Installasjon av Windows]]
+	- [[#2. Installasjon av Windows#2a. Alternativ 1: Send USB-pennen direkte inn i VM-en (USB Passthrough)|2a. Alternativ 1: Send USB-pennen direkte inn i VM-en (USB Passthrough)]]
+	- [[#2. Installasjon av Windows#2b. Alternativ 2: Last opp ISO-filen til Proxmox|2b. Alternativ 2: Last opp ISO-filen til Proxmox]]
+- [[#3. Etter installasjon|3. Etter installasjon]]
+- [[#Hva som skal dokumenteres i Økt 3|Hva som skal dokumenteres i Økt 3]]
+- [[#Refleksjonsoppgaver — Økt 3|Refleksjonsoppgaver — Økt 3]]
 
 
-## Opprette Virtuelle Maskiner (VM 101 og VM 102):
+## 1. Opprette Virtuelle Maskiner (VM 101 og VM 102):
  
 - Klikk **Create VM** i Proxmox UI.
 - **VM 101 (`Win11-Klient-A`):** CPU: 2 Cores | RAM: 4096 MB | Disk: 50 GB | Network Bridge: `vmbr0` | TPM 2.0 & EFI aktivert.
@@ -19,8 +21,8 @@
 - Start installasjonen og opprett lokale brukerkontoer (`ElevA` og `ElevB`).
 
 
-## Installasjon av Windows 
-### Alternativ 1: Send USB-pennen direkte inn i VM-en (USB Passthrough)
+## 2. Installasjon av Windows 
+### 2a. Alternativ 1: Send USB-pennen direkte inn i VM-en (USB Passthrough)
 
 Du kan koble USB-pennen fysisk inn i den stasjonære Proxmox-PC-en og sende den direkte videre til den virtuelle maskinen. Dette gjør at du kan bruke oppstartsmediet du lagde med Rufus, som omgår kravet om Microsoft-konto, og gjør Windowsinstallasjonen bedre tilpasset virtualisering i lab.
 
@@ -58,7 +60,7 @@ _Verifisering:_ Windows 11-installasjonsveiviseren starter opp på skjermen dire
 *Etter at Windows-kjernen er installert fra USB-pennen vil den virtuelle maskinen restarte. Du vil da få en feilmelding om at maskinen prøver å starte installasjon fra USB-en, men at det er allerede en installasjon som er i gang. Fjern USB-pennen og klikk på **Ja** under feilmeldingen.*
 
 
-### Alternativ 2: Last opp ISO-filen til Proxmox
+### 2b. Alternativ 2: Last opp ISO-filen til Proxmox
 
 1. Åpne Proxmox i nettleseren (`[https://192.168.](https://192.168.)X.2:8006`).
 2. I venstremenyen, klikk på lagringsområdet **`local`** under Proxmox-noden din.
@@ -129,7 +131,7 @@ Først må du koble fra den virtuelle nettverkskabelen et øyeblikk slik at Wind
 
 
 
-## Etter installasjon
+## 3. Etter installasjon
 
 Når du er inne på skrivebordet i Windows:
 
@@ -138,28 +140,19 @@ Når du er inne på skrivebordet i Windows:
 3. Åpne `cmd` og skriv `ipconfig` for å finne IP-adressen som UXG-Lite har tildelt maskinen.
 4. Du kan nå koble deg til maskinen direkte fra laptopen din via **Tilkobling til fjernskrivebord (mstsc.exe)**.
 5. **Nettverkskonfigurasjon og feilsøking i Windows:**
-    
-      
     - Åpne Ledetekst (`cmd`) på begge klientene og kjør `ipconfig /all`. Verifiser at de mottar IP-adresser fra UXG-Lite sin DHCP-tjeneste.
     - Test nettverksforbindelse mellom Klient A og Klient B med `ping [IP-adresse]`.
     - Dersom ping feiler: Konfigurer Windows Firewall til å tillate ICMPv4-Inbound echo request.
 
 
-### Hva som skal dokumenteres i Økt 3
+## Hva som skal dokumenteres i Økt 3
 
 1. **Proxmox VM Oversikt:** Skjermbilde av Proxmox ressursoversikt som viser at både VM 101 og VM 102 kjører samtidig.
 2. **IP-konfigurasjon:** Skjermbilde av `ipconfig /all` fra begge Windows-klientene side om side.
 3. **Vellykket Ping-test:** Skjermbilde fra `cmd` som viser 0% pakketap ved ping mellom `Win11-Klient-A` og `Win11-Klient-B`.
+4. **RDP I Drift:** Skjermbilde fra Elev A sin laptop som viser at han/hun har en aktiv RDP-sesjon vindu-i-vindu mot sin virtuell Windows 11-maskin.
 
-### Refleksjonsoppgaver — Økt 3
+## Refleksjonsoppgaver — Økt 3
 
 - **3.1 (Brannmur og sikkerhet):** Hvorfor blokkerer Windows Firewall ICMP (ping) som standard på "Public/Private" nettverksprofiler? Hvilke sikkerhetsrisikoer er knyttet til at enheter svarer på ping i et bedriftsnettverk?
 - **3.2 (Ressursallokering / Overcommit):** Dersom den stasjonære PC-en har 16 GB RAM totalt, og dere tildeler 4 GB til Elev A sin VM, 4 GB til Elev B sin VM, 2 GB til UniFi LXC og Proxmox bruker 2 GB selv — hva skjer dersom dere i tillegg starter opp to nye tunge server-VM-er? Forklar konseptet RAM Overcommit og Swapping.
-
-## ØKT 4: Fjernstyring (RDP) og WireGuard VPN for Hjemmekontor
-
-### Praktiske oppgaver
-
-1. **Konfigurere Remote Desktop (RDP):**
-    - Inne på hver Windows-klient: Gå til _Innstillinger -> System -> Remote Desktop_ og aktiver funksjonen.
-    - Gjør en lokal test: Åpne _Tilkobling til fjernskrivebord (mstsc)_ på Elev A sin laptop og koble til IP-adressen til `Win11-Klient-A`.
