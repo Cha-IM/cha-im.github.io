@@ -4,12 +4,13 @@ feed: show
 date: 23-09-2026
 ---
 *Denne artikkelen er ikke testet*
+
 ## Innhold
 
-- [1. Opprette LXC-container for UniFi Controller](#1.%20Opprette%20LXC-container%20for%20UniFi%20Controller)
-- [2. Førstegangsoppsett og Adoption](#2.%20F%C3%B8rstegangsoppsett%20og%20Adoption)
-- [Hva som skal dokumenteres i Økt 2](#Hva%20som%20skal%20dokumenteres%20i%20%C3%98kt%202)
-- [Refleksjonsoppgaver — Økt 2](#Refleksjonsoppgaver%20%E2%80%94%20%C3%98kt%202)
+- [1. Opprette LXC-container for UniFi Controller](#1-opprette-lxc-container-for-unifi-controller)
+- [2. Førstegangsoppsett og Adoption](#2-f%C3%B8rstegangsoppsett-og-adoption)
+- [Hva som skal dokumenteres i Økt 2](#hva-som-skal-dokumenteres-i-%C3%98kt-2)
+- [Refleksjonsoppgaver — Økt 2](#refleksjonsoppgaver--%C3%98kt-2)
 
 
 

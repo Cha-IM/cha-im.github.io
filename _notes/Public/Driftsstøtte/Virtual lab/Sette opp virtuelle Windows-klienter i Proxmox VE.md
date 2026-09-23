@@ -5,13 +5,13 @@ date: 23-09-2026
 ---
 ## Innhold
 
-- [1. Opprette Virtuelle Maskiner (VM 101 og VM 102):](#1.%20Opprette%20Virtuelle%20Maskiner%20(VM%20101%20og%20VM%20102):)
-- [2. Installasjon av Windows](#2.%20Installasjon%20av%20Windows)
-	- [2a. Alternativ 1: Send USB-pennen direkte inn i VM-en (USB Passthrough)](#2a.%20Alternativ%201:%20Send%20USB-pennen%20direkte%20inn%20i%20VM-en%20(USB%20Passthrough))
-	- [2b. Alternativ 2: Last opp ISO-filen til Proxmox](#2b.%20Alternativ%202:%20Last%20opp%20ISO-filen%20til%20Proxmox)
-- [3. Etter installasjon](#3.%20Etter%20installasjon)
-- [Hva som skal dokumenteres i Økt 3](#Hva%20som%20skal%20dokumenteres%20i%20%C3%98kt%203)
-- [Refleksjonsoppgaver — Økt 3](#Refleksjonsoppgaver%20%E2%80%94%20%C3%98kt%203)
+- [1. Opprette Virtuelle Maskiner (VM 101 og VM 102):](#1-opprette-virtuelle-maskiner-vm-101-og-vm-102)
+- [2. Installasjon av Windows](#2-installasjon-av-windows)
+	- [2a. Alternativ 1: Send USB-pennen direkte inn i VM-en (USB Passthrough)](#2a-alternativ-1-send-usb-pennen-direkte-inn-i-vm-en-usb-passthrough)
+	- [2b. Alternativ 2: Last opp ISO-filen til Proxmox](#2b-alternativ-2-last-opp-iso-filen-til-proxmox)
+- [3. Etter installasjon](#3-etter-installasjon)
+- [Hva som skal dokumenteres i Økt 3](#hva-som-skal-dokumenteres-i-%C3%98kt-3)
+- [Refleksjonsoppgaver — Økt 3](#refleksjonsoppgaver--%C3%98kt-3)
 
 
 

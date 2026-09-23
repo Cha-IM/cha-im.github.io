@@ -5,9 +5,9 @@ date: 23-09-2026
 ---
 ## Innhold
 
-- [1. Bare-metal installasjon av Proxmox VE](#1.%20Bare-metal%20installasjon%20av%20Proxmox%20VE)
-- [Hva som skal dokumenteres i Økt 1](#Hva%20som%20skal%20dokumenteres%20i%20%C3%98kt%201)
-- [Refleksjonsoppgaver — Økt 1](#Refleksjonsoppgaver%20%E2%80%94%20%C3%98kt%201)
+- [1. Bare-metal installasjon av Proxmox VE](#1-bare-metal-installasjon-av-proxmox-ve)
+- [Hva som skal dokumenteres i Økt 1](#hva-som-skal-dokumenteres-i-%C3%98kt-1)
+- [Refleksjonsoppgaver — Økt 1](#refleksjonsoppgaver--%C3%98kt-1)
 
 
 
