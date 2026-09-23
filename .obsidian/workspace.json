@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Driftsstøtte/Virtual lab/Sluttdokumentasjon, topologikart og rapportsammenstilling.md",
+                "file": "_notes/Public/Driftsstøtte/Virtual lab/Lage installasjonsmedier for Proxmox og Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sluttdokumentasjon, topologikart og rapportsammenstilling"
+              "title": "Lage installasjonsmedier for Proxmox og Windows"
             }
           }
         ],
@@ -212,18 +212,18 @@
   },
   "active": "0f62a4bdfdc81c60",
   "lastOpenFiles": [
-    "_notes/Public/Driftsstøtte/Virtual lab/Sette opp virtuelle Windows-klienter i Proxmox VE.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Oppsett av WireGuard VPN Server i UniFi.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Lage installasjonsmedier for Proxmox og Windows.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av Unifi Controller i Proxmox VE.md",
+    "_notes/Public/Driftsstøtte/Virtual lab/Virtuell datalab.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Koble opp det fysiske nettverket.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av ProxMox VE.md",
+    "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av Unifi Controller i Proxmox VE.md",
+    "_notes/Public/Driftsstøtte/Virtual lab/Lage installasjonsmedier for Proxmox og Windows.md",
+    "_notes/Public/Driftsstøtte/Virtual lab/Oppsett av WireGuard VPN Server i UniFi.md",
+    "_notes/Public/Driftsstøtte/Virtual lab/Sette opp virtuelle Windows-klienter i Proxmox VE.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Sluttdokumentasjon, topologikart og rapportsammenstilling.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Virtuell datalab.md",
     "_notes/Public/Driftsstøtte/Driftsstøtte.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/assets/Rufus-win-2.png",
-    "_notes/Public/Driftsstøtte/Virtual lab/assets/Rufus-win-1.png",
-    "_notes/Public/Driftsstøtte/Virtual lab/assets",
+    "assets/img/rufus/Rufus-win-2.png",
+    "assets/img/rufus/Rufus-win-1.png",
+    "assets/img/rufus",
     "Rufus-win-2.png",
     "Rufus-win-1.png",
     "_notes/Public/Driftsstøtte/Virtual lab/Økt 1 - Dokumentasjon og refleksjon.md",
