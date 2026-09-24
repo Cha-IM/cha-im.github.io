@@ -14,7 +14,8 @@ date: 23-09-2026
 ## 1. Forberedelser
 
 - Last ned programmet Rufus her: [Rufus - Lag en oppstartbar USB-stasjon på den enkle måten](https://rufus.ie/nb/).
-- Last ned Proxmox VE her: [Proxmox VE 9.2 Installer](https://enterprise.proxmox.com/iso/proxmox-ve_9.2-1.iso).
+- Last ned Proxmox VE her: [Download Proxmox software, datasheets, agreements](https://www.proxmox.com/en/downloads) 
+	- Filen du skal laste ned heter *Proxmox VE 9.2 ISO Installer* (versjonsnummeret kan ha endret seg siden denne guiden ble sist oppdatert)
 - Last ned Windows 11 her: [Download Windows 11](https://www.microsoft.com/en-us/software-download/windows11).
 	- Gå til **Download Windows 11 Disk Image (ISO) for x64 devices**, velg **Windows 11 multi-edition ISO for x64 devices** i nedtrekksmenyen, og klikk **Confirm.**
 	- Under **Select the product language**, velg **Norwegian** eller **English**, og klikk **Confirm**.
