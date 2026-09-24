@@ -36,6 +36,6 @@ date: 23-09-2026
 	- Rufus vil automatisk kjenne igjen USB-pennen
 - Klikk på **VELG** ved siden av **Oppstartstype**, og velg ISO-filen du vil lage oppstartbar (*Win11_25H2_Norwegian_x64_v2*)
 - Gjør valgene likt som på bildet:
-![[Rufus-win-1.png]]
+![[/assets/img/rufus/Rufus-win-1.png]]
 - Trykk på START. Du vil da få opp et vindu med tittelen **Windows brukeropplevelse**. Gjør samme valgene som på bildet for å få en enklere Windows-installasjon:
-![[Rufus-win-2.png]]- Klikk **OK** og vent til prosessen er ferdig.
+![[/assets/img/rufus/Rufus-win-2.png]]- Klikk **OK** og vent til prosessen er ferdig.
