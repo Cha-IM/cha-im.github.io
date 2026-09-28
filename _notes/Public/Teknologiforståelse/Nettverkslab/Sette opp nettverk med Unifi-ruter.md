@@ -1,7 +1,7 @@
 ---
 title: Sette opp nettverk med Unifi-ruter
 feed: show
-date: 19-03-2024
+date: 28-09-2026
 tags:
 ---
 ## 1. Komponenter og kabling
@@ -17,12 +17,13 @@ Slik kobler du sammen komponentene:
 3. Sett en kabel fra **svitsjen** (hvilken som helst port) til **PC-en din**.
 
 ## 2. Resett ruter
-Nå må du resette ruteren for å sette den opp på nytt med denne innstillinger.
+Nå må du resette ruteren for å sette den opp på nytt med nye innstillinger.
 
-1. Sett strøm på svitsjen. Den vil nå starte opp og lyset rundt logoene på toppen vil begynne å blinke. 
+1. Sett strøm på ruteren. Den vil nå starte opp og lyset rundt logoen på toppen vil begynne å blinke. 
 2. **Vent ca 1 minutt** til lyset på toppen lyser fast.
 2. Stikk en binders inn i det lille hullet på forsiden av ruteren. Hold bindersen der i ca 10 sekunder, **til lyset oppå ruteren** slås av.
-3. Svitsjen vil nå starte på nytt og begynne å blinke. Vent ca ett minutt til lyset blir fast igjen. Hvis alt er som det skal, skal lyset være hvitt.
+3. Ruteren vil nå starte på nytt og begynne å blinke. Vent ca ett minutt til lyset blir fast igjen. Hvis alt er som det skal, skal lyset være hvitt.
+Hva de ulike lyssignalene betyr er nærmere forklart på UniFi [sine sider](https://help.ui.com/hc/en-us/articles/204910134-Understanding-Device-LED-Status-Indicators).
 
 ## 3. Gå inn i ruterens innstillinger
 Åpne en nettleser på datamaskinen din. I adressefeltet skriver du **192.168.1.1** (hvis det ikke fungerer, prøver du 192.168.0.1, eller 10.0.0.1).
@@ -30,22 +31,24 @@ Nå må du resette ruteren for å sette den opp på nytt med denne innstillinger
 Du vil nå få opp et skjema der du skal fylle inn innformasjon om nettverket ditt.
 
 ## 4. IP-adresser
-Fyll ut skjemaet med info fra regnearket [IP-adresser i lab.xlsx](https://tronder.sharepoint.com/:x:/s/IMCharlottenlund/Ef98P9EJRO5NnUspzok7g3gBBj5-aM77rAv5XPjbC24-Ww?e=survQx) (finn navnet ditt i lista) slik:
+Fyll ut skjemaet med info fra regnearket [IP-adresser i lab.xlsx](https://tronder.sharepoint.com/:x:/s/IMCharlottenlund/IQBE_PZkraGlTpK_sp3vmAiVAQeZj2SehIQ-8KrnoW2uaOQ?e=maVGIW) (finn navnet ditt i lista).
+
+For å konfigurere ruteren må du stille inn hvordan den skal kommunisere med internett *WAN* og hvordan ditt nettverk skal kommunisere med ruteren *LAN*. Vi starter med WAN settings. 
 
 ### WAN Settings:
-1. Connection type: **Static IP**
-2. IP address: **Ruter-IP WAN** (din unike adresse)
-3. Subnet mask: **255.255.255.0**
-4. Router: **Gateway WAN**: (172.31.100.1)
-5. Preferred DNS: **8.8.8.8**
-6. Alternate DNS: **8.8.4.4**
-7. Use VLAN ID: Nei  
+1. Connection type: **Static IP** ( Ikke dynamisk tildelt adresse)
+2. IP address: **Ruter-IP WAN** (Din unike offentlige adresse)
+3. Subnet mask: **255.255.240.0** (Angir størrelsen på nettverket vi kobler oss til)
+4. Router: **172.20.0.1**: (Gateway WAN, hvor vår ruter finner WAN ruteren )
+5. Preferred DNS: **172.20.0.1**
+6. Alternate DNS: **1.1.1.1**
+7. Use VLAN ID: Nei 
 
 ### LAN settings
-1. IP address: **192.168.1.1**
-2. Subnet mask: **255.255.255.0**
-3. DHCP Server: **ON**
-4. DHCP Range: **192.168.1.6**-**192.168.1.254**
+1. IP address: **192.168.1.1** (Ruterens private adresse)
+2. Subnet mask: **255.255.255.0** (Størrelsen på LAN)
+3. DHCP Server: **ON** (Om ruteren skal tildele dynamiske ip-adresser)
+4. DHCP Range: **192.168.1.6**-**192.168.1.254** (Hvilke adresser den skal tildele)
 
 Trykk så på **Apply changes** og vent et par minutter.
 
@@ -54,13 +57,19 @@ Nå må du sjekke om du har nett. Åpne en ny fane i nettleseren og prøv å åp
 
 Hvis nettsiden åpner seg har du nett, hurra!
 
+### Om du har nett, hvor rask er tilkoblingen din?
+Alle delene i ett nettverk påvirker hvor rask tilkobling du kan få til andre. 
+Vanlige hastigheter på nettverksutstyr er 10Mbps, 100Mbps, 1000Mbps (Gigabit) og 10 000Mbps(10 Gigabit). På UniFi utstyr angis dette med lyset i porten av utstyret. Bruk [denne](https://dl.ubnt.com/qsg/USG/USG_EN.html#:~:text=Power%20On-,Speed/Link/Act%20LED,-Off) oversikten til å sjekke hastigheten på port-tilkoblingene dine.
+Hvor rask tilkobling har du til resten av internett? Bruk en hastighetstester for å sjekke, f.eks [https://www.speedtest.net/](https://www.speedtest.net/).
+Når to datamaskiner på samme net (LAN) kommuniserer vil de bruke hastigheten til utstyret i LAN'et. Når vi kommuniserer på nett er det nettverkshastigheten som oftest begrenser hastigheten vår. 
+
 ### Har du ikke nett?
 1. Høyreklikk på start-menyen, og klikk på **Network connnections**
 2. Klikk på **Change Adapter options**
 3. Høyreklikk på **Ethernet**, velg **Properties**
 4. I listen under _The connection uses the following items_, klikker du på **Internet protocol version 4 (TCP/IPv4)** og på **Properties**.
 5. Klikk på **Use the following IP address**, og fyll ut:
-	* IP address: **192.168.1.10**
+	* IP address: **192.168.1.5**
 	* Subnet mask: **255.255.255.0**
 	* Default gateway: **192.168.1.1**
 6. Use the following DNS server address:
