@@ -63,10 +63,10 @@ Alle delene i ett nettverk påvirker hvor rask tilkobling du kan få til andre.
 Vanlige hastigheter på nettverksutstyr er 10Mbps, 100Mbps, 1000Mbps (Gigabit) og 10 000Mbps(10 Gigabit).
 
 - Hastighet på LAN
-På UniFi utstyr angis dette med lyset i porten av utstyret. Bruk [denne](https://dl.ubnt.com/qsg/USG/USG_EN.html#:~:text=Power%20On-,Speed/Link/Act%20LED,-Off) oversikten til å sjekke hastigheten på port-tilkoblingene dine.
+	På UniFi utstyr angis dette med lyset i porten av utstyret. Bruk [denne](https://dl.ubnt.com/qsg/USG/USG_EN.html#:~:text=Power%20On-,Speed/Link/Act%20LED,-Off) oversikten til å sjekke hastigheten på port-tilkoblingene dine.
 
--Hastighet på WAN
-Hvor rask tilkobling har du til resten av internett? Bruk en hastighetstester for å sjekke, f.eks [https://www.speedtest.net/](https://www.speedtest.net/).
+- Hastighet på WAN
+	Hvor rask tilkobling har du til resten av internett? Bruk en hastighetstester for å sjekke, f.eks [https://www.speedtest.net/](https://www.speedtest.net/).
 
 Når to datamaskiner på samme net (LAN) kommuniserer vil de bruke hastigheten til utstyret i LAN'et. Når vi kommuniserer på nett er det nettverkshastigheten som oftest begrenser hastigheten vår. 
 
