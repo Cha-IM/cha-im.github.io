@@ -57,5 +57,8 @@ feed: show
 - Koble nettverkskortet på den stasjonære PC-en til Port 2 på svitsjen.
 - Koble Elev A og Elev B sine laptoper til henholdsvis Port 3 og Port 4 på svitsjen.
 
+### Resett UXG-Lite Gateway
+Stikk en binders eller liten pinne inn i hullet ved siden av USB-C-porten (strøm) på baksiden av UXG-Lite. Hold den inne fram til lyset på forsiden slukker. UXG-Lite vil nå restarte. Det kan ta noen minutter før den er på igjen. Når den er ferdig vil lyset på forsiden lyse fast hvitt.
+
 
 
