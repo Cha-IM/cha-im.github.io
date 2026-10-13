@@ -13,23 +13,7 @@ date: 23-09-2026
 
 
 
-## 0. Oppsett av UXG-Lite
-- Koble laptopen din til switchen med kabel og slå av wi-fi.
-- Åpne nettleseren og skriv ´unifi/´ i adressefeltet
-- Du vil få opp en nettside der det står "Gateway Lite Setup". Klikk på "Start secure browser setup"
-- Du vil få en advarsel om at "Tilkoblingen er ikke privat". Klikk på "Avansert" "Fortsett til unifi (usikker)".
-- Klikk på "Other configuration options" nederst på siden.
-- Klikk på "Local IP and DHCP"
-- Fyll inn:
-	- "IP Address": `192.168.X.1`
-	- "Netmask": `24`
-	- Huk av "DHCP server"
-	- "DHCP Range": `192.168.X.1` - `192.168.X.254`
-- Klikk på "Apply changes"
-- Klikk på "Confirm and apply"
-- Vent ett minutt
-- Siden vil lastes på nytt innen ett minutt, klikk da på "Fortsett til 192.168.X.1 (usikker)"
-- Setupen vil starte på nytt, men du skal ikke gjøre noe mer her. Du skal nå koble deg til Proxmox-noden.
+
 
 
 ## 1. Opprette LXC-container for UniFi Controller
