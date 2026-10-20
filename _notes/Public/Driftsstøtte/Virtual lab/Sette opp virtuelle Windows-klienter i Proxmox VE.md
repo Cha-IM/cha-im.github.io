@@ -17,11 +17,43 @@ date: 23-09-2026
 
 ## 1. Opprette Virtuelle Maskiner (VM 101 og VM 102):
  
-- Klikk **Create VM** i Proxmox UI.
-- **VM 101 (`Win11-Klient-A`):** CPU: 2 Cores | RAM: 4096 MB | Disk: 50 GB | Network Bridge: `vmbr0` | TPM 2.0 & EFI aktivert.
-- **VM 102 (`Win11-Klient-B`):** Samme spesifikasjoner, dedikert til Elev B.
-- Start installasjonen og opprett lokale brukerkontoer (`ElevA` og `ElevB`).
+**1. Opprett ny virtuell maskin (VM):** 
+Klikk på den blå knappen **Create VM** øverst til høyre i Proxmox-grensesnittet.
 
+- **VM ID:** `101` (eller `102` for elev B).
+- **Name:** `Win11-Klient-A`.
+- Klikk **Next**.
+**2. Velg operativsystem (OS):** ISO-fil og OS-type.
+- **Storage:** Velg `local`.
+- **ISO Image:** Velg Windows 11 ISO-filen du nylig lastet opp.
+- **Type:** `Microsoft Windows`.
+- **Version:** `11/2022/2025`.
+- Klikk **Next**.
+
+**3. Systeminnstillinger (Kritisk for Windows 11):** Krav om UEFI og TPM 2.0.
+
+For at Windows 11 skal godkjenne maskinvaren, må disse valgene settes slik:
+
+- **Graphic card:** Default.
+- **Machine:** `q35` _(Viktig for nyere Windows)_.
+- **BIOS:** `OVMF (UEFI)` _(Obligatorisk for Win 11)_.
+- **EFI Storage:** Velg `local-lvm` eller `local-zfs`.
+- **Add TPM:** Hak av her _(Obligatorisk)_.  
+    - **TPM Storage:** Velg `local-lvm` / `local-zfs`.
+    - **Version:** `v2.0`.
+- Klikk **Next**.
+**4.Konfigurer disk, CPU, minne og nettverk:**Resursfordeling.
+- **Disks:**  
+    - **Bus/Device:** Velg **`SATA`** _(Anbefalt for enkelhet – da slipper du å laste inn ekstra VirtIO-drivere under installasjonen)_.
+    - **Disk size:** `50 GB`.
+- **CPU:**  
+    - **Cores:** `2` (eller `4` dersom PC-en har god kapasitet).
+    - **Type:** `host` _(Gir best ytelse)_.
+- **Memory:** `4096 MB` (4 GB RAM).
+- **Network:**  
+    - **Bridge:** `vmbr0`.
+    - **Model:** `Intel E1000` _(Fungerer direkte i Windows uten ekstra drivere)_.
+- Klikk **Next** og deretter **Finish**.
 
 ## 2. Installasjon av Windows 
 ### 2a. Alternativ 1: Send USB-pennen direkte inn i VM-en (USB Passthrough)
@@ -70,45 +102,8 @@ _Verifisering:_ Windows 11-installasjonsveiviseren starter opp på skjermen dire
 4. Velg Windows 11 ISO-filen fra USB-pennen/laptopen og trykk **Upload**. Vent til opplastingen er fullført (100%).
 
 
-**1. Opprett ny virtuell maskin (VM):** 
-Klikk på den blå knappen **Create VM** øverst til høyre i Proxmox-grensesnittet.
 
-- **VM ID:** `101` (eller `102` for elev B).
-- **Name:** `Win11-Klient-A`.
-- Klikk **Next**.
-**2. Velg operativsystem (OS):** ISO-fil og OS-type.
-- **Storage:** Velg `local`.
-- **ISO Image:** Velg Windows 11 ISO-filen du nylig lastet opp.
-- **Type:** `Microsoft Windows`.
-- **Version:** `11/2022/2025`.
-- Klikk **Next**.
-
-**3. Systeminnstillinger (Kritisk for Windows 11):** Krav om UEFI og TPM 2.0.
-
-For at Windows 11 skal godkjenne maskinvaren, må disse valgene settes slik:
-
-- **Graphic card:** Default.
-- **Machine:** `q35` _(Viktig for nyere Windows)_.
-- **BIOS:** `OVMF (UEFI)` _(Obligatorisk for Win 11)_.
-- **EFI Storage:** Velg `local-lvm` eller `local-zfs`.
-- **Add TPM:** Hak av her _(Obligatorisk)_.  
-    - **TPM Storage:** Velg `local-lvm` / `local-zfs`.
-    - **Version:** `v2.0`.
-- Klikk **Next**.
-**4.Konfigurer disk, CPU, minne og nettverk:**Resursfordeling.
-- **Disks:**  
-    - **Bus/Device:** Velg **`SATA`** _(Anbefalt for enkelhet – da slipper du å laste inn ekstra VirtIO-drivere under installasjonen)_.
-    - **Disk size:** `50 GB`.
-- **CPU:**  
-    - **Cores:** `2` (eller `4` dersom PC-en har god kapasitet).
-    - **Type:** `host` _(Gir best ytelse)_.
-- **Memory:** `4096 MB` (4 GB RAM).
-- **Network:**  
-    - **Bridge:** `vmbr0`.
-    - **Model:** `Intel E1000` _(Fungerer direkte i Windows uten ekstra drivere)_.
-- Klikk **Next** og deretter **Finish**.
-
-**5.Start VM og kjør Windows-installasjonen:** Boot fra virtuell CD.
+**Start VM og kjør Windows-installasjonen:** Boot fra virtuell CD.
 
 1. Klikk på den nye VM-en (`101 Win11-Klient-A`) i venstremenyen og velg **Console**.
 2. Klikk på **Start Now** øverst.
