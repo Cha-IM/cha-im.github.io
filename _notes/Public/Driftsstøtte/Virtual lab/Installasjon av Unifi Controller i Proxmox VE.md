@@ -66,7 +66,7 @@ date: 23-09-2026
 - Skriptet vil nå installere Unifi-controlleren. Dette kan ta litt tid, da den må laste ned installasjonsfiler for en Linux-installasjon, og installasjonsfiler for Unifi OS Server.
 
 ## 2. Førstegangsoppsett og Adoption
-- Skriv `unifi/` i nettleseren.
+- gÅ INN PÅ Unifi-kontrolleren i nettleseren ved å skrive `https://192.168.X.3:11443` i adressefeltet i nettleseren.
 - Gi UXG-Lite et navn: *unifi-gruppe-X*
 - Under **UI Account**, klikk på **Other Configuration Options**
 - Klikk på **Manually Connect to UniFi Network**
