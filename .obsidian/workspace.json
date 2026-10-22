@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Driftsstøtte/Virtual lab/Virtuell datalab.md",
+                "file": "_notes/Public/Driftsstøtte/Virtual lab/Oppsett av Tailscale Subnet Router.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtuell datalab"
+              "title": "Oppsett av Tailscale Subnet Router"
             }
           }
         ],
@@ -212,12 +212,12 @@
   },
   "active": "0f62a4bdfdc81c60",
   "lastOpenFiles": [
+    "_notes/Public/Driftsstøtte/Virtual lab/Virtuell datalab.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Oppsett av Tailscale Subnet Router.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Oppsett av WireGuard VPN Server i UniFi.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Koble opp det fysiske nettverket.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av Unifi Controller i Proxmox VE.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Sette opp virtuelle Windows-klienter i Proxmox VE.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Virtuell datalab.md",
     "assets/WireGuard-Server-1-Client-1.conf",
     "_notes/Public/Driftsstøtte/Virtual lab/Sluttdokumentasjon, topologikart og rapportsammenstilling.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Lage installasjonsmedier for Proxmox og Windows.md",
