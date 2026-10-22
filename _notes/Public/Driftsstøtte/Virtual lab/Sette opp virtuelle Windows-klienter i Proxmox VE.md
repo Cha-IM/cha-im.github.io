@@ -101,7 +101,7 @@ _Verifisering:_ Windows 11-installasjonsveiviseren starter opp på skjermen dire
 3. Velg **ISO Images** i menyen og klikk på **Upload**.
 4. Velg Windows 11 ISO-filen fra USB-pennen/laptopen og trykk **Upload**. Vent til opplastingen er fullført (100%).
 
-
+ 
 
 **Start VM og kjør Windows-installasjonen:** Boot fra virtuell CD.
 
