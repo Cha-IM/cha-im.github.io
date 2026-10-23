@@ -130,4 +130,4 @@ I noen tilfeller kan det være at denne ikke virker. I så fall må du installer
 6. Trykk på **Finish**
 
 ## 9. Innstilinger og adopsjon av enheter på Unifi Controller
-Dette gjør du ved å følge guiden [Innstillinger og adopsjon av enheter i UniFi (ndla.no)](https://ndla.no/subject:26f1cd12-4242-486d-be22-75c3750a52a2/topic:7536e62a-255c-4f00-97d0-efc0afbe66d9/topic:6f7ab395-cd98-496e-b689-75b9d2bcdd5c/resource:c24b098e-ddab-47de-99bb-2c963a30e12a/15073)
+Dette gjør du ved å følge guiden [Datalab med Windows Server og UniFi-nettverk - Innstillinger og adopsjon av enheter i UniFi - Driftsstøtte (IM-ITK vg2) - NDLA](https://ndla.no/r/driftsstotte-im-itk-vg2/datalab-med-windows-server-og-unifi-nettverk/c4391765e8/15073).
