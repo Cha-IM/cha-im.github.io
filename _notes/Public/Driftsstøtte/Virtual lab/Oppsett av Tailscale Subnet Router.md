@@ -76,7 +76,7 @@ tailscale up --advertise-routes=192.168.X.0/24 --snat-subnet-routes=true
 1. Gå til **[login.tailscale.com/admin/machines](https://login.tailscale.com/admin/machines)**.
 2. Finn Proxmox-noden din (`pve-laerer`) i listen.
 3. Klikk på de tre prikkene (`...`) helt til høyre -> **Edit route settings**.
-4. Huk av for **`192.168.1.0/24`** under _Subnet routes_ og trykk **Save**.
+4. Huk av for **`192.168.X.0/24`** under _Subnet routes_ og trykk **Save**.
 5. Klikk på de tre prikkene (`...`) på nytt og velg **Disable key expiry** (slik at tilkoblingen ikke utløper etter 180 dager).
 
 
