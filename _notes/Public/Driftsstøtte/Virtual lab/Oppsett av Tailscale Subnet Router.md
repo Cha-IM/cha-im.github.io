@@ -44,7 +44,7 @@ echo 'net.ipv6.conf.all.forwarding = 1' | tee -a /etc/sysctl.d/99-tailscale.conf
 sysctl -p /etc/sysctl.d/99-tailscale.conf
 ```
 
-- **Verifisering:** Kjør `cat /proc/sysctl/net/ipv4/ip_forward` – utskriften skal være `1`.
+- **Verifisering:** Kjør `cat /proc/sys/net/ipv4/ip_forward` – utskriften skal være `1`.
 
 ### Steg 3: Ytelsesoptimalisering (Fjern UDP GRO-advarsel)
 
@@ -63,7 +63,7 @@ _(Valgfritt: For at denne endringen skal overleve en omstart av Proxmox, kan lin
 For at Windows-VM-er, UniFi Controller og UXG-Lite skal godta trafikken uten å blokkere den i egne brannmurer, må **SNAT (Source NAT)** aktiveres. Dette gjør at alle VPN-forespørsler ser ut som de kommer direkte fra Proxmox sin IP (`192.168.1.2`).
 
 ```bash
-tailscale up --advertise-routes=192.168.1.0/24 --snat-subnet-routes=true
+tailscale up --advertise-routes=192.168.X.0/24 --snat-subnet-routes=true
 ```
 
 1. Kopiér innloggingslenken som vises i terminalen.
