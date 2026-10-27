@@ -26,8 +26,8 @@ rm -f /etc/apt/sources.list.d/pve-enterprise* /etc/apt/sources.list.d/ceph*
 # 2. Legg til gratis-arkivet (No-Subscription)
 echo "deb http://download.proxmox.com/debian/pve trixie pve-no-subscription" > /etc/apt/sources.list.d/pve-no-subscription.list
 
-# 3. Oppdater pakkelister og installer Tailscale
-apt update && apt install -y tailscale
+# 3. Installer Tailscale
+curl -fsSL https://tailscale.com/install.sh | sh
 ```
 
 ### Steg 2: Aktiver IP-videreformidling (IP Forwarding)
