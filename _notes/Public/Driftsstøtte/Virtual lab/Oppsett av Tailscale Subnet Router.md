@@ -4,7 +4,6 @@ feed: show
 date: 22-10-2026
 ---
 
-*Denne guiden er kun testet på enkeltpunkter. Si fra om noen av kommandoene gir feilmelding*
 
 Tailscale er et mesh VPN nettverk bygd på WireGuard-protokollen. Tailscale lar deg lage et privat, kryptert nettverk mellom enhetene dine, der enhetene er koblet direkte til hverandre (peer-to-peer) via VPN. Fordi enhetene er koblet direkte til hverandre via Tailscale sin koordineringsserver på [tailscale.com](https://tailscale.com/), trenger vi ikke port forwarding gjennom nettverket, slik som vi måtte på Unifi sin Wireguard-løsning. Derfor kan Tailscale brukes i lab-nettverket vårt for å koble til nettverket ditt fra hvor som helst i verden.
 
