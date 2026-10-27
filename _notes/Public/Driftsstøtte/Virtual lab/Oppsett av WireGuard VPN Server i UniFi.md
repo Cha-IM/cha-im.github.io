@@ -23,6 +23,7 @@ En ulempe med vårt system er at vi ikke har tilgang til ruterne lenger opp i fy
 - Last ned `.conf`-profilfilene til laptopene.
 - Trykk på **Create** for å opprette VPN-serveren 
 -  Åpne begge `.conf`-filene i notisblokk. De ser ut noe som dette:
+
 ```plaintext
 [Interface]
 PrivateKey = [Din unike private nøkkel]
@@ -34,6 +35,7 @@ PublicKey = [Din unike offentlige nøkkel]
 AllowedIPs = 0.0.0.0/0,::/0
 Endpoint = 172.20.17.155:51820
 ```
+
 Endre `AllowedIPs` fra `0.0.0.0/0,::/0` til `192.168.X.0/24`
 
 ## 2. Klientkonfigurasjon og Ekstern Test
