@@ -66,7 +66,10 @@ New-LocalUser -Name "utvikler1" -Password $Password -FullName "Ny Utvikler" -Des
 # Søke etter pakke med winget
 winget search "visual studio code"
 
+# Oppdatere winget-kilder for å få med de nyeste programoppdateringene
+winget source update
+
 # Installere pakke silent med winget
-winget install --id Microsoft.VisualStudioCode --silent --accept-source-agreements --accept-package-agreements
+winget install --id Microsoft.VisualStudioCode --ignore-security-hash --silent --accept-source-agreements --accept-package-agreements
 ```
 
