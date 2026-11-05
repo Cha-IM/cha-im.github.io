@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med USG-ruter.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med UXG-lite-ruter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sette opp nettverk med USG-ruter"
+              "title": "Sette opp nettverk med UXG-lite-ruter"
             }
           },
           {
@@ -241,9 +241,9 @@
   "active": "0f602987b441cf91",
   "lastOpenFiles": [
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med UXG-lite-ruter.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med USG-ruter.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med UXG-lite-ruter.md",
     "Untitled.md",
     "assets/img/nettverkslab/UXG-mini.avif",
     "assets/img/nettverkslab/USG.png",
