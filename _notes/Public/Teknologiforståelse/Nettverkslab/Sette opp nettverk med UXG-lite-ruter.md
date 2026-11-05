@@ -11,7 +11,7 @@ Stikk en binders eller liten pinne inn i hullet ved siden av USB-C-porten (strø
 
 ## Oppsett av UXG-Lite
 
-- Koble laptopen din til switchen med kabel og slå av wi-fi.
+- Koble laptopen din til switchen med kabel.
 - Koble switsjen til ruteren på LAN porten. 
 - Åpne nettleseren og skriv ´unifi/´ i adressefeltet
 	- I mange tilfeller sendes du hit automatisk.
