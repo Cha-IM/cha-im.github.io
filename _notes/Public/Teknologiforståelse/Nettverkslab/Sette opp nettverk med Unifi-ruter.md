@@ -59,11 +59,11 @@ Alle delene i ett nettverk påvirker hvor rask tilkobling du kan få til andre.
 
 Vanlige hastigheter på nettverksutstyr er 10Mbps, 100Mbps, 1000Mbps (Gigabit) og 10 000Mbps(10 Gigabit).
 
-- Hastighet på LAN
-På UniFi utstyr angis dette med lyset i porten av utstyret. Bruk [denne](https://dl.ubnt.com/qsg/USG/USG_EN.html#:~:text=Power%20On-,Speed/Link/Act%20LED,-Off) oversikten til å sjekke hastigheten på port-tilkoblingene dine.
+#### Hastighet på LAN
+- På UniFi utstyr angis dette med lyset i porten av utstyret. Bruk [denne](https://dl.ubnt.com/qsg/USG/USG_EN.html#:~:text=Power%20On-,Speed/Link/Act%20LED,-Off) oversikten til å sjekke hastigheten på port-tilkoblingene dine.
 
--Hastighet på WAN
-Hvor rask tilkobling har du til resten av internett? Bruk en hastighetstester for å sjekke, f.eks [https://www.speedtest.net/](https://www.speedtest.net/).
+#### Hastighet på WAN
+- Hvor rask tilkobling har du til resten av internett? Bruk en hastighetstester for å sjekke, f.eks [https://www.speedtest.net/](https://www.speedtest.net/).
 
 Når to datamaskiner på samme net (LAN) kommuniserer vil de bruke hastigheten til utstyret i LAN'et. Når vi kommuniserer på nett er det nettverkshastigheten som oftest begrenser hastigheten vår. 
 
@@ -127,4 +127,4 @@ I noen tilfeller kan det være at denne ikke virker. I så fall må du installer
 6. Trykk på **Finish**
 
 ## 9. Innstilinger og adopsjon av enheter på Unifi Controller
-Dette gjør du ved å følge guiden [Innstillinger og adopsjon av enheter i UniFi (ndla.no)](https://ndla.no/subject:26f1cd12-4242-486d-be22-75c3750a52a2/topic:7536e62a-255c-4f00-97d0-efc0afbe66d9/topic:6f7ab395-cd98-496e-b689-75b9d2bcdd5c/resource:c24b098e-ddab-47de-99bb-2c963a30e12a/15073)
+Dette gjør du ved å følge guiden [Datalab med Windows Server og UniFi-nettverk - Innstillinger og adopsjon av enheter i UniFi - Driftsstøtte (IM-ITK vg2) - NDLA](https://ndla.no/r/driftsstotte-im-itk-vg2/datalab-med-windows-server-og-unifi-nettverk/c4391765e8/15073).

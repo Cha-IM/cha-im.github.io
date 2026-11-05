@@ -16,19 +16,19 @@ date: 23-09-2026
 - Sett inn Proxmox USB-pennen i den stasjonære PC-en og start opp via Boot-menyen (F12/F11).
 - Velg _Install Proxmox VE (Graphical)_.
 - Sett Target Disk, Tidssone (_Norway/Oslo_) og velg et sikkert root-passord.
-- **Nettverkskonfigurasjon:**
+- **Nettverkskonfigurasjon (X er gruppenummeret ditt):**
 	- Hostname: `pve-gruppeX.lab`
 	- IP Address: `192.168.X.2/24`
 	- Gateway / DNS: `192.168.X.1`
 - Fullfør installasjonen, ta ut USB-pennen og start PC-en på nytt.
-3. **Verifisering:** Åpne nettleseren på en laptop og logg inn på Proxmox UI: `[https://192.168.](https://192.168.)X.2:8006`.
+3. **Verifisering:** Koble laptopen din til switchen med kabel og slå av wi-fi. Åpne nettleseren på en  og logg inn på Proxmox UI: `https://192.168.X.2:8006`.
 
 
 ## Hva som skal dokumenteres i Økt 1
 
 1. **Fysisk kabling:** Et skarpt bilde av oppsettet med fargekoding eller merking av kablene.
 2. **IP-adressetabell:** En strukturert tabell som viser planlagte IP-adresser for WAN, LAN Gateway, Proxmox Vert, UniFi Controller og VM-er.
-3. **Installationskvittering:** Skjermbilde fra laptopen som viser pålogget Proxmox VE webgrensesnitt (med synlig URL `[https://192.168.](https://192.168.)X.2:8006` og node-status).
+3. **Installationskvittering:** Skjermbilde fra laptopen som viser pålogget Proxmox VE webgrensesnitt (med synlig URL `https://192.168.X.2:8006` og node-status).
 
 ## Refleksjonsoppgaver — Økt 1
 
