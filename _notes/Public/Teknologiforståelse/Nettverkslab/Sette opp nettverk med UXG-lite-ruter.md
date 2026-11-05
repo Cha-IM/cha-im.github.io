@@ -23,6 +23,7 @@ Stikk en binders eller liten pinne inn i hullet ved siden av USB-C-porten (strø
 	- Vi må her fylle inn informasjonen for to av feltene:
 		- WAN static IP Adress
 		- Local Network Configuration
+
 #### Konfigurering av WAN instillinger
 Fra "Other Setup Options" menyen: 
 * WAN static IP adress
