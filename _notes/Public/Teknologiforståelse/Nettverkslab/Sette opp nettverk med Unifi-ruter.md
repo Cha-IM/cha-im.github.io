@@ -19,8 +19,9 @@ Slik kobler du sammen komponentene:
 ## 2. Resetting av ruteren. 
 Oppsettet av ruteren er ulikt avhengig av hvilken type ruter du skal sette opp. 
 Velg den guiden som passer for din ruter: 
-[[Sette opp nettverk med USG-ruter]]
-[[Sette opp nettverk med UXG-lite-ruter]]
+
+- [[Sette opp nettverk med USG-ruter]]
+- [[Sette opp nettverk med UXG-lite-ruter]]
 
 ## 3. Gå inn i ruterens innstillinger
 Åpne en nettleser på datamaskinen din. I adressefeltet skriver du **192.168.1.1** (hvis det ikke fungerer, prøver du 192.168.0.1, eller 10.0.0.1).
