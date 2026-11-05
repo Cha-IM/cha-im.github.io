@@ -7,7 +7,7 @@ tags:
 ## 1. Komponenter og kabling
 Du trenger:
 * 1 klient-PC eller server-PC
-* 1 Unifi ruter (hvit)
+* 1 Unifi ruter
 * 1 Switch
 * 3 ethernet-kabler
 
@@ -16,14 +16,11 @@ Slik kobler du sammen komponentene:
 2. Sett en kabel fra **LAN-porten på ruteren** til **svitsjen** (hvilken som helst port)
 3. Sett en kabel fra **svitsjen** (hvilken som helst port) til **PC-en din**.
 
-## 2. Resett ruter
-Nå må du resette ruteren for å sette den opp på nytt med nye innstillinger.
-
-1. Sett strøm på ruteren. Den vil nå starte opp og lyset rundt logoen på toppen vil begynne å blinke. 
-2. **Vent ca 1 minutt** til lyset på toppen lyser fast.
-2. Stikk en binders inn i det lille hullet på forsiden av ruteren. Hold bindersen der i ca 10 sekunder, **til lyset oppå ruteren** slås av.
-3. Ruteren vil nå starte på nytt og begynne å blinke. Vent ca ett minutt til lyset blir fast igjen. Hvis alt er som det skal, skal lyset være hvitt.
-Hva de ulike lyssignalene betyr er nærmere forklart på UniFi [sine sider](https://help.ui.com/hc/en-us/articles/204910134-Understanding-Device-LED-Status-Indicators).
+## 2. Resetting av ruteren. 
+Oppsettet av ruteren er ulikt avhengig av hvilken type ruter du skal sette opp. 
+Velg den guiden som passer for din ruter: 
+[[Sette opp nettverk med USG-ruter]]
+[[Sette opp nettverk med UXG-lite-ruter]]
 
 ## 3. Gå inn i ruterens innstillinger
 Åpne en nettleser på datamaskinen din. I adressefeltet skriver du **192.168.1.1** (hvis det ikke fungerer, prøver du 192.168.0.1, eller 10.0.0.1).
