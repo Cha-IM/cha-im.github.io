@@ -3,7 +3,7 @@ title: Sette opp nettverk med UXG-lite-ruter
 feed: hide
 date: 05-11-2026
 ---
-![[UXG-mini.avif]]
+![[/assets/img/nettverkslab/UXG-mini.avif]]
 ### Resetting av UXG-Lite Gateway
 
 Stikk en binders eller liten pinne inn i hullet ved siden av USB-C-porten (strøm) på baksiden av UXG-Lite. Hold den inne fram til lyset på forsiden slukker. UXG-Lite vil nå restarte. Det kan ta noen minutter før den er på igjen. Når den er ferdig vil lyset på forsiden lyse fast hvitt.
