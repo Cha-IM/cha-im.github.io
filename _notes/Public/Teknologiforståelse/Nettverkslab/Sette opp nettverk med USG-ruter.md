@@ -1,5 +1,5 @@
 ---
-title: Sette Opp nettverk med UXG-lite-ruter
+title: Sette opp nettverk med USG-ruter
 feed: hide
 date: 05-11-2026
 ---
