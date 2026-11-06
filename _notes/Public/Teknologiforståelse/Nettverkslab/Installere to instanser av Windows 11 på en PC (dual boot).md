@@ -47,6 +47,8 @@ Velg Windows-versjon: **Windows 11 Pro Education**
 ![](/assets/img/dual-boot-win11/IMG_5340.jpeg)
 
 ## Partisjonering (VIKTIG!)
+*Dette skal du bare gjøre på den første Windows-installasjonen. Hvis det er installert en instans av Windows fra før, skal du bare velge **Unallocated Space** og trykke **Next**. Hvis Unallocated space har omtrent samme størrelse som Disk 0 Partition 3, er det et klart tegn på dette.* 
+
 Siden vi skal installere to instanser av Windows må vi lage to partisjoner, som hver tar opp halve disken. Når du skal installere den første instansen, sletter du alle partisjoner på **Disk 0**.
 
 Velg en og en partisjon og trykk på **Delete partition**. Når du har slettet alle partisjoner på Disk 0, skal det stå **Disk 0 Unallocated Space**. Det betyr at Disk 0 er tom.
