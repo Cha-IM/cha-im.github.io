@@ -66,6 +66,15 @@ Du skal nå lage en partisjon som tar halve disken. Trykk på **Create Partition
 
 ![](/assets/img/dual-boot-win11/IMG_5345.jpeg)
 
-Windows lager nå tre partisjoner. Velg den største (Disk 0 Partition 3), og trykk **Next**
+Windows lager nå tre partisjoner. Velg den største (Disk 0 Partition 3), og trykk **Next**. Trykk deretter på **Install**.
 
-![](/assets/img/dual-boot-win11/IMG_5346.jpeg)
+
+<div style="display: flex;flex-direction:row;">
+	<div>
+	<img src="/assets/img/dual-boot-win11/IMG_5346.jpeg">
+	</div>
+	<div>
+	<img src="/assets/img/dual-boot-win11/IMG_5347.jpeg">
+	</div>
+
+</div>
