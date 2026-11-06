@@ -71,7 +71,7 @@
               "state": {
                 "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Installere to instanser av Windows 11 på en PC (dual boot).md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Installere to instanser av Windows 11 på en PC (dual boot)"
@@ -238,8 +238,19 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "0f602987b441cf91",
+  "active": "a73f6c88154bc3a8",
   "lastOpenFiles": [
+    "assets/img/dual-boot-win11/~MG_5368.tmp",
+    "assets/img/dual-boot-win11/IMG_5368.jpeg.~tmp",
+    "assets/img/dual-boot-win11/~MG_5367.tmp",
+    "assets/img/dual-boot-win11/IMG_5367.jpeg.~tmp",
+    "assets/img/dual-boot-win11/~MG_5366.tmp",
+    "assets/img/dual-boot-win11/IMG_5366.jpeg.~tmp",
+    "assets/img/dual-boot-win11/~MG_5365.tmp",
+    "assets/img/dual-boot-win11/IMG_5365.jpeg.~tmp",
+    "assets/img/dual-boot-win11/~MG_5364.tmp",
+    "assets/img/dual-boot-win11/~MG_5363.tmp",
+    "assets/img/dual-boot-win11/IMG_5363.jpeg.~tmp",
     "assets/img/dual-boot-win11/IMG_5342.jpeg",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Installere to instanser av Windows 11 på en PC (dual boot).md",
     "assets/img/dual-boot-win11/IMG_5339.jpeg",
@@ -253,8 +264,6 @@
     "Untitled.md",
     "assets/img/nettverkslab/UXG-mini.avif",
     "assets/img/nettverkslab/USG.png",
-    "Untitled.base",
-    "Untitled 1.base",
     "_notes/Public/Utvikling/Vite/JavaScript vs TypeScript.md",
     "_notes/Public/Utvikling/Vite/Lage en enkel fullstack web-app med Vite + Vanilla, Express.js og SQLite.md",
     "_notes/Public/Utvikling/Firebase/Firebase.md",
@@ -262,9 +271,7 @@
     "assets/img/dual-boot-win11/IMG_5368.jpeg",
     "assets/img/dual-boot-win11/IMG_5367.jpeg",
     "assets/img/dual-boot-win11/IMG_5366.jpeg",
-    "assets/img/dual-boot-win11/IMG_5365.jpeg",
     "_notes/Public/Driftsstøtte/Virtual lab/Automatisert klientkonfigurasjon med PowerShell og winget.md",
-    "assets/img/dual-boot-win11",
     "_notes/Public/Driftsstøtte/Virtual lab/Oppsett av Tailscale Subnet Router.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Virtuell datalab.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Oppsett av WireGuard VPN Server i UniFi.md",
@@ -273,18 +280,11 @@
     "_notes/Public/Driftsstøtte/Virtual lab/Koble opp det fysiske nettverket.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av Unifi Controller i Proxmox VE.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Sette opp virtuelle Windows-klienter i Proxmox VE.md",
-    "assets/WireGuard-Server-1-Client-1.conf",
     "_notes/Public/Driftsstøtte/Virtual lab/Sluttdokumentasjon, topologikart og rapportsammenstilling.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Lage installasjonsmedier for Proxmox og Windows.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av ProxMox VE.md",
     "_notes/Public/Driftsstøtte/Driftsstøtte.md",
-    "assets/img/rufus",
     "_notes/Public/Driftsstøtte/Virtual lab/Økt 1 - Dokumentasjon og refleksjon.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Sette opp en virtuell Windows-klient.md",
-    "_notes/Public/Driftsstøtte/Virtual lab",
-    "_notes/Public/Driftsstøtte",
-    "assets/img/vite-vanilla",
-    "assets/img/Teams",
-    "_notes/Public/For lærere/Teams"
+    "_notes/Public/Driftsstøtte/Virtual lab/Sette opp en virtuell Windows-klient.md"
   ]
 }
