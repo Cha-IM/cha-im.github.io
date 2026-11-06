@@ -21,7 +21,11 @@ Du vil da komme inn i oppstartsmenyen. Velg USB-minnepennen og trykk på Enter.
 Velg språk og tastaturoppsett.
 
 <div style="display: flex;flex-direction:row;">
+<div>
+<img src="/assets/img/dual-boot-win11/IMG_5336.jpeg">
+</div>
+<div>
+<img src="/assets/img/dual-boot-win11/IMG_5337.jpeg">
+</div>
 
-![](assets/img/dual-boot-win11/IMG_5336.jpeg)
-
-</style>
+</div>
