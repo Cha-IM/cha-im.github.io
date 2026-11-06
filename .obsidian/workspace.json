@@ -71,7 +71,7 @@
               "state": {
                 "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Installere to instanser av Windows 11 på en PC (dual boot).md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Installere to instanser av Windows 11 på en PC (dual boot)"
@@ -240,8 +240,9 @@
   },
   "active": "0f602987b441cf91",
   "lastOpenFiles": [
-    "assets/img/dual-boot-win11/IMG_5339.jpeg",
+    "assets/img/dual-boot-win11/IMG_5342.jpeg",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Installere to instanser av Windows 11 på en PC (dual boot).md",
+    "assets/img/dual-boot-win11/IMG_5339.jpeg",
     "assets/img/dual-boot-win11/IMG_5336.jpeg",
     "assets/img/dual-boot-win11/IMG_5335.jpeg",
     "assets/img/dual-boot-win11/IMG_5334.jpeg",
@@ -262,7 +263,6 @@
     "assets/img/dual-boot-win11/IMG_5367.jpeg",
     "assets/img/dual-boot-win11/IMG_5366.jpeg",
     "assets/img/dual-boot-win11/IMG_5365.jpeg",
-    "assets/img/dual-boot-win11/IMG_5364.jpeg",
     "_notes/Public/Driftsstøtte/Virtual lab/Automatisert klientkonfigurasjon med PowerShell og winget.md",
     "assets/img/dual-boot-win11",
     "_notes/Public/Driftsstøtte/Virtual lab/Oppsett av Tailscale Subnet Router.md",

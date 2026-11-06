@@ -3,7 +3,8 @@ title: Installere to instanser av Windows 11 på en PC (dual boot)
 feed: show
 date: 05-11-2026
 ---
-![](assets/img/dual-boot-win11/IMG_5342.jpeg)## Før du starter
+
+## Før du starter
 
 - Lag en oppstartbar USB-minnepenn med Windows 11 ved hjelp av [Rufus](https://rufus.ie/nb/).
 - Trekk ut nettverkskabelen på PC-en du skal installere Windows på.
@@ -31,7 +32,6 @@ Velg språk og tastaturoppsett.
 	<div>
 	<img src="/assets/img/dual-boot-win11/IMG_5337.jpeg">
 	</div>
-
 </div>
 
 Velg **Install Windows 11** og hak av på *I agree everything will be deleted including files, apps and settings*
