@@ -28,20 +28,20 @@ For å lage en ny mappe avslutter du mappenavnet med *skråstrek*, slik: `modul-
 Når du jobber med å sette opp et kontornettverk i Cisco Packet Tracer, skal du dokumentere hvordan du har satt det opp.  Dokumentasjonen skal vise at du forstår hvordan nettverket fungerer, og gjøre det mulig for andre å forstå og gjenskape oppsettet ditt.
 
 
-### Hva dokumentasjonen skal inneholde
+## Hva dokumentasjonen skal inneholde
 
-#### 1. Tittel og introduksjon
+### 1. Tittel og introduksjon
 
 Start dokumentasjonen med en kort beskrivelse av hva du har laget.  
 
-Eksempel:
+#### Eksempel:
 
-**Kontornettverk – Cisco Packet Tracer**
+##### Kontornettverk – Cisco Packet Tracer
 
 Dette dokumentet beskriver hvordan jeg har satt opp et kontornettverk i Cisco Packet Tracer. Nettverket består av to avdelinger koblet sammen med en router, med DHCP, DNS og webserver.
 
 
-#### 2. Nettverksoversikt
+### 2. Nettverksoversikt
 
 Beskriv hva slags utstyr du har brukt:
 
@@ -68,7 +68,7 @@ Denne markdown-koden vil se slik ut når den vises i nettleseren:
 | PC0     | Bruker i IT-avdelingen       | 192.168.1.10              | Får IP fra DHCP |
 -->
 
-#### 3. Nettverksdiagram
+### 3. Nettverksdiagram
 
 Legg inn et bilde (skjermdump) fra Packet Tracer som viser nettverket ditt. Ta skjermbilde av hele oppsettet i Packet Tracer.
 
@@ -81,7 +81,7 @@ Legg inn et bilde (skjermdump) fra Packet Tracer som viser nettverket ditt. Ta s
 ```
 -->
 
-#### 4. Konfigurasjon
+### 4. Konfigurasjon
 
 Vis hvordan du har konfigurert viktige deler av nettverket.  
 Dette kan være:
@@ -90,9 +90,9 @@ Dette kan være:
 - Serverinnstillinger (DNS, Web, DHCP)
 - IP-oppsett på PC-er
 
-Eksempel:
+#### Eksempel:
 
-**Routerkonfigurasjon**
+##### Routerkonfigurasjon
 ```plaintext
 Router> enable
 Router# configure terminal
@@ -106,7 +106,7 @@ Router(dhcp-config)# dns-server 192.168.1.2
 ```
 
 
-#### 5. Testing
+### 5. Testing
 
 Vis at nettverket fungerer:
 
@@ -114,23 +114,24 @@ Vis at nettverket fungerer:
 - Tilkobling til webserver
 - IP tildelt via DHCP
 
-Eksempel:
+#### Eksempel:
 
-```markdown
-### Test av forbindelser
+
+##### Test av forbindelser
 - PC0 kan pinge PC1 ✅
 - PC0 får IP automatisk fra DHCP ✅
 - PC1 får opp nettsiden fra WebServer ✅
-```
+
 
 Legg gjerne inn skjermbilder av terminalvinduer
 
-#### 6. Oppsummering / refleksjon
+### 6. Oppsummering / refleksjon
 
 Avslutt med en kort tekst om hva du lærte eller hva som fungerte/ikke fungerte.
 
+#### Eksempel:
 
-**Oppsummering**
+##### Oppsummering
 Jeg lærte hvordan routere og DHCP fungerer sammen. Jeg hadde først problemer med DNS-serveren, men løste det ved å sjekke gateway-innstillingen.
 
 <!--
