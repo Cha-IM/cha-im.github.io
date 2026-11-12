@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverkslab/Installere to instanser av Windows 11 på en PC (dual boot).md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverk/Dokumentasjon av nettverk i Cisco Packet Tracer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Installere to instanser av Windows 11 på en PC (dual boot)"
+              "title": "Dokumentasjon av nettverk i Cisco Packet Tracer"
             }
           },
           {
@@ -240,6 +240,16 @@
   },
   "active": "0f602987b441cf91",
   "lastOpenFiles": [
+    "_notes/Public/Teknologiforståelse/Nettverk/Innføring i lokale nettverk med Cisco Packet Tracer.md",
+    "_notes/Public/Teknologiforståelse/Nettverk/Dokumentasjon av nettverk i Cisco Packet Tracer.md",
+    "_notes/Public/Teknologiforståelse/Kunstig intelligens/Lag en web-app med KI-agent.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette delte mapper på Windows Server.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Opprette gjestebruker i Windows via Powershell.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp Active Directory.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp filserver på Windows Server.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp gjestekonto på en Windows 11-maskin.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
+    "_notes/Public/Teknologiforståelse/Nettverkslab/Installere to instanser av Windows 11 på en PC (dual boot).md",
     "assets/img/dual-boot-win11/~MG_5368.tmp",
     "assets/img/dual-boot-win11/IMG_5368.jpeg.~tmp",
     "assets/img/dual-boot-win11/~MG_5367.tmp",
@@ -250,15 +260,12 @@
     "assets/img/dual-boot-win11/IMG_5365.jpeg.~tmp",
     "assets/img/dual-boot-win11/~MG_5364.tmp",
     "assets/img/dual-boot-win11/~MG_5363.tmp",
-    "assets/img/dual-boot-win11/IMG_5363.jpeg.~tmp",
     "assets/img/dual-boot-win11/IMG_5342.jpeg",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Installere to instanser av Windows 11 på en PC (dual boot).md",
     "assets/img/dual-boot-win11/IMG_5339.jpeg",
     "assets/img/dual-boot-win11/IMG_5336.jpeg",
     "assets/img/dual-boot-win11/IMG_5335.jpeg",
     "assets/img/dual-boot-win11/IMG_5334.jpeg",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med UXG-lite-ruter.md",
-    "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med USG-ruter.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Nettverkslab.md",
     "Untitled.md",
@@ -278,13 +285,6 @@
     "_notes/Public/Utvikling/Vite/Vite + Vanilla.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Endre Internett-innstillinger i Unifi-controller.md",
     "_notes/Public/Driftsstøtte/Virtual lab/Koble opp det fysiske nettverket.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av Unifi Controller i Proxmox VE.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Sette opp virtuelle Windows-klienter i Proxmox VE.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Sluttdokumentasjon, topologikart og rapportsammenstilling.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Lage installasjonsmedier for Proxmox og Windows.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av ProxMox VE.md",
-    "_notes/Public/Driftsstøtte/Driftsstøtte.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Økt 1 - Dokumentasjon og refleksjon.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Sette opp en virtuell Windows-klient.md"
+    "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av Unifi Controller i Proxmox VE.md"
   ]
 }
