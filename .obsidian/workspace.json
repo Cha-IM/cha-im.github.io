@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Teknologiforståelse/Nettverk/Nettverk.md",
+                "file": "_notes/Public/Teknologiforståelse/Nettverk/Dokumentasjon av nettverk i Cisco Packet Tracer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nettverk"
+              "title": "Dokumentasjon av nettverk i Cisco Packet Tracer"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "0f602987b441cf91",
   "lastOpenFiles": [
+    "_notes/Public/Teknologiforståelse/Nettverk/Nettverk.md",
     "_notes/Public/Teknologiforståelse/Nettverk/Dokumentasjon av nettverk i Cisco Packet Tracer.md",
     "_notes/Public/Teknologiforståelse/Nettverk/Innføring i lokale nettverk med Cisco Packet Tracer.md",
     "_notes/Public/Teknologiforståelse/Kunstig intelligens/Lag en web-app med KI-agent.md",
@@ -284,7 +285,6 @@
     "_notes/Public/Driftsstøtte/Virtual lab/Oppsett av WireGuard VPN Server i UniFi.md",
     "_notes/Public/Utvikling/Vite/Vite + Vanilla.md",
     "_notes/Public/Teknologiforståelse/Nettverkslab/Endre Internett-innstillinger i Unifi-controller.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Koble opp det fysiske nettverket.md",
-    "_notes/Public/Driftsstøtte/Virtual lab/Installasjon av Unifi Controller i Proxmox VE.md"
+    "_notes/Public/Driftsstøtte/Virtual lab/Koble opp det fysiske nettverket.md"
   ]
 }

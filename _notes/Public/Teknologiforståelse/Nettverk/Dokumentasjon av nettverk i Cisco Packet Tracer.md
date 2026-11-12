@@ -33,10 +33,12 @@ Når du jobber med å sette opp et kontornettverk i Cisco Packet Tracer, skal du
 #### 1. Tittel og introduksjon
 
 Start dokumentasjonen med en kort beskrivelse av hva du har laget.  
+
 Eksempel:
 
-> **Kontornettverk – Cisco Packet Tracer**
-> Dette dokumentet beskriver hvordan jeg har satt opp et kontornettverk i Cisco Packet Tracer. Nettverket består av to avdelinger koblet sammen med en router, med DHCP, DNS og webserver.
+**Kontornettverk – Cisco Packet Tracer**
+
+Dette dokumentet beskriver hvordan jeg har satt opp et kontornettverk i Cisco Packet Tracer. Nettverket består av to avdelinger koblet sammen med en router, med DHCP, DNS og webserver.
 
 
 #### 2. Nettverksoversikt
