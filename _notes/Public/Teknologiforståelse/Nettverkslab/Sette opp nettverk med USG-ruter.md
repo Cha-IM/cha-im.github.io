@@ -1,9 +1,9 @@
 ---
-title: Sette Opp nettverk med UXG-lite-ruter
+title: Sette opp nettverk med USG-ruter
 feed: hide
 date: 05-11-2026
 ---
-![[USG.png]]
+![](/assets/img/nettverkslab/USG.png)
 ### Resetting av USG ruter
 
 Sett strøm på ruteren. Den vil nå starte opp og lyset rundt logoen på toppen vil begynne å blinke. 

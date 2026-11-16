@@ -6,7 +6,7 @@ date: 19-03-2024
 ![](/assets/img/nettverkslab/datalab.png)
 *Bilde generert av Microsoft Copilot*
 
-1. [[_notes/Public/Teknologiforståelse/Nettverkslab/Sette opp nettverk med Unifi-ruter]]
+1. [[Sette opp nettverk med Unifi-ruter]]
 2. [[Endre Internett-innstillinger i Unifi-controller]]
 3. [[Få tilgang til Azure studentkonto]]
 4. [[Sette opp Active Directory]]

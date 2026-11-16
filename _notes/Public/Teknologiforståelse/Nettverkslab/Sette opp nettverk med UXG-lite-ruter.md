@@ -1,16 +1,17 @@
 ---
-title: Sette Opp nettverk med UXG-lite-ruter
+title: Sette opp nettverk med UXG-lite-ruter
 feed: hide
 date: 05-11-2026
 ---
-![[UXG-mini.avif]]
+![](/assets/img/nettverkslab/UXG-mini.avif)
 ### Resetting av UXG-Lite Gateway
 
 Stikk en binders eller liten pinne inn i hullet ved siden av USB-C-porten (strøm) på baksiden av UXG-Lite. Hold den inne fram til lyset på forsiden slukker. UXG-Lite vil nå restarte. Det kan ta noen minutter før den er på igjen. Når den er ferdig vil lyset på forsiden lyse fast hvitt.
 
+
 ## Oppsett av UXG-Lite
 
-- Koble laptopen din til switchen med kabel og slå av wi-fi.
+- Koble laptopen din til switchen med kabel.
 - Koble switsjen til ruteren på LAN porten. 
 - Åpne nettleseren og skriv ´unifi/´ i adressefeltet
 	- I mange tilfeller sendes du hit automatisk.
@@ -22,6 +23,7 @@ Stikk en binders eller liten pinne inn i hullet ved siden av USB-C-porten (strø
 	- Vi må her fylle inn informasjonen for to av feltene:
 		- WAN static IP Adress
 		- Local Network Configuration
+
 #### Konfigurering av WAN instillinger
 Fra "Other Setup Options" menyen: 
 * WAN static IP adress
