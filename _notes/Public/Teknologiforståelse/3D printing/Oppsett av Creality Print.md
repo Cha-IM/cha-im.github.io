@@ -12,7 +12,7 @@ date: 25-11-2025
 ## Første oppsett av Creality Print
 1. Det kommer nå opp en guide om å legge til printer preset i Creality Print.
 <br>
-2. ![](/assets/img/3dprint/crealityprint1.png)
+![](/assets/img/3dprint/crealityprint1.png)
 <br>
 3. Trykk skip på denne.
 4. Finn og trykk på denne menyen øverst til venstre i Creality Print:
@@ -33,6 +33,7 @@ date: 25-11-2025
 
 ## Hvordan Slice en modell
 1. Importer modellen din (.STL filen) inn i Creality Print. Enten ved å dra den rett inn i programmet eller ved å trykke på File -> Import -> Import 3MF/STL/STEP/SVG/OBJ/AMF... eller bruk hurtigtasten 'CTRL + I':
+	1. Om du ikke har en modell kan du høyretrykke på buildplaten og velge add testing primitive, for å legge til en egnet test-modell.
 <br>
 ![](/assets/img/3dprint/crealityprint6.png)
 <br>
@@ -73,3 +74,4 @@ date: 25-11-2025
 12. Legg denne på en minnepenn for å få den inn i 3D printeren.
 
 ### Du har laget en printeklar fil!
+

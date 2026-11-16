@@ -42,3 +42,26 @@ Etter du har satt sammen elementene i en gruppe. Så får du en bedre visuell fr
 2. Da får du flere valg. Velg .STL:
 <br>
 ![](/assets/img/3dprint/tinkercadexport.png)
+
+Gratulerer, du er nå ferdig med modulen om TinkerCad! 
+Men det er fortsatt mye du kan lære om 3D modellering! 
+Tinkercad har lagd en haug med interaktive guider på hvordan bruke ulike verktøy: 
+[Learn how to use Tinkercad - Tinkercad](https://www.tinkercad.com/learn)
+Og nedenfor har du flere verktøy du kan utforske i programmet.
+## Flere verktøy i TinkerCad
+### Linjal verktøyet
+Om du er lei av å få to ulike former til å sitte i akkurat riktig avstand fra hverandre, så har vi løsningen i måle-verktøyet!
+
+Her er det en guide på hvordan bruke det. Du kan både måle og sette avstander med verktøyet!
+[Measure, Adjust, Keep Tinkering - Tinkercad](https://www.tinkercad.com/blog/measure)
+
+## Align verktøyet
+
+Om du er lei av at flere enn to former ikke vil være fordelt i forhold til hverandre, eller du savner bruken av flex i css så er dette verktøyet for deg!
+
+[3D design Align It! - Tinkercad](https://www.tinkercad.com/things/0dVXiDeB7Dd/edit?lessonid=E531MFZJK2UJQIY&projectid=OF8ZOFPL1W5N9DS&collectionid=undefined&title=Align%20It#/lesson-viewer)
+
+## Codeblocks
+
+[Codeblocks - Tinkercad](https://www.tinkercad.com/codeblocks)
+Om du er lei av å gjøre modeleringa __manuelt__ kan du bruke codebloks til å programmere design. Da bruker du blokkprogrammering til å definere 3D modellen din.
